@@ -1,0 +1,1129 @@
+[
+    {
+        "id": "2026-03-26 10:05:00_chrome.exe",
+        "timestamp": "2026-03-26 10:05:00",
+        "process": "chrome.exe",
+        "severity": "LOW",
+        "confidence": 0.17,
+        "mitre": [
+            "T1046"
+        ],
+        "reasons": [
+            "Connection to external IP"
+        ],
+        "explanations": [
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure."
+        ],
+        "score": 1,
+        "status": "OPEN",
+        "priority": "LOW",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:05:00_chrome.exe",
+        "timestamp": "2026-03-26 10:05:00",
+        "process": "chrome.exe",
+        "severity": "LOW",
+        "confidence": 0.17,
+        "mitre": [
+            "T1046"
+        ],
+        "reasons": [
+            "Connection to external IP"
+        ],
+        "explanations": [
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure."
+        ],
+        "score": 1,
+        "status": "OPEN",
+        "priority": "LOW",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:10:00_notepad.exe",
+        "timestamp": "2026-03-26 10:10:00",
+        "process": "notepad.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1055",
+            "T1071.001",
+            "T1046"
+        ],
+        "reasons": [
+            "Connection to external IP",
+            "Unusual process making network connection",
+            "Suspicious User-Agent detected"
+        ],
+        "explanations": [
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Processes like Notepad or Paint typically do not make network connections\u2014this suggests possible code injection.",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers."
+        ],
+        "score": 7,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:15:00_certutil.exe",
+        "timestamp": "2026-03-26 10:15:00",
+        "process": "certutil.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1071.001",
+            "T1105",
+            "T1046"
+        ],
+        "reasons": [
+            "Connection to external IP",
+            "Certutil used to download remote payload",
+            "Suspicious User-Agent detected"
+        ],
+        "explanations": [
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Certutil is abused by attackers to download malicious payloads using built-in Windows tools (LOLBAS technique).",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers."
+        ],
+        "score": 7,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:15:00_certutil.exe",
+        "timestamp": "2026-03-26 10:15:00",
+        "process": "certutil.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1071.001",
+            "T1105",
+            "T1046"
+        ],
+        "reasons": [
+            "Connection to external IP",
+            "Certutil used to download remote payload",
+            "Suspicious User-Agent detected"
+        ],
+        "explanations": [
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Certutil is abused by attackers to download malicious payloads using built-in Windows tools (LOLBAS technique).",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers."
+        ],
+        "score": 7,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:25:00_evil.exe",
+        "timestamp": "2026-03-26 10:25:00",
+        "process": "evil.exe",
+        "severity": "MEDIUM",
+        "confidence": 0.5,
+        "mitre": [
+            "T1036"
+        ],
+        "reasons": [
+            "Execution from Temp directory"
+        ],
+        "explanations": [
+            "Malware commonly executes from temporary directories to avoid detection and bypass permissions."
+        ],
+        "score": 3,
+        "status": "OPEN",
+        "priority": "MEDIUM",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:25:00_evil.exe",
+        "timestamp": "2026-03-26 10:25:00",
+        "process": "evil.exe",
+        "severity": "MEDIUM",
+        "confidence": 0.5,
+        "mitre": [
+            "T1036"
+        ],
+        "reasons": [
+            "Execution from Temp directory"
+        ],
+        "explanations": [
+            "Malware commonly executes from temporary directories to avoid detection and bypass permissions."
+        ],
+        "score": 3,
+        "status": "OPEN",
+        "priority": "MEDIUM",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:00:00_powershell.exe",
+        "timestamp": "2026-03-26 10:00:00",
+        "process": "powershell.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1046",
+            "T1071.001",
+            "T1204",
+            "T1059"
+        ],
+        "reasons": [
+            "Encoded PowerShell command detected",
+            "Suspicious parent-child relationship (winword -> powershell)",
+            "Connection to external IP",
+            "Suspicious User-Agent detected"
+        ],
+        "explanations": [
+            "Attackers use Base64-encoded PowerShell commands to obfuscate malicious scripts and evade detection.",
+            "Microsoft Word spawning PowerShell is highly unusual and often indicates a malicious macro execution.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers."
+        ],
+        "score": 8,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:00:00_powershell.exe",
+        "timestamp": "2026-03-26 10:00:00",
+        "process": "powershell.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1046",
+            "T1071.001",
+            "T1204",
+            "T1059"
+        ],
+        "reasons": [
+            "Encoded PowerShell command detected",
+            "Suspicious parent-child relationship (winword -> powershell)",
+            "Connection to external IP",
+            "Suspicious User-Agent detected"
+        ],
+        "explanations": [
+            "Attackers use Base64-encoded PowerShell commands to obfuscate malicious scripts and evade detection.",
+            "Microsoft Word spawning PowerShell is highly unusual and often indicates a malicious macro execution.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers."
+        ],
+        "score": 8,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:01:00_powershell.exe",
+        "timestamp": "2026-03-26 10:01:00",
+        "process": "powershell.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1046",
+            "T1071.001",
+            "T1204",
+            "T1059"
+        ],
+        "reasons": [
+            "Encoded PowerShell command detected",
+            "Suspicious parent-child relationship (winword -> powershell)",
+            "Connection to external IP",
+            "Suspicious User-Agent detected"
+        ],
+        "explanations": [
+            "Attackers use Base64-encoded PowerShell commands to obfuscate malicious scripts and evade detection.",
+            "Microsoft Word spawning PowerShell is highly unusual and often indicates a malicious macro execution.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers."
+        ],
+        "score": 8,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:02:00_powershell.exe",
+        "timestamp": "2026-03-26 10:02:00",
+        "process": "powershell.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1046",
+            "T1071.001",
+            "T1204",
+            "T1059"
+        ],
+        "reasons": [
+            "Encoded PowerShell command detected",
+            "Suspicious parent-child relationship (winword -> powershell)",
+            "Connection to external IP",
+            "Suspicious User-Agent detected"
+        ],
+        "explanations": [
+            "Attackers use Base64-encoded PowerShell commands to obfuscate malicious scripts and evade detection.",
+            "Microsoft Word spawning PowerShell is highly unusual and often indicates a malicious macro execution.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers."
+        ],
+        "score": 8,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:00:00_powershell.exe",
+        "timestamp": "2026-03-26 10:00:00",
+        "process": "powershell.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1204",
+            "T1071.001",
+            "T1059",
+            "T1046"
+        ],
+        "reasons": [
+            "Encoded PowerShell command detected",
+            "Suspicious parent-child relationship (winword -> powershell)",
+            "Connection to external IP",
+            "Suspicious User-Agent detected"
+        ],
+        "explanations": [
+            "Attackers use Base64-encoded PowerShell commands to obfuscate malicious scripts and evade detection.",
+            "Microsoft Word spawning PowerShell is highly unusual and often indicates a malicious macro execution.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers."
+        ],
+        "score": 8,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:05:00_chrome.exe",
+        "timestamp": "2026-03-26 10:05:00",
+        "process": "chrome.exe",
+        "severity": "LOW",
+        "confidence": 0.17,
+        "mitre": [
+            "T1046"
+        ],
+        "reasons": [
+            "Connection to external IP"
+        ],
+        "explanations": [
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure."
+        ],
+        "score": 1,
+        "status": "OPEN",
+        "priority": "LOW",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:10:00_notepad.exe",
+        "timestamp": "2026-03-26 10:10:00",
+        "process": "notepad.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1071.001",
+            "T1055",
+            "T1046"
+        ],
+        "reasons": [
+            "Connection to external IP",
+            "Unusual process making network connection",
+            "Suspicious User-Agent detected"
+        ],
+        "explanations": [
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Processes like Notepad or Paint typically do not make network connections\u2014this suggests possible code injection.",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers."
+        ],
+        "score": 7,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:15:00_certutil.exe",
+        "timestamp": "2026-03-26 10:15:00",
+        "process": "certutil.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1105",
+            "T1071.001",
+            "T1046"
+        ],
+        "reasons": [
+            "Connection to external IP",
+            "Certutil used to download remote payload",
+            "Suspicious User-Agent detected"
+        ],
+        "explanations": [
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Certutil is abused by attackers to download malicious payloads using built-in Windows tools (LOLBAS technique).",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers."
+        ],
+        "score": 7,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:25:00_evil.exe",
+        "timestamp": "2026-03-26 10:25:00",
+        "process": "evil.exe",
+        "severity": "MEDIUM",
+        "confidence": 0.5,
+        "mitre": [
+            "T1036"
+        ],
+        "reasons": [
+            "Execution from Temp directory"
+        ],
+        "explanations": [
+            "Malware commonly executes from temporary directories to avoid detection and bypass permissions."
+        ],
+        "score": 3,
+        "status": "OPEN",
+        "priority": "MEDIUM",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:00:00_powershell.exe",
+        "timestamp": "2026-03-26 10:00:00",
+        "process": "powershell.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1204",
+            "T1071.001",
+            "T1059",
+            "T1046"
+        ],
+        "reasons": [
+            "Encoded PowerShell command detected",
+            "Suspicious parent-child relationship (winword -> powershell)",
+            "Connection to external IP",
+            "Suspicious User-Agent detected"
+        ],
+        "explanations": [
+            "Attackers use Base64-encoded PowerShell commands to obfuscate malicious scripts and evade detection.",
+            "Microsoft Word spawning PowerShell is highly unusual and often indicates a malicious macro execution.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers."
+        ],
+        "score": 8,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:01:00_powershell.exe",
+        "timestamp": "2026-03-26 10:01:00",
+        "process": "powershell.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1204",
+            "T1071.001",
+            "T1059",
+            "T1046"
+        ],
+        "reasons": [
+            "Encoded PowerShell command detected",
+            "Suspicious parent-child relationship (winword -> powershell)",
+            "Connection to external IP",
+            "Suspicious User-Agent detected"
+        ],
+        "explanations": [
+            "Attackers use Base64-encoded PowerShell commands to obfuscate malicious scripts and evade detection.",
+            "Microsoft Word spawning PowerShell is highly unusual and often indicates a malicious macro execution.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers."
+        ],
+        "score": 8,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:02:00_powershell.exe",
+        "timestamp": "2026-03-26 10:02:00",
+        "process": "powershell.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1204",
+            "T1071.001",
+            "T1059",
+            "T1046"
+        ],
+        "reasons": [
+            "Encoded PowerShell command detected",
+            "Suspicious parent-child relationship (winword -> powershell)",
+            "Connection to external IP",
+            "Suspicious User-Agent detected"
+        ],
+        "explanations": [
+            "Attackers use Base64-encoded PowerShell commands to obfuscate malicious scripts and evade detection.",
+            "Microsoft Word spawning PowerShell is highly unusual and often indicates a malicious macro execution.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers."
+        ],
+        "score": 8,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:00:00_powershell.exe",
+        "timestamp": "2026-03-26 10:00:00",
+        "process": "powershell.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1046",
+            "T1059",
+            "T1071.001",
+            "T1204"
+        ],
+        "reasons": [
+            "Encoded PowerShell command detected",
+            "Suspicious parent-child relationship (winword -> powershell)",
+            "Connection to external IP",
+            "Suspicious User-Agent detected"
+        ],
+        "explanations": [
+            "Attackers use Base64-encoded PowerShell commands to obfuscate malicious scripts and evade detection.",
+            "Microsoft Word spawning PowerShell is highly unusual and often indicates a malicious macro execution.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers."
+        ],
+        "score": 8,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:05:00_chrome.exe",
+        "timestamp": "2026-03-26 10:05:00",
+        "process": "chrome.exe",
+        "severity": "LOW",
+        "confidence": 0.17,
+        "mitre": [
+            "T1046"
+        ],
+        "reasons": [
+            "Connection to external IP"
+        ],
+        "explanations": [
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure."
+        ],
+        "score": 1,
+        "status": "OPEN",
+        "priority": "LOW",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:10:00_notepad.exe",
+        "timestamp": "2026-03-26 10:10:00",
+        "process": "notepad.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1046",
+            "T1071.001",
+            "T1055"
+        ],
+        "reasons": [
+            "Connection to external IP",
+            "Unusual process making network connection",
+            "Suspicious User-Agent detected"
+        ],
+        "explanations": [
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Processes like Notepad or Paint typically do not make network connections\u2014this suggests possible code injection.",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers."
+        ],
+        "score": 7,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:15:00_certutil.exe",
+        "timestamp": "2026-03-26 10:15:00",
+        "process": "certutil.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1046",
+            "T1071.001",
+            "T1105"
+        ],
+        "reasons": [
+            "Connection to external IP",
+            "Certutil used to download remote payload",
+            "Suspicious User-Agent detected"
+        ],
+        "explanations": [
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Certutil is abused by attackers to download malicious payloads using built-in Windows tools (LOLBAS technique).",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers."
+        ],
+        "score": 7,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:00:00_powershell.exe",
+        "timestamp": "2026-03-26 10:00:00",
+        "process": "powershell.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1059",
+            "T1204",
+            "T1046",
+            "T1071.001"
+        ],
+        "reasons": [
+            "Suspicious parent-child relationship (winword -> powershell)",
+            "Office spawning PowerShell",
+            "Suspicious User-Agent detected",
+            "External IP communication",
+            "Encoded PowerShell command detected",
+            "Connection to external IP",
+            "Rare process observed"
+        ],
+        "explanations": [
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Communication with external IP detected.",
+            "Microsoft Word spawning PowerShell is highly unusual and often indicates a malicious macro execution.",
+            "This process appears only once and may be suspicious.",
+            "Attackers use Base64-encoded PowerShell commands to obfuscate malicious scripts and evade detection.",
+            "Macro-based attacks often spawn PowerShell from Word."
+        ],
+        "score": 12,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:05:00_chrome.exe",
+        "timestamp": "2026-03-26 10:05:00",
+        "process": "chrome.exe",
+        "severity": "MEDIUM",
+        "confidence": 0.5,
+        "mitre": [
+            "T1046"
+        ],
+        "reasons": [
+            "Rare process observed",
+            "Connection to external IP",
+            "External IP communication"
+        ],
+        "explanations": [
+            "This process appears only once and may be suspicious.",
+            "Communication with external IP detected.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure."
+        ],
+        "score": 3,
+        "status": "OPEN",
+        "priority": "MEDIUM",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:10:00_notepad.exe",
+        "timestamp": "2026-03-26 10:10:00",
+        "process": "notepad.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1046",
+            "T1071.001",
+            "T1055"
+        ],
+        "reasons": [
+            "Suspicious User-Agent detected",
+            "External IP communication",
+            "Unusual process making network connection",
+            "Connection to external IP",
+            "Rare process observed"
+        ],
+        "explanations": [
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Communication with external IP detected.",
+            "This process appears only once and may be suspicious.",
+            "Processes like Notepad or Paint typically do not make network connections\u2014this suggests possible code injection."
+        ],
+        "score": 9,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:15:00_certutil.exe",
+        "timestamp": "2026-03-26 10:15:00",
+        "process": "certutil.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1105",
+            "T1046",
+            "T1071.001"
+        ],
+        "reasons": [
+            "Suspicious User-Agent detected",
+            "External IP communication",
+            "Certutil used to download remote payload",
+            "Connection to external IP",
+            "Unknown process execution",
+            "Rare process observed",
+            "Executable download via URL"
+        ],
+        "explanations": [
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Communication with external IP detected.",
+            "This process appears only once and may be suspicious.",
+            "Certutil is abused by attackers to download malicious payloads using built-in Windows tools (LOLBAS technique).",
+            "Downloading executables from URLs is a common malware technique.",
+            "Process not recognized in baseline system processes."
+        ],
+        "score": 12,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:20:00_reg.exe",
+        "timestamp": "2026-03-26 10:20:00",
+        "process": "reg.exe",
+        "severity": "MEDIUM",
+        "confidence": 0.33,
+        "mitre": [],
+        "reasons": [
+            "Unknown process execution",
+            "Rare process observed"
+        ],
+        "explanations": [
+            "This process appears only once and may be suspicious.",
+            "Process not recognized in baseline system processes."
+        ],
+        "score": 2,
+        "status": "OPEN",
+        "priority": "MEDIUM",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:25:00_evil.exe",
+        "timestamp": "2026-03-26 10:25:00",
+        "process": "evil.exe",
+        "severity": "HIGH",
+        "confidence": 0.83,
+        "mitre": [
+            "T1036"
+        ],
+        "reasons": [
+            "Unknown process execution",
+            "Execution from Temp directory",
+            "Rare process observed"
+        ],
+        "explanations": [
+            "Malware commonly executes from temporary directories to avoid detection and bypass permissions.",
+            "This process appears only once and may be suspicious.",
+            "Process not recognized in baseline system processes."
+        ],
+        "score": 5,
+        "status": "OPEN",
+        "priority": "HIGH",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:00:00_powershell.exe",
+        "timestamp": "2026-03-26 10:00:00",
+        "process": "powershell.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1059",
+            "T1204",
+            "T1046",
+            "T1071.001"
+        ],
+        "reasons": [
+            "Suspicious parent-child relationship (winword -> powershell)",
+            "Office spawning PowerShell",
+            "Suspicious User-Agent detected",
+            "External IP communication",
+            "Encoded PowerShell command detected",
+            "Connection to external IP",
+            "Rare process observed"
+        ],
+        "explanations": [
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Communication with external IP detected.",
+            "Microsoft Word spawning PowerShell is highly unusual and often indicates a malicious macro execution.",
+            "This process appears only once and may be suspicious.",
+            "Attackers use Base64-encoded PowerShell commands to obfuscate malicious scripts and evade detection.",
+            "Macro-based attacks often spawn PowerShell from Word."
+        ],
+        "score": 12,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:01:00_powershell.exe",
+        "timestamp": "2026-03-26 10:01:00",
+        "process": "powershell.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1059",
+            "T1204",
+            "T1046",
+            "T1071.001"
+        ],
+        "reasons": [
+            "Suspicious parent-child relationship (winword -> powershell)",
+            "Office spawning PowerShell",
+            "Suspicious User-Agent detected",
+            "External IP communication",
+            "Encoded PowerShell command detected",
+            "Connection to external IP",
+            "Rare process observed"
+        ],
+        "explanations": [
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Communication with external IP detected.",
+            "Microsoft Word spawning PowerShell is highly unusual and often indicates a malicious macro execution.",
+            "This process appears only once and may be suspicious.",
+            "Attackers use Base64-encoded PowerShell commands to obfuscate malicious scripts and evade detection.",
+            "Macro-based attacks often spawn PowerShell from Word."
+        ],
+        "score": 12,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:02:00_powershell.exe",
+        "timestamp": "2026-03-26 10:02:00",
+        "process": "powershell.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1059",
+            "T1204",
+            "T1046",
+            "T1071.001"
+        ],
+        "reasons": [
+            "Suspicious parent-child relationship (winword -> powershell)",
+            "Office spawning PowerShell",
+            "Suspicious User-Agent detected",
+            "External IP communication",
+            "Encoded PowerShell command detected",
+            "Connection to external IP",
+            "Rare process observed"
+        ],
+        "explanations": [
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Communication with external IP detected.",
+            "Microsoft Word spawning PowerShell is highly unusual and often indicates a malicious macro execution.",
+            "This process appears only once and may be suspicious.",
+            "Attackers use Base64-encoded PowerShell commands to obfuscate malicious scripts and evade detection.",
+            "Macro-based attacks often spawn PowerShell from Word."
+        ],
+        "score": 12,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:00:00_powershell.exe",
+        "timestamp": "2026-03-26 10:00:00",
+        "process": "powershell.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1071.001",
+            "T1046",
+            "T1204",
+            "T1059"
+        ],
+        "reasons": [
+            "Suspicious parent-child relationship (winword -> powershell)",
+            "Connection to external IP",
+            "Rare process observed",
+            "External IP communication",
+            "Encoded PowerShell command detected",
+            "Suspicious User-Agent detected",
+            "Office spawning PowerShell"
+        ],
+        "explanations": [
+            "Connection to external IP.",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Macro-based attack behavior.",
+            "This process appears only once.",
+            "Attackers use Base64-encoded PowerShell commands to obfuscate malicious scripts and evade detection.",
+            "Microsoft Word spawning PowerShell is highly unusual and often indicates a malicious macro execution."
+        ],
+        "score": 12,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:05:00_chrome.exe",
+        "timestamp": "2026-03-26 10:05:00",
+        "process": "chrome.exe",
+        "severity": "MEDIUM",
+        "confidence": 0.5,
+        "mitre": [
+            "T1046"
+        ],
+        "reasons": [
+            "Rare process observed",
+            "External IP communication",
+            "Connection to external IP"
+        ],
+        "explanations": [
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Connection to external IP.",
+            "This process appears only once."
+        ],
+        "score": 3,
+        "status": "OPEN",
+        "priority": "MEDIUM",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:10:00_notepad.exe",
+        "timestamp": "2026-03-26 10:10:00",
+        "process": "notepad.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1055",
+            "T1046",
+            "T1071.001"
+        ],
+        "reasons": [
+            "Unusual process making network connection",
+            "Connection to external IP",
+            "Rare process observed",
+            "External IP communication",
+            "Suspicious User-Agent detected"
+        ],
+        "explanations": [
+            "Connection to external IP.",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "This process appears only once.",
+            "Processes like Notepad or Paint typically do not make network connections\u2014this suggests possible code injection."
+        ],
+        "score": 9,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:15:00_certutil.exe",
+        "timestamp": "2026-03-26 10:15:00",
+        "process": "certutil.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1071.001",
+            "T1046",
+            "T1105"
+        ],
+        "reasons": [
+            "Executable download via URL",
+            "Connection to external IP",
+            "Rare process observed",
+            "Unknown process execution",
+            "External IP communication",
+            "Certutil used to download remote payload",
+            "Suspicious User-Agent detected"
+        ],
+        "explanations": [
+            "Connection to external IP.",
+            "Certutil is abused by attackers to download malicious payloads using built-in Windows tools (LOLBAS technique).",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers.",
+            "Executable download detected.",
+            "Unrecognized process.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "This process appears only once."
+        ],
+        "score": 12,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:20:00_reg.exe",
+        "timestamp": "2026-03-26 10:20:00",
+        "process": "reg.exe",
+        "severity": "MEDIUM",
+        "confidence": 0.33,
+        "mitre": [],
+        "reasons": [
+            "Rare process observed",
+            "Unknown process execution"
+        ],
+        "explanations": [
+            "This process appears only once.",
+            "Unrecognized process."
+        ],
+        "score": 2,
+        "status": "OPEN",
+        "priority": "MEDIUM",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:25:00_evil.exe",
+        "timestamp": "2026-03-26 10:25:00",
+        "process": "evil.exe",
+        "severity": "HIGH",
+        "confidence": 0.83,
+        "mitre": [
+            "T1036"
+        ],
+        "reasons": [
+            "Rare process observed",
+            "Execution from Temp directory",
+            "Unknown process execution"
+        ],
+        "explanations": [
+            "Unrecognized process.",
+            "This process appears only once.",
+            "Malware commonly executes from temporary directories to avoid detection and bypass permissions."
+        ],
+        "score": 5,
+        "status": "OPEN",
+        "priority": "HIGH",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:00:00_powershell.exe",
+        "timestamp": "2026-03-26 10:00:00",
+        "process": "powershell.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1071.001",
+            "T1046",
+            "T1204",
+            "T1059"
+        ],
+        "reasons": [
+            "Suspicious parent-child relationship (winword -> powershell)",
+            "Connection to external IP",
+            "Rare process observed",
+            "External IP communication",
+            "Encoded PowerShell command detected",
+            "Suspicious User-Agent detected",
+            "Office spawning PowerShell"
+        ],
+        "explanations": [
+            "Connection to external IP.",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Macro-based attack behavior.",
+            "This process appears only once.",
+            "Attackers use Base64-encoded PowerShell commands to obfuscate malicious scripts and evade detection.",
+            "Microsoft Word spawning PowerShell is highly unusual and often indicates a malicious macro execution."
+        ],
+        "score": 12,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:01:00_powershell.exe",
+        "timestamp": "2026-03-26 10:01:00",
+        "process": "powershell.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1071.001",
+            "T1046",
+            "T1204",
+            "T1059"
+        ],
+        "reasons": [
+            "Suspicious parent-child relationship (winword -> powershell)",
+            "Connection to external IP",
+            "Rare process observed",
+            "External IP communication",
+            "Encoded PowerShell command detected",
+            "Suspicious User-Agent detected",
+            "Office spawning PowerShell"
+        ],
+        "explanations": [
+            "Connection to external IP.",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Macro-based attack behavior.",
+            "This process appears only once.",
+            "Attackers use Base64-encoded PowerShell commands to obfuscate malicious scripts and evade detection.",
+            "Microsoft Word spawning PowerShell is highly unusual and often indicates a malicious macro execution."
+        ],
+        "score": 12,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    },
+    {
+        "id": "2026-03-26 10:02:00_powershell.exe",
+        "timestamp": "2026-03-26 10:02:00",
+        "process": "powershell.exe",
+        "severity": "CRITICAL",
+        "confidence": 1.0,
+        "mitre": [
+            "T1071.001",
+            "T1046",
+            "T1204",
+            "T1059"
+        ],
+        "reasons": [
+            "Suspicious parent-child relationship (winword -> powershell)",
+            "Connection to external IP",
+            "Rare process observed",
+            "External IP communication",
+            "Encoded PowerShell command detected",
+            "Suspicious User-Agent detected",
+            "Office spawning PowerShell"
+        ],
+        "explanations": [
+            "Connection to external IP.",
+            "Malware often uses default HTTP libraries like python-requests or curl instead of real browser identifiers.",
+            "Outbound connections to public IPs may indicate communication with external servers or C2 infrastructure.",
+            "Macro-based attack behavior.",
+            "This process appears only once.",
+            "Attackers use Base64-encoded PowerShell commands to obfuscate malicious scripts and evade detection.",
+            "Microsoft Word spawning PowerShell is highly unusual and often indicates a malicious macro execution."
+        ],
+        "score": 12,
+        "status": "OPEN",
+        "priority": "CRITICAL",
+        "analyst_notes": ""
+    }
+]

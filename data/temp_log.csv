@@ -1,0 +1,2 @@
+timestamp,process,parent_process,command_line,ip,destination_port,user_agent
+2026-03-26 10:02:00,powershell.exe,winword.exe,powershell -enc test,1.1.1.1,80,winhttp

