@@ -1,6 +1,6 @@
 # 🛡️ Verdict — Explainable SOC Detection Platform
 
-🚀 **Live Demo:** https://your-app-name.streamlit.app
+🚀 **Live Demo:** (https://verdict4alerts.short.gy/verdict)
 
 ---
 
