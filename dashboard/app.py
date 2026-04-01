@@ -66,7 +66,7 @@ def anomaly_label(score):
 
 st.set_page_config(page_title="Verdict | SOC Dashboard", page_icon="🛡️", layout="wide")
 
-# Professional Dark Theme CSS
+
 st.markdown("""
     <style>
     .stApp { background-color: #0E1117; }
@@ -90,7 +90,7 @@ with st.sidebar:
     st.header("1. Upload Logs")
     uploaded_file = st.file_uploader("Upload CSV Log File", type=["csv"])
     
-    # 🔒 File size protection (5MB)
+    
     MAX_FILE_SIZE_MB = 5
     if uploaded_file is not None:
         file_size_mb = uploaded_file.size / (1024 * 1024)
@@ -224,13 +224,13 @@ with tab1:
 with tab2:
     st.subheader("Active Investigation Queue")
     
-    # Inline Filters
+    
     filt_col1, filt_col2, filt_col3 = st.columns(3)
     sort_option = filt_col1.selectbox("Sort Timeline", ["Latest First", "Oldest First"])
     severity_filter = filt_col2.multiselect("Filter Severity", ["LOW", "MEDIUM", "HIGH", "CRITICAL"], default=[])
     status_filter = filt_col3.multiselect("Filter Status", ["OPEN", "INVESTIGATING", "CLOSED"], default=[])
 
-    # Apply Filters
+    
     filtered_alerts = sorted(alerts, key=parse_time, reverse=(sort_option == "Latest First"))
     final_alerts = []
     for alert in filtered_alerts:
@@ -240,7 +240,7 @@ with tab2:
             continue
         final_alerts.append(alert)
 
-    # Display Alerts natively as expanders
+    
     for alert in final_alerts:
         severity = alert.get('severity', 'UNKNOWN')
         timestamp = alert.get('timestamp', 'Unknown Time')
@@ -277,7 +277,7 @@ with tab2:
                 for m in alert.get("mitre", []):
                     st.code(m)
 
-    # Download Button
+    
     if uploaded_file and final_alerts:
         st.markdown("---")
         df_export = pd.DataFrame(final_alerts)
