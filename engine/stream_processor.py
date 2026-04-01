@@ -9,7 +9,7 @@ def stream_logs(file_path, delay=2):
     for i in range(len(df)):
         single_row_df = df.iloc[[i]]
         
-        # Save temp row
+        
         temp_file = "data/temp_log.csv"
         single_row_df.to_csv(temp_file, index=False)
 
