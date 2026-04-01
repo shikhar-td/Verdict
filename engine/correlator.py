@@ -9,7 +9,7 @@ def parse_time_safe(alert):
 
 
 def correlate_alerts(alerts, window_minutes=2):
-    # 🔥 Remove bad data
+    
     alerts = [a for a in alerts if a.get("timestamp")]
 
     alerts = sorted(alerts, key=parse_time_safe)
@@ -39,7 +39,7 @@ def correlate_alerts(alerts, window_minutes=2):
     if current_group:
         grouped.append(current_group)
 
-    # 🔥 Build stories
+    
     stories = []
 
     for group in grouped:
