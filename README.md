@@ -71,8 +71,8 @@ Dashboard (Streamlit)
 ---
 
 ## 📸 Screenshots
+<img width="1906" height="974" alt="image" src="https://github.com/user-attachments/assets/82064256-a040-4862-9bd4-97d052aac56e" />
 
-> Add your screenshots here (VERY IMPORTANT)
 
 * Alerts Dashboard
 * ML Anomaly Score
