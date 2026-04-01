@@ -1,7 +1,6 @@
 import sys
 import os
 
-# 🔥 Fix import path FIRST
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import streamlit as st
@@ -13,9 +12,6 @@ import plotly.express as px
 from engine.correlator import correlate_alerts
 from engine.analyzer import analyze_logs
 
-# =========================
-# 🧠 HELPER FUNCTIONS
-# =========================
 
 def severity_badge(severity):
     colors = {
@@ -66,9 +62,7 @@ def anomaly_label(score):
     else:
         return "🟢 Normal"
 
-# =========================
-# 🚀 UI & THEME SETUP
-# =========================
+
 
 st.set_page_config(page_title="Verdict | SOC Dashboard", page_icon="🛡️", layout="wide")
 
@@ -81,17 +75,13 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# =========================
-# SESSION STORAGE
-# =========================
+
 if "user_alerts" not in st.session_state:
     st.session_state["user_alerts"] = []
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# =========================
-# SIDEBAR INGESTION & CONFIG
-# =========================
+
 
 with st.sidebar:
     st.title("🛡️ Verdict Ingestion")
@@ -116,9 +106,7 @@ with st.sidebar:
         help="Lower = stricter detection, Higher = more sensitive"
     )
 
-# =========================
-# FILE PROCESSING PIPELINE
-# =========================
+
 
 if uploaded_file:
     try:
@@ -144,14 +132,14 @@ if uploaded_file:
         ip_col = st.selectbox("IP Column", columns, index=columns.index(ip_guess) if ip_guess in columns else 0)
         time_col = st.selectbox("Timestamp Column", columns, index=columns.index(time_guess) if time_guess in columns else 0)
 
-    # Validate columns
+    
     required_cols = [process_col, cmd_col, ip_col, time_col]
     for col in required_cols:
         if col not in df.columns:
             st.sidebar.error(f"Missing column: {col}")
             st.stop()
 
-    # Normalize & Save
+    
     df_normalized = pd.DataFrame({
         "process": df[process_col],
         "command_line": df[cmd_col],
@@ -160,11 +148,11 @@ if uploaded_file:
     })
 
     temp_path = os.path.join(BASE_DIR, "data/user_uploaded.csv")
-    # Ensure data dir exists
+    
     os.makedirs(os.path.dirname(temp_path), exist_ok=True)
     df_normalized.to_csv(temp_path, index=False)
 
-    # Run Analysis
+    
     with st.spinner("Analyzing logs via Hybrid Engine..."):
         try:
             alerts, rows = analyze_logs(temp_path, anomaly_threshold=threshold)
@@ -176,9 +164,7 @@ if uploaded_file:
             st.error(f"Detection error: {e}")
             st.stop()
 
-# =========================
-# DATA LOADING (Fallback)
-# =========================
+
 if uploaded_file and st.session_state["user_alerts"]:
     alerts = st.session_state["user_alerts"]
 else:
@@ -188,14 +174,12 @@ else:
     except:
         alerts = []
 
-# =========================
-# MAIN DASHBOARD VIEW
-# =========================
+
 if not alerts:
     st.info("👈 Awaiting data. Please upload a CSV file from the sidebar to start analysis, or ensure 'output/alerts.json' exists.")
     st.stop()
 
-# --- TOP KPI ROW ---
+
 crit_count = sum(1 for a in alerts if a.get("severity", "").upper() == "CRITICAL")
 high_count = sum(1 for a in alerts if a.get("severity", "").upper() == "HIGH")
 avg_anomaly = sum(a.get("anomaly_score", 0) for a in alerts) / len(alerts) if alerts else 0
@@ -208,10 +192,10 @@ col4.metric("Avg ML Anomaly Score", round(avg_anomaly, 3))
 
 st.markdown("---")
 
-# --- TABBED INTERFACE ---
+
 tab1, tab2, tab3 = st.tabs(["📊 Analytics Overview", "🚨 Alert Triage Queue", "🔗 Attack Stories (Correlation)"])
 
-# ----------------- TAB 1: ANALYTICS -----------------
+#TAB 1: ANALYTICS
 with tab1:
     st.subheader("Threat Landscape Overview")
     df_alerts = pd.DataFrame(alerts)
