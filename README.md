@@ -72,6 +72,8 @@ Dashboard (Streamlit)
 
 ## 📸 Screenshots
 <img width="1906" height="974" alt="image" src="https://github.com/user-attachments/assets/82064256-a040-4862-9bd4-97d052aac56e" />
+<img width="1912" height="805" alt="image" src="https://github.com/user-attachments/assets/5027ac3c-a089-4b7f-affa-a2f11d762c74" />
+<img width="1895" height="862" alt="image" src="https://github.com/user-attachments/assets/f897ccf3-4200-48d6-b830-58ecb1339d75" />
 
 
 * Alerts Dashboard
