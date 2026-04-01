@@ -10,9 +10,7 @@ def analyze_logs(file_path, anomaly_threshold=-0.1):
 
     alerts = []
 
-    # =========================
-    # 🔵 ML ANOMALY MODEL
-    # =========================
+
 
     df["cmd_length"] = df["command_line"].astype(str).apply(len)
 
@@ -47,9 +45,7 @@ def analyze_logs(file_path, anomaly_threshold=-0.1):
 
     df["anomaly_score"] = model.decision_function(features)
 
-    # =========================
-    # 🔴 BASELINE
-    # =========================
+
 
     process_counts = df["process"].value_counts().to_dict()
 
@@ -58,9 +54,7 @@ def analyze_logs(file_path, anomaly_threshold=-0.1):
         "powershell.exe", "notepad.exe"
     ])
 
-    # =========================
-    # 🔍 ANALYSIS LOOP
-    # =========================
+
 
     for _, row in df.iterrows():
         try:
@@ -87,9 +81,9 @@ def analyze_logs(file_path, anomaly_threshold=-0.1):
                 except:
                     continue
         except Exception:
-            continue  # skip bad rows, don't crash
+            continue  
 
-        # 🟡 HEURISTICS
+        
         if len(cmd) > 150:
             reasons.append("Unusually long command detected")
             explanations.append("Long commands may indicate obfuscation.")
@@ -107,13 +101,13 @@ def analyze_logs(file_path, anomaly_threshold=-0.1):
             mitre.add("T1059")
             score += 2
 
-        # 🔵 ML ANOMALY (NOW DYNAMIC)
+        
         if row["anomaly_score"] < anomaly_threshold:
             reasons.append("ML anomaly detected")
             explanations.append("Behavior deviates from baseline patterns.")
             score += 1
 
-        # 🔵 Additional anomalies
+        
         if process_counts.get(row.get("process"), 0) == 1:
             reasons.append("Rare process observed")
             explanations.append("This process appears only once.")
@@ -129,7 +123,7 @@ def analyze_logs(file_path, anomaly_threshold=-0.1):
             explanations.append("Connection to external IP.")
             score += 1
 
-        # 🚨 FINAL ALERT
+        
         if reasons:
             severity = get_severity(score)
             confidence = get_confidence(score)
