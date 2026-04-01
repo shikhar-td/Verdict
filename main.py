@@ -12,23 +12,23 @@ def main():
     for alerts, rows in stream_logs("data/sample_logs.csv"):
 
         if alerts:
-            # 🔥 Attach timestamp to each alert (CRITICAL FIX)
+    
             for alert, row in zip(alerts, rows):
                 alert["timestamp"] = row.get("timestamp")
 
-                # Store for correlation
+                
                 all_alerts.append(alert)
 
-                # Console output
+                
                 format_alert(alert)
 
-            # Save to JSON (SIEM-style storage)
+            
             save_alerts(alerts, rows)
 
         else:
             print("No threat detected...\n")
 
-    # 🔥 Correlation after stream ends
+    
     print("\n🔥 ATTACK STORIES DETECTED:\n")
 
     stories = correlate_alerts(all_alerts)
