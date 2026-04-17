@@ -1,162 +1,216 @@
-# 🛡️ Verdict — Explainable SOC Detection Platform
+# Verdict
 
-🚀 **Live Demo:** (https://verdict4alerts.short.gy/verdict)
+Verdict is an explainable SOC detection and triage project for analyzing endpoint-style logs with rules, heuristics, anomaly scoring, attack-story correlation, and entity risk ranking.
 
----
+It is designed as a practical security engineering portfolio project: readable logic, clear alert explanations, realistic test datasets, and a Streamlit dashboard that makes the detection pipeline easy to inspect.
 
-## 📌 Overview
+## What Verdict Does
 
-Verdict is an **Explainable Security Operations Center (SOC) Detection Platform** designed to analyze system logs using a hybrid detection approach.
+- Ingests CSV logs with flexible column mapping
+- Normalizes uploaded data into a consistent event schema
+- Detects suspicious behavior using:
+  - static rules
+  - lightweight heuristics
+  - Isolation Forest anomaly scoring
+- Enriches alerts with:
+  - reasons
+  - explanations
+  - MITRE ATT&CK mappings
+  - severity and confidence
+  - alert fingerprints
+  - suppression state
+- Correlates related alerts into higher-level attack stories
+- Ranks risky entities such as processes, hosts, and users
+- Stores alerts and events in SQLite instead of relying only on flat files
 
-Unlike traditional tools that rely only on static rules, Verdict combines:
+## Current Feature Set
 
-* 🔴 Rule-based detection (known threats)
-* 🟡 Heuristic analysis (suspicious behaviors)
-* 🔵 Machine Learning (Isolation Forest) for anomaly detection
+### Detection
 
-It provides **clear explanations for every alert**, enabling faster and more reliable security investigations.
+- Encoded PowerShell execution
+- Suspicious Office-to-PowerShell parent-child behavior
+- External IP communication
+- Certutil payload retrieval
+- Execution from Temp directories
+- Registry Run key persistence
+- Suspicious user agents
+- Unusual process network behavior
+- Rare process and unknown process heuristics
+- Anomaly scoring with `IsolationForest`
 
----
+### Triage And Context
 
-## 🔥 Key Features
+- Severity and confidence scoring
+- Fingerprints for similar alert patterns
+- Rule categories such as `execution`, `network`, `persistence`, `defense_evasion`, and `anomaly`
+- Suppression-aware alert display
+- Correlated attack stories
+- Entity risk ranking
 
-* 📂 **Flexible Log Ingestion**
+### Data And Storage
 
-  * Upload any CSV logs
-  * Dynamic column mapping (no fixed schema required)
+- Flexible CSV upload
+- Advanced column mapping in the dashboard
+- Normalized event model
+- SQLite-backed alerts and events
+- Reusable synthetic dataset generators
 
-* 🧠 **Hybrid Detection Engine**
-
-  * Rules + Heuristics + ML anomaly detection
-
-* 🎚️ **Adjustable ML Sensitivity**
-
-  * Control anomaly detection threshold in real time
-
-* 📊 **Explainable Alerts**
-
-  * Reasons + MITRE mapping + confidence score
-
-* 🕒 **Attack Story Correlation**
-
-  * Groups events into attack timelines
-
-* 🔐 **Production-Ready Safeguards**
-
-  * File size limits
-  * Row limits
-  * Safe parsing & error handling
-
----
-
-## 🧠 How It Works
+## Architecture
 
 ```text
-User Logs
-   ↓
-Column Mapping Layer
-   ↓
-Normalized Data
-   ↓
+CSV / Uploaded Logs
+        |
+        v
+Normalization Layer
+        |
+        v
 Detection Engine
-   ├── Rules
-   ├── Heuristics
-   └── ML (Isolation Forest)
-   ↓
-Explainability Layer
-   ↓
-Dashboard (Streamlit)
+  - Rules
+  - Heuristics
+  - ML Anomaly Scoring
+        |
+        v
+Alert Enrichment
+  - Reasons
+  - MITRE
+  - Severity
+  - Confidence
+  - Fingerprint
+  - Suppression State
+        |
+        +--> SQLite Storage
+        |
+        +--> Correlation Engine
+        |     - Attack stories
+        |
+        +--> Entity Risk Engine
+              - Process / host / user ranking
+        |
+        v
+Streamlit Dashboard
 ```
 
----
+## Project Structure
 
-## 📸 Screenshots
-<img width="1906" height="974" alt="image" src="https://github.com/user-attachments/assets/82064256-a040-4862-9bd4-97d052aac56e" />
-<img width="1912" height="805" alt="image" src="https://github.com/user-attachments/assets/5027ac3c-a089-4b7f-affa-a2f11d762c74" />
-<img width="1895" height="862" alt="image" src="https://github.com/user-attachments/assets/f897ccf3-4200-48d6-b830-58ecb1339d75" />
+```text
+Verdict-main/
+|-- dashboard/              # Streamlit dashboard
+|-- detection/              # Rules and suppression helpers
+|-- engine/                 # Analyzer, correlation, entity risk, streaming
+|-- ingestion/              # Normalization logic
+|-- config/                 # Local tuning and suppression config
+|-- data/                   # Sample and generated datasets
+|-- scripts/                # Dataset generators
+|-- tests/                  # Pytest coverage for core behavior
+|-- database.py             # SQLite persistence layer
+|-- models.py               # Pydantic models for events and alerts
+|-- main.py                 # CLI pipeline runner
+`-- requirements.txt
+```
 
+## How To Run
 
-* Alerts Dashboard
-* ML Anomaly Score
-* Attack Story Timeline
-* Column Mapping UI
+### 1. Create and activate a virtual environment
 
----
+Windows PowerShell:
 
-## ⚙️ Installation (Local Setup)
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+Git Bash:
 
 ```bash
-git clone https://github.com/shikhar-td/Verdict.git
-cd Verdict
-
-pip install -r requirements.txt
+python -m venv .venv
+source .venv/Scripts/activate
 ```
 
----
+### 2. Install dependencies
 
-## ▶️ Run Locally
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 3. Run the dashboard
+
+```bash
+python -m streamlit run dashboard/app.py
+```
+
+### 4. Run the sample CLI pipeline
 
 ```bash
 python main.py
-streamlit run dashboard/app.py
 ```
 
----
+## Datasets
 
-## 📂 Project Structure
+Verdict includes multiple datasets for testing:
 
-```text
-Verdict/
-├── dashboard/        # Streamlit UI
-├── engine/           # Detection + correlation logic
-├── detection/        # Rule definitions
-├── output/           # Alert formatting
-├── data/             # Sample logs
-├── main.py           # Pipeline runner
-├── requirements.txt
+- [data/sample_logs.csv](data/sample_logs.csv): small starter dataset
+- [data/realistic_test_logs_1200.csv](data/realistic_test_logs_1200.csv): noisier large dataset for stress testing
+- [data/enterprise_balanced_logs_1500.csv](data/enterprise_balanced_logs_1500.csv): better-balanced dataset with roughly 12% suspicious rows
+
+You can generate fresh datasets with:
+
+```bash
+python scripts/generate_realistic_logs.py
+python scripts/generate_balanced_enterprise_logs.py
 ```
 
----
+## Testing
 
-## 🧪 Detection Approach
+Run the test suite with:
 
-| Layer                 | Purpose                       |
-| --------------------- | ----------------------------- |
-| Rules                 | Known attack patterns         |
-| Heuristics            | Suspicious behavior detection |
-| ML (Isolation Forest) | Unknown anomaly detection     |
+```bash
+python -m pytest -q
+```
 
----
+Current tests cover:
 
-## 🎯 Use Cases
+- normalization behavior
+- alert deduplication and DB upserts
+- suppression matching
+- correlation classification
 
-* SOC Analyst training
-* Threat detection simulation
-* Log analysis automation
-* Cybersecurity learning projects
+## Tech Stack
 
----
+- Python
+- Streamlit
+- pandas
+- scikit-learn
+- Plotly
+- SQLite
+- Pydantic
+- pytest
 
-## ⚠️ Limitations
+## What Makes Verdict Different
 
-* Works on CSV-based logs (no live ingestion yet)
-* ML model is lightweight (not trained on enterprise datasets)
+Verdict is not just a static rule demo. It tries to model the flow a junior SOC tool would need:
 
----
+- flexible ingestion instead of a single fixed CSV shape
+- explainable alerts instead of black-box scoring
+- database-backed storage instead of temporary-only results
+- attack-story correlation instead of only isolated alerts
+- entity risk views instead of only per-row findings
+- realistic synthetic telemetry for repeatable testing
 
-## 🚀 Future Improvements
+## Limitations
 
-* 📊 SOC analytics dashboard (charts & trends)
-* 🔐 User authentication
-* ☁️ Cloud log integration (SIEM-like ingestion)
-* 📈 Advanced ML models
+- Input is still CSV-based rather than live telemetry ingestion
+- Detection tuning is still noisy on some balanced datasets
+- The ML layer is intentionally lightweight and not environment-trained
+- Authentication, multi-user workflow, and API layers are not yet implemented
 
----
+## Good Next Steps
 
-## 👨‍💻 Author
+- Reduce false positives through better baselining and tuning
+- Add case management and analyst workflow
+- Add FastAPI for programmatic alert access
+- Add Docker for easier deployment
+- Add richer endpoint and identity log adapters
 
-**Shikhar Singh**
+## Author
 
----
-
-## ⭐ If you found this useful, give it a star!
+Shikhar Singh
