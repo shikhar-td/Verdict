@@ -1,0 +1,8 @@
+[
+  {
+    "process": "chrome.exe",
+    "reason": "Connection to external IP",
+    "severity": "MEDIUM",
+    "note": "Example suppression: outbound browser traffic is expected in many environments."
+  }
+]

