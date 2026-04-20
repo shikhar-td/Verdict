@@ -1,5 +1,7 @@
 # Verdict
 
+https://verdict4alert.lovable.app/ - Published URL
+
 Verdict is an explainable SOC detection and triage project for analyzing endpoint-style logs with rules, heuristics, anomaly scoring, attack-story correlation, and entity risk ranking.
 
 It is designed as a practical security engineering portfolio project: readable logic, clear alert explanations, realistic test datasets, and a Streamlit dashboard that makes the detection pipeline easy to inspect.
